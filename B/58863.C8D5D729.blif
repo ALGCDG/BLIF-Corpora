@@ -1,0 +1,27 @@
+.model UBCON_3_1
+.inputs I[1] I[2] I[3]
+.outputs O[1] O[2] O[3]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.I U0.O
+1 1
+.names U0.O O[1]
+1 1
+.names I[1] U0.I
+1 1
+.names U1.I U1.O
+1 1
+.names U1.O O[2]
+1 1
+.names I[2] U1.I
+1 1
+.names U2.I U2.O
+1 1
+.names U2.O O[3]
+1 1
+.names I[3] U2.I
+1 1
+.end
+

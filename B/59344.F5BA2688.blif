@@ -1,0 +1,15 @@
+.model SD2DigitDecom_PN_010
+.inputs I_p I_n
+.outputs X Y
+.names $false
+.names $true
+1
+.names $undef
+.names I_n $not$pre_corpus/59344.v:3306$423_Y
+0 1
+.names $not$pre_corpus/59344.v:3306$423_Y X
+1 1
+.names I_p Y
+1 1
+.end
+

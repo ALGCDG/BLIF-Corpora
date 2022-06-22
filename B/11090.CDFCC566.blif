@@ -1,0 +1,245 @@
+.model $paramod$cb266df18320fa0c83735c611797ca15ffc8a8ee\dq
+.inputs clk d[0] d[1] d[2] d[3] d[4] d[5] d[6] d[7] d[8] d[9] d[10] d[11] d[12] d[13] d[14] d[15] d[16] d[17] d[18] d[19] d[20] d[21] d[22] d[23] d[24] d[25] d[26] d[27]
+.outputs q[0] q[1] q[2] q[3] q[4] q[5] q[6] q[7] q[8] q[9] q[10] q[11] q[12] q[13] q[14] q[15] q[16] q[17] q[18] q[19] q[20] q[21] q[22] q[23] q[24] q[25] q[26] q[27]
+.names $false
+.names $true
+1
+.names $undef
+.latch $true i[0] re clk 2
+.latch $false i[1] re clk 2
+.latch $false i[2] re clk 2
+.latch $false i[3] re clk 2
+.latch $false i[4] re clk 2
+.latch $false i[5] re clk 2
+.latch $false i[6] re clk 2
+.latch $false i[7] re clk 2
+.latch $false i[8] re clk 2
+.latch $false i[9] re clk 2
+.latch $false i[10] re clk 2
+.latch $false i[11] re clk 2
+.latch $false i[12] re clk 2
+.latch $false i[13] re clk 2
+.latch $false i[14] re clk 2
+.latch $false i[15] re clk 2
+.latch $false i[16] re clk 2
+.latch $false i[17] re clk 2
+.latch $false i[18] re clk 2
+.latch $false i[19] re clk 2
+.latch $false i[20] re clk 2
+.latch $false i[21] re clk 2
+.latch $false i[22] re clk 2
+.latch $false i[23] re clk 2
+.latch $false i[24] re clk 2
+.latch $false i[25] re clk 2
+.latch $false i[26] re clk 2
+.latch $false i[27] re clk 2
+.latch $false i[28] re clk 2
+.latch $false i[29] re clk 2
+.latch $false i[30] re clk 2
+.latch $false i[31] re clk 2
+.latch d[0] delay_line[0][0] re clk 2
+.latch d[1] delay_line[0][1] re clk 2
+.latch d[2] delay_line[0][2] re clk 2
+.latch d[3] delay_line[0][3] re clk 2
+.latch d[4] delay_line[0][4] re clk 2
+.latch d[5] delay_line[0][5] re clk 2
+.latch d[6] delay_line[0][6] re clk 2
+.latch d[7] delay_line[0][7] re clk 2
+.latch d[8] delay_line[0][8] re clk 2
+.latch d[9] delay_line[0][9] re clk 2
+.latch d[10] delay_line[0][10] re clk 2
+.latch d[11] delay_line[0][11] re clk 2
+.latch d[12] delay_line[0][12] re clk 2
+.latch d[13] delay_line[0][13] re clk 2
+.latch d[14] delay_line[0][14] re clk 2
+.latch d[15] delay_line[0][15] re clk 2
+.latch d[16] delay_line[0][16] re clk 2
+.latch d[17] delay_line[0][17] re clk 2
+.latch d[18] delay_line[0][18] re clk 2
+.latch d[19] delay_line[0][19] re clk 2
+.latch d[20] delay_line[0][20] re clk 2
+.latch d[21] delay_line[0][21] re clk 2
+.latch d[22] delay_line[0][22] re clk 2
+.latch d[23] delay_line[0][23] re clk 2
+.latch d[24] delay_line[0][24] re clk 2
+.latch d[25] delay_line[0][25] re clk 2
+.latch d[26] delay_line[0][26] re clk 2
+.latch d[27] delay_line[0][27] re clk 2
+.names delay_line[0][0] q[0]
+1 1
+.names delay_line[0][1] q[1]
+1 1
+.names delay_line[0][2] q[2]
+1 1
+.names delay_line[0][3] q[3]
+1 1
+.names delay_line[0][4] q[4]
+1 1
+.names delay_line[0][5] q[5]
+1 1
+.names delay_line[0][6] q[6]
+1 1
+.names delay_line[0][7] q[7]
+1 1
+.names delay_line[0][8] q[8]
+1 1
+.names delay_line[0][9] q[9]
+1 1
+.names delay_line[0][10] q[10]
+1 1
+.names delay_line[0][11] q[11]
+1 1
+.names delay_line[0][12] q[12]
+1 1
+.names delay_line[0][13] q[13]
+1 1
+.names delay_line[0][14] q[14]
+1 1
+.names delay_line[0][15] q[15]
+1 1
+.names delay_line[0][16] q[16]
+1 1
+.names delay_line[0][17] q[17]
+1 1
+.names delay_line[0][18] q[18]
+1 1
+.names delay_line[0][19] q[19]
+1 1
+.names delay_line[0][20] q[20]
+1 1
+.names delay_line[0][21] q[21]
+1 1
+.names delay_line[0][22] q[22]
+1 1
+.names delay_line[0][23] q[23]
+1 1
+.names delay_line[0][24] q[24]
+1 1
+.names delay_line[0][25] q[25]
+1 1
+.names delay_line[0][26] q[26]
+1 1
+.names delay_line[0][27] q[27]
+1 1
+.names $true $0\i[31:0][0]
+1 1
+.names $false $0\i[31:0][1]
+1 1
+.names $false $0\i[31:0][2]
+1 1
+.names $false $0\i[31:0][3]
+1 1
+.names $false $0\i[31:0][4]
+1 1
+.names $false $0\i[31:0][5]
+1 1
+.names $false $0\i[31:0][6]
+1 1
+.names $false $0\i[31:0][7]
+1 1
+.names $false $0\i[31:0][8]
+1 1
+.names $false $0\i[31:0][9]
+1 1
+.names $false $0\i[31:0][10]
+1 1
+.names $false $0\i[31:0][11]
+1 1
+.names $false $0\i[31:0][12]
+1 1
+.names $false $0\i[31:0][13]
+1 1
+.names $false $0\i[31:0][14]
+1 1
+.names $false $0\i[31:0][15]
+1 1
+.names $false $0\i[31:0][16]
+1 1
+.names $false $0\i[31:0][17]
+1 1
+.names $false $0\i[31:0][18]
+1 1
+.names $false $0\i[31:0][19]
+1 1
+.names $false $0\i[31:0][20]
+1 1
+.names $false $0\i[31:0][21]
+1 1
+.names $false $0\i[31:0][22]
+1 1
+.names $false $0\i[31:0][23]
+1 1
+.names $false $0\i[31:0][24]
+1 1
+.names $false $0\i[31:0][25]
+1 1
+.names $false $0\i[31:0][26]
+1 1
+.names $false $0\i[31:0][27]
+1 1
+.names $false $0\i[31:0][28]
+1 1
+.names $false $0\i[31:0][29]
+1 1
+.names $false $0\i[31:0][30]
+1 1
+.names $false $0\i[31:0][31]
+1 1
+.names d[0] $0\delay_line[0][27:0][0]
+1 1
+.names d[1] $0\delay_line[0][27:0][1]
+1 1
+.names d[2] $0\delay_line[0][27:0][2]
+1 1
+.names d[3] $0\delay_line[0][27:0][3]
+1 1
+.names d[4] $0\delay_line[0][27:0][4]
+1 1
+.names d[5] $0\delay_line[0][27:0][5]
+1 1
+.names d[6] $0\delay_line[0][27:0][6]
+1 1
+.names d[7] $0\delay_line[0][27:0][7]
+1 1
+.names d[8] $0\delay_line[0][27:0][8]
+1 1
+.names d[9] $0\delay_line[0][27:0][9]
+1 1
+.names d[10] $0\delay_line[0][27:0][10]
+1 1
+.names d[11] $0\delay_line[0][27:0][11]
+1 1
+.names d[12] $0\delay_line[0][27:0][12]
+1 1
+.names d[13] $0\delay_line[0][27:0][13]
+1 1
+.names d[14] $0\delay_line[0][27:0][14]
+1 1
+.names d[15] $0\delay_line[0][27:0][15]
+1 1
+.names d[16] $0\delay_line[0][27:0][16]
+1 1
+.names d[17] $0\delay_line[0][27:0][17]
+1 1
+.names d[18] $0\delay_line[0][27:0][18]
+1 1
+.names d[19] $0\delay_line[0][27:0][19]
+1 1
+.names d[20] $0\delay_line[0][27:0][20]
+1 1
+.names d[21] $0\delay_line[0][27:0][21]
+1 1
+.names d[22] $0\delay_line[0][27:0][22]
+1 1
+.names d[23] $0\delay_line[0][27:0][23]
+1 1
+.names d[24] $0\delay_line[0][27:0][24]
+1 1
+.names d[25] $0\delay_line[0][27:0][25]
+1 1
+.names d[26] $0\delay_line[0][27:0][26]
+1 1
+.names d[27] $0\delay_line[0][27:0][27]
+1 1
+.end
+

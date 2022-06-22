@@ -1,0 +1,43 @@
+.model PureCSHA_16_15
+.inputs X[15] X[16] Y[15] Y[16]
+.outputs C[16] C[17] S[15] S[16]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.X U0.Y $flatten\U0.$and$pre_corpus/58229.v:1202$242_Y
+11 1
+.names U0.X U0.Y $flatten\U0.$xor$pre_corpus/58229.v:1203$243_Y
+10 1
+01 1
+.names U1.X U1.Y $flatten\U1.$and$pre_corpus/58229.v:1412$304_Y
+11 1
+.names U1.X U1.Y $flatten\U1.$xor$pre_corpus/58229.v:1413$305_Y
+10 1
+01 1
+.names $flatten\U0.$and$pre_corpus/58229.v:1202$242_Y U0.C
+1 1
+.names $flatten\U0.$xor$pre_corpus/58229.v:1203$243_Y U0.S
+1 1
+.names U0.C C[16]
+1 1
+.names U0.S S[15]
+1 1
+.names X[15] U0.X
+1 1
+.names Y[15] U0.Y
+1 1
+.names $flatten\U1.$and$pre_corpus/58229.v:1412$304_Y U1.C
+1 1
+.names $flatten\U1.$xor$pre_corpus/58229.v:1413$305_Y U1.S
+1 1
+.names U1.C C[17]
+1 1
+.names U1.S S[16]
+1 1
+.names X[16] U1.X
+1 1
+.names Y[16] U1.Y
+1 1
+.end
+

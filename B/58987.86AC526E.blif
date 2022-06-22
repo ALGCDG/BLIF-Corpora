@@ -1,0 +1,41 @@
+.model UBRCB_0_0
+.inputs X Y Ci
+.outputs Co S
+.names $false
+.names $true
+1
+.names $undef
+.names U0.X U0.Y $flatten\U0.$and$pre_corpus/58987.v:17$1_Y
+11 1
+.names U0.Y U0.Z $flatten\U0.$and$pre_corpus/58987.v:17$2_Y
+11 1
+.names $flatten\U0.$and$pre_corpus/58987.v:17$1_Y $flatten\U0.$and$pre_corpus/58987.v:17$2_Y $flatten\U0.$or$pre_corpus/58987.v:17$3_Y
+1- 1
+-1 1
+.names U0.Z U0.X $flatten\U0.$and$pre_corpus/58987.v:17$4_Y
+11 1
+.names $flatten\U0.$or$pre_corpus/58987.v:17$3_Y $flatten\U0.$and$pre_corpus/58987.v:17$4_Y $flatten\U0.$or$pre_corpus/58987.v:17$5_Y
+1- 1
+-1 1
+.names U0.X U0.Y $flatten\U0.$xor$pre_corpus/58987.v:18$6_Y
+10 1
+01 1
+.names $flatten\U0.$xor$pre_corpus/58987.v:18$6_Y U0.Z $flatten\U0.$xor$pre_corpus/58987.v:18$7_Y
+10 1
+01 1
+.names $flatten\U0.$or$pre_corpus/58987.v:17$5_Y U0.C
+1 1
+.names $flatten\U0.$xor$pre_corpus/58987.v:18$7_Y U0.S
+1 1
+.names U0.C Co
+1 1
+.names U0.S S
+1 1
+.names X U0.X
+1 1
+.names Y U0.Y
+1 1
+.names Ci U0.Z
+1 1
+.end
+

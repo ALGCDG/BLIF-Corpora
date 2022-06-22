@@ -1,0 +1,31 @@
+.model UBFA_8
+.inputs X Y Z
+.outputs C S
+.names $false
+.names $true
+1
+.names $undef
+.names X Y $and$pre_corpus/58064.v:2007$485_Y
+11 1
+.names Y Z $and$pre_corpus/58064.v:2007$486_Y
+11 1
+.names $and$pre_corpus/58064.v:2007$485_Y $and$pre_corpus/58064.v:2007$486_Y $or$pre_corpus/58064.v:2007$487_Y
+1- 1
+-1 1
+.names Z X $and$pre_corpus/58064.v:2007$488_Y
+11 1
+.names $or$pre_corpus/58064.v:2007$487_Y $and$pre_corpus/58064.v:2007$488_Y $or$pre_corpus/58064.v:2007$489_Y
+1- 1
+-1 1
+.names X Y $xor$pre_corpus/58064.v:2008$490_Y
+10 1
+01 1
+.names $xor$pre_corpus/58064.v:2008$490_Y Z $xor$pre_corpus/58064.v:2008$491_Y
+10 1
+01 1
+.names $or$pre_corpus/58064.v:2007$489_Y C
+1 1
+.names $xor$pre_corpus/58064.v:2008$491_Y S
+1 1
+.end
+

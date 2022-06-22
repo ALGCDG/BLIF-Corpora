@@ -1,0 +1,309 @@
+.model D7_3CTR_15_0_14_1
+.inputs PP0[0] PP0[1] PP0[2] PP0[3] PP0[4] PP0[5] PP0[6] PP0[7] PP0[8] PP0[9] PP0[10] PP0[11] PP0[12] PP0[13] PP0[14] PP0[15] PP1[1] PP1[2] PP1[3] PP1[4] PP1[5] PP1[6] PP1[7] PP1[8] PP1[9] PP1[10] PP1[11] PP1[12] PP1[13] PP1[14]
+.outputs S1[0] S1[1] S1[2] S1[3] S1[4] S1[5] S1[6] S1[7] S1[8] S1[9] S1[10] S1[11] S1[12] S1[13] S1[14] S1[15] S2[1] S2[2] S2[3] S2[4] S2[5] S2[6] S2[7] S2[8] S2[9] S2[10] S2[11] S2[12] S2[13] S2[14]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.U0.I U0.U0.O
+1 1
+.names U0.U0.O U0.O[0]
+1 1
+.names U0.I[0] U0.U0.I
+1 1
+.names U0.U1.I U0.U1.O
+1 1
+.names U0.U1.O U0.O[1]
+1 1
+.names U0.I[1] U0.U1.I
+1 1
+.names U0.U2.I U0.U2.O
+1 1
+.names U0.U2.O U0.O[2]
+1 1
+.names U0.I[2] U0.U2.I
+1 1
+.names U0.U3.I U0.U3.O
+1 1
+.names U0.U3.O U0.O[3]
+1 1
+.names U0.I[3] U0.U3.I
+1 1
+.names U0.U4.I U0.U4.O
+1 1
+.names U0.U4.O U0.O[4]
+1 1
+.names U0.I[4] U0.U4.I
+1 1
+.names U0.U5.I U0.U5.O
+1 1
+.names U0.U5.O U0.O[5]
+1 1
+.names U0.I[5] U0.U5.I
+1 1
+.names U0.U6.I U0.U6.O
+1 1
+.names U0.U6.O U0.O[6]
+1 1
+.names U0.I[6] U0.U6.I
+1 1
+.names U0.U7.I U0.U7.O
+1 1
+.names U0.U7.O U0.O[7]
+1 1
+.names U0.I[7] U0.U7.I
+1 1
+.names U0.U8.I U0.U8.O
+1 1
+.names U0.U8.O U0.O[8]
+1 1
+.names U0.I[8] U0.U8.I
+1 1
+.names U0.U9.I U0.U9.O
+1 1
+.names U0.U9.O U0.O[9]
+1 1
+.names U0.I[9] U0.U9.I
+1 1
+.names U0.U10.I U0.U10.O
+1 1
+.names U0.U10.O U0.O[10]
+1 1
+.names U0.I[10] U0.U10.I
+1 1
+.names U0.U11.I U0.U11.O
+1 1
+.names U0.U11.O U0.O[11]
+1 1
+.names U0.I[11] U0.U11.I
+1 1
+.names U0.U12.I U0.U12.O
+1 1
+.names U0.U12.O U0.O[12]
+1 1
+.names U0.I[12] U0.U12.I
+1 1
+.names U0.U13.I U0.U13.O
+1 1
+.names U0.U13.O U0.O[13]
+1 1
+.names U0.I[13] U0.U13.I
+1 1
+.names U0.U14.I U0.U14.O
+1 1
+.names U0.U14.O U0.O[14]
+1 1
+.names U0.I[14] U0.U14.I
+1 1
+.names U0.U15.I U0.U15.O
+1 1
+.names U0.U15.O U0.O[15]
+1 1
+.names U0.I[15] U0.U15.I
+1 1
+.names U0.O[0] S1[0]
+1 1
+.names U0.O[1] S1[1]
+1 1
+.names U0.O[2] S1[2]
+1 1
+.names U0.O[3] S1[3]
+1 1
+.names U0.O[4] S1[4]
+1 1
+.names U0.O[5] S1[5]
+1 1
+.names U0.O[6] S1[6]
+1 1
+.names U0.O[7] S1[7]
+1 1
+.names U0.O[8] S1[8]
+1 1
+.names U0.O[9] S1[9]
+1 1
+.names U0.O[10] S1[10]
+1 1
+.names U0.O[11] S1[11]
+1 1
+.names U0.O[12] S1[12]
+1 1
+.names U0.O[13] S1[13]
+1 1
+.names U0.O[14] S1[14]
+1 1
+.names U0.O[15] S1[15]
+1 1
+.names PP0[0] U0.I[0]
+1 1
+.names PP0[1] U0.I[1]
+1 1
+.names PP0[2] U0.I[2]
+1 1
+.names PP0[3] U0.I[3]
+1 1
+.names PP0[4] U0.I[4]
+1 1
+.names PP0[5] U0.I[5]
+1 1
+.names PP0[6] U0.I[6]
+1 1
+.names PP0[7] U0.I[7]
+1 1
+.names PP0[8] U0.I[8]
+1 1
+.names PP0[9] U0.I[9]
+1 1
+.names PP0[10] U0.I[10]
+1 1
+.names PP0[11] U0.I[11]
+1 1
+.names PP0[12] U0.I[12]
+1 1
+.names PP0[13] U0.I[13]
+1 1
+.names PP0[14] U0.I[14]
+1 1
+.names PP0[15] U0.I[15]
+1 1
+.names U1.U0.I U1.U0.O
+1 1
+.names U1.U0.O U1.O[1]
+1 1
+.names U1.I[1] U1.U0.I
+1 1
+.names U1.U1.I U1.U1.O
+1 1
+.names U1.U1.O U1.O[2]
+1 1
+.names U1.I[2] U1.U1.I
+1 1
+.names U1.U2.I U1.U2.O
+1 1
+.names U1.U2.O U1.O[3]
+1 1
+.names U1.I[3] U1.U2.I
+1 1
+.names U1.U3.I U1.U3.O
+1 1
+.names U1.U3.O U1.O[4]
+1 1
+.names U1.I[4] U1.U3.I
+1 1
+.names U1.U4.I U1.U4.O
+1 1
+.names U1.U4.O U1.O[5]
+1 1
+.names U1.I[5] U1.U4.I
+1 1
+.names U1.U5.I U1.U5.O
+1 1
+.names U1.U5.O U1.O[6]
+1 1
+.names U1.I[6] U1.U5.I
+1 1
+.names U1.U6.I U1.U6.O
+1 1
+.names U1.U6.O U1.O[7]
+1 1
+.names U1.I[7] U1.U6.I
+1 1
+.names U1.U7.I U1.U7.O
+1 1
+.names U1.U7.O U1.O[8]
+1 1
+.names U1.I[8] U1.U7.I
+1 1
+.names U1.U8.I U1.U8.O
+1 1
+.names U1.U8.O U1.O[9]
+1 1
+.names U1.I[9] U1.U8.I
+1 1
+.names U1.U9.I U1.U9.O
+1 1
+.names U1.U9.O U1.O[10]
+1 1
+.names U1.I[10] U1.U9.I
+1 1
+.names U1.U10.I U1.U10.O
+1 1
+.names U1.U10.O U1.O[11]
+1 1
+.names U1.I[11] U1.U10.I
+1 1
+.names U1.U11.I U1.U11.O
+1 1
+.names U1.U11.O U1.O[12]
+1 1
+.names U1.I[12] U1.U11.I
+1 1
+.names U1.U12.I U1.U12.O
+1 1
+.names U1.U12.O U1.O[13]
+1 1
+.names U1.I[13] U1.U12.I
+1 1
+.names U1.U13.I U1.U13.O
+1 1
+.names U1.U13.O U1.O[14]
+1 1
+.names U1.I[14] U1.U13.I
+1 1
+.names U1.O[1] S2[1]
+1 1
+.names U1.O[2] S2[2]
+1 1
+.names U1.O[3] S2[3]
+1 1
+.names U1.O[4] S2[4]
+1 1
+.names U1.O[5] S2[5]
+1 1
+.names U1.O[6] S2[6]
+1 1
+.names U1.O[7] S2[7]
+1 1
+.names U1.O[8] S2[8]
+1 1
+.names U1.O[9] S2[9]
+1 1
+.names U1.O[10] S2[10]
+1 1
+.names U1.O[11] S2[11]
+1 1
+.names U1.O[12] S2[12]
+1 1
+.names U1.O[13] S2[13]
+1 1
+.names U1.O[14] S2[14]
+1 1
+.names PP1[1] U1.I[1]
+1 1
+.names PP1[2] U1.I[2]
+1 1
+.names PP1[3] U1.I[3]
+1 1
+.names PP1[4] U1.I[4]
+1 1
+.names PP1[5] U1.I[5]
+1 1
+.names PP1[6] U1.I[6]
+1 1
+.names PP1[7] U1.I[7]
+1 1
+.names PP1[8] U1.I[8]
+1 1
+.names PP1[9] U1.I[9]
+1 1
+.names PP1[10] U1.I[10]
+1 1
+.names PP1[11] U1.I[11]
+1 1
+.names PP1[12] U1.I[12]
+1 1
+.names PP1[13] U1.I[13]
+1 1
+.names PP1[14] U1.I[14]
+1 1
+.end
+

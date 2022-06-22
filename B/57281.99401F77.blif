@@ -1,0 +1,28 @@
+.model R4BEEH_7_3
+.inputs I2 I1 I0
+.outputs O_ds O_d1 O_d0
+.names $false
+.names $true
+1
+.names $undef
+.names $xor$pre_corpus/57281.v:94$35_Y $not$pre_corpus/57281.v:94$36_Y
+0 1
+.names I1 I0 $xor$pre_corpus/57281.v:93$33_Y
+10 1
+01 1
+.names I2 I1 $xor$pre_corpus/57281.v:94$34_Y
+10 1
+01 1
+.names I1 I0 $xor$pre_corpus/57281.v:94$35_Y
+10 1
+01 1
+.names $xor$pre_corpus/57281.v:94$34_Y $not$pre_corpus/57281.v:94$36_Y $and$pre_corpus/57281.v:94$37_Y
+11 1
+.names $xor$pre_corpus/57281.v:93$33_Y O_d0
+1 1
+.names $and$pre_corpus/57281.v:94$37_Y O_d1
+1 1
+.names I2 O_ds
+1 1
+.end
+

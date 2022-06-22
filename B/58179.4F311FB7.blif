@@ -1,0 +1,73 @@
+.model PureCSA_5_4
+.inputs X[4] X[5] Y[4] Y[5] Z[4] Z[5]
+.outputs C[5] C[6] S[4] S[5]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.X U0.Y $flatten\U0.$and$pre_corpus/58179.v:1991$501_Y
+11 1
+.names U0.Y U0.Z $flatten\U0.$and$pre_corpus/58179.v:1991$502_Y
+11 1
+.names $flatten\U0.$and$pre_corpus/58179.v:1991$501_Y $flatten\U0.$and$pre_corpus/58179.v:1991$502_Y $flatten\U0.$or$pre_corpus/58179.v:1991$503_Y
+1- 1
+-1 1
+.names U0.Z U0.X $flatten\U0.$and$pre_corpus/58179.v:1991$504_Y
+11 1
+.names $flatten\U0.$or$pre_corpus/58179.v:1991$503_Y $flatten\U0.$and$pre_corpus/58179.v:1991$504_Y $flatten\U0.$or$pre_corpus/58179.v:1991$505_Y
+1- 1
+-1 1
+.names U0.X U0.Y $flatten\U0.$xor$pre_corpus/58179.v:1992$506_Y
+10 1
+01 1
+.names $flatten\U0.$xor$pre_corpus/58179.v:1992$506_Y U0.Z $flatten\U0.$xor$pre_corpus/58179.v:1992$507_Y
+10 1
+01 1
+.names U1.X U1.Y $flatten\U1.$and$pre_corpus/58179.v:2001$508_Y
+11 1
+.names U1.Y U1.Z $flatten\U1.$and$pre_corpus/58179.v:2001$509_Y
+11 1
+.names $flatten\U1.$and$pre_corpus/58179.v:2001$508_Y $flatten\U1.$and$pre_corpus/58179.v:2001$509_Y $flatten\U1.$or$pre_corpus/58179.v:2001$510_Y
+1- 1
+-1 1
+.names U1.Z U1.X $flatten\U1.$and$pre_corpus/58179.v:2001$511_Y
+11 1
+.names $flatten\U1.$or$pre_corpus/58179.v:2001$510_Y $flatten\U1.$and$pre_corpus/58179.v:2001$511_Y $flatten\U1.$or$pre_corpus/58179.v:2001$512_Y
+1- 1
+-1 1
+.names U1.X U1.Y $flatten\U1.$xor$pre_corpus/58179.v:2002$513_Y
+10 1
+01 1
+.names $flatten\U1.$xor$pre_corpus/58179.v:2002$513_Y U1.Z $flatten\U1.$xor$pre_corpus/58179.v:2002$514_Y
+10 1
+01 1
+.names $flatten\U0.$or$pre_corpus/58179.v:1991$505_Y U0.C
+1 1
+.names $flatten\U0.$xor$pre_corpus/58179.v:1992$507_Y U0.S
+1 1
+.names U0.C C[5]
+1 1
+.names U0.S S[4]
+1 1
+.names X[4] U0.X
+1 1
+.names Y[4] U0.Y
+1 1
+.names Z[4] U0.Z
+1 1
+.names $flatten\U1.$or$pre_corpus/58179.v:2001$512_Y U1.C
+1 1
+.names $flatten\U1.$xor$pre_corpus/58179.v:2002$514_Y U1.S
+1 1
+.names U1.C C[6]
+1 1
+.names U1.S S[5]
+1 1
+.names X[5] U1.X
+1 1
+.names Y[5] U1.Y
+1 1
+.names Z[5] U1.Z
+1 1
+.end
+

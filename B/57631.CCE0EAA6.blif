@@ -1,0 +1,18 @@
+.model GPGenerator
+.inputs A B
+.outputs Go Po
+.names $false
+.names $true
+1
+.names $undef
+.names A B $and$pre_corpus/57631.v:918$237_Y
+11 1
+.names A B $xor$pre_corpus/57631.v:919$238_Y
+10 1
+01 1
+.names $and$pre_corpus/57631.v:918$237_Y Go
+1 1
+.names $xor$pre_corpus/57631.v:919$238_Y Po
+1 1
+.end
+

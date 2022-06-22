@@ -1,0 +1,125 @@
+.model UBCMBIN_16_16_15_000
+.inputs IN0 IN1[6] IN1[7] IN1[8] IN1[9] IN1[10] IN1[11] IN1[12] IN1[13] IN1[14] IN1[15] IN2
+.outputs O[4] O[5] O[6] O[7] O[8] O[9] O[10] O[11] O[12] O[13] O[14] O[15] O[16]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.I U0.O
+1 1
+.names U0.O O[16]
+1 1
+.names IN0 U0.I
+1 1
+.names U1.U0.I U1.U0.O
+1 1
+.names U1.U0.O U1.O[6]
+1 1
+.names U1.I[6] U1.U0.I
+1 1
+.names U1.U1.I U1.U1.O
+1 1
+.names U1.U1.O U1.O[7]
+1 1
+.names U1.I[7] U1.U1.I
+1 1
+.names U1.U2.I U1.U2.O
+1 1
+.names U1.U2.O U1.O[8]
+1 1
+.names U1.I[8] U1.U2.I
+1 1
+.names U1.U3.I U1.U3.O
+1 1
+.names U1.U3.O U1.O[9]
+1 1
+.names U1.I[9] U1.U3.I
+1 1
+.names U1.U4.I U1.U4.O
+1 1
+.names U1.U4.O U1.O[10]
+1 1
+.names U1.I[10] U1.U4.I
+1 1
+.names U1.U5.I U1.U5.O
+1 1
+.names U1.U5.O U1.O[11]
+1 1
+.names U1.I[11] U1.U5.I
+1 1
+.names U1.U6.I U1.U6.O
+1 1
+.names U1.U6.O U1.O[12]
+1 1
+.names U1.I[12] U1.U6.I
+1 1
+.names U1.U7.I U1.U7.O
+1 1
+.names U1.U7.O U1.O[13]
+1 1
+.names U1.I[13] U1.U7.I
+1 1
+.names U1.U8.I U1.U8.O
+1 1
+.names U1.U8.O U1.O[14]
+1 1
+.names U1.I[14] U1.U8.I
+1 1
+.names U1.U9.I U1.U9.O
+1 1
+.names U1.U9.O U1.O[15]
+1 1
+.names U1.I[15] U1.U9.I
+1 1
+.names U1.O[6] O[6]
+1 1
+.names U1.O[7] O[7]
+1 1
+.names U1.O[8] O[8]
+1 1
+.names U1.O[9] O[9]
+1 1
+.names U1.O[10] O[10]
+1 1
+.names U1.O[11] O[11]
+1 1
+.names U1.O[12] O[12]
+1 1
+.names U1.O[13] O[13]
+1 1
+.names U1.O[14] O[14]
+1 1
+.names U1.O[15] O[15]
+1 1
+.names IN1[6] U1.I[6]
+1 1
+.names IN1[7] U1.I[7]
+1 1
+.names IN1[8] U1.I[8]
+1 1
+.names IN1[9] U1.I[9]
+1 1
+.names IN1[10] U1.I[10]
+1 1
+.names IN1[11] U1.I[11]
+1 1
+.names IN1[12] U1.I[12]
+1 1
+.names IN1[13] U1.I[13]
+1 1
+.names IN1[14] U1.I[14]
+1 1
+.names IN1[15] U1.I[15]
+1 1
+.names $false U2.O
+1 1
+.names U2.O O[5]
+1 1
+.names U3.I U3.O
+1 1
+.names U3.O O[4]
+1 1
+.names IN2 U3.I
+1 1
+.end
+

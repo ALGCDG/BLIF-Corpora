@@ -1,0 +1,18 @@
+.model UBHA_1
+.inputs X Y
+.outputs C S
+.names $false
+.names $true
+1
+.names $undef
+.names X Y $and$pre_corpus/56998.v:1643$369_Y
+11 1
+.names X Y $xor$pre_corpus/56998.v:1644$370_Y
+10 1
+01 1
+.names $and$pre_corpus/56998.v:1643$369_Y C
+1 1
+.names $xor$pre_corpus/56998.v:1644$370_Y S
+1 1
+.end
+

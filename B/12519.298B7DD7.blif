@@ -1,0 +1,31 @@
+.model PDKGENFAX1
+.inputs A B C
+.outputs YS YC
+.names $false
+.names $true
+1
+.names $undef
+.names A B $xor$pre_corpus/12519.v:127$91_Y
+10 1
+01 1
+.names $xor$pre_corpus/12519.v:127$91_Y C $xor$pre_corpus/12519.v:127$92_Y
+10 1
+01 1
+.names A B $and$pre_corpus/12519.v:128$93_Y
+11 1
+.names B C $and$pre_corpus/12519.v:128$94_Y
+11 1
+.names $and$pre_corpus/12519.v:128$93_Y $and$pre_corpus/12519.v:128$94_Y $or$pre_corpus/12519.v:128$95_Y
+1- 1
+-1 1
+.names A C $and$pre_corpus/12519.v:128$96_Y
+11 1
+.names $or$pre_corpus/12519.v:128$95_Y $and$pre_corpus/12519.v:128$96_Y $or$pre_corpus/12519.v:128$97_Y
+1- 1
+-1 1
+.names $xor$pre_corpus/12519.v:127$92_Y YS
+1 1
+.names $or$pre_corpus/12519.v:128$97_Y YC
+1 1
+.end
+

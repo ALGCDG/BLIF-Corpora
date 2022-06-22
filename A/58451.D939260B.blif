@@ -1,0 +1,41 @@
+.model UB1B3_2CMP_28
+.inputs IN0 IN1 IN2 Ci
+.outputs Co C S
+.names $false
+.names $true
+1
+.names $undef
+.names W0 $not$pre_corpus/58451.v:2547$643_Y
+0 1
+.names IN0 IN1 $xor$pre_corpus/58451.v:2542$638_Y
+10 1
+01 1
+.names W0 W1 $xor$pre_corpus/58451.v:2544$639_Y
+10 1
+01 1
+.names W2 Ci $xor$pre_corpus/58451.v:2545$640_Y
+10 1
+01 1
+.names W2 Ci $and$pre_corpus/58451.v:2546$641_Y
+11 1
+.names W0 IN2 $and$pre_corpus/58451.v:2547$642_Y
+11 1
+.names $not$pre_corpus/58451.v:2547$643_Y IN0 $and$pre_corpus/58451.v:2547$644_Y
+11 1
+.names $and$pre_corpus/58451.v:2547$642_Y $and$pre_corpus/58451.v:2547$644_Y $or$pre_corpus/58451.v:2547$645_Y
+1- 1
+-1 1
+.names $xor$pre_corpus/58451.v:2542$638_Y W0
+1 1
+.names IN2 W1
+1 1
+.names $xor$pre_corpus/58451.v:2544$639_Y W2
+1 1
+.names $xor$pre_corpus/58451.v:2545$640_Y S
+1 1
+.names $and$pre_corpus/58451.v:2546$641_Y C
+1 1
+.names $or$pre_corpus/58451.v:2547$645_Y Co
+1 1
+.end
+

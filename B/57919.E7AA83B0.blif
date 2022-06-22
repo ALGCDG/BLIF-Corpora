@@ -1,0 +1,11 @@
+.model UB1DCON_8
+.inputs I
+.outputs O
+.names $false
+.names $true
+1
+.names $undef
+.names I O
+1 1
+.end
+

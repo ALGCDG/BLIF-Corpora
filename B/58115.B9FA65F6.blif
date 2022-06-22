@@ -1,0 +1,609 @@
+.model SD2_PN_ACMBIN_29_000
+.inputs IN0__dp[24] IN0__dp[25] IN0__dp[26] IN0__dp[27] IN0__dp[28] IN0__dp[29] IN0__dn[24] IN0__dn[25] IN0__dn[26] IN0__dn[27] IN0__dn[28] IN0__dn[29] IN1__dp[0] IN1__dp[1] IN1__dp[2] IN1__dp[3] IN1__dp[4] IN1__dp[5] IN1__dp[6] IN1__dp[7] IN1__dp[8] IN1__dp[9] IN1__dp[10] IN1__dp[11] IN1__dp[12] IN1__dp[13] IN1__dp[14] IN1__dp[15] IN1__dp[16] IN1__dp[17] IN1__dp[18] IN1__dp[19] IN1__dp[20] IN1__dp[21] IN1__dp[22] IN1__dp[23] IN1__dn[0] IN1__dn[1] IN1__dn[2] IN1__dn[3] IN1__dn[4] IN1__dn[5] IN1__dn[6] IN1__dn[7] IN1__dn[8] IN1__dn[9] IN1__dn[10] IN1__dn[11] IN1__dn[12] IN1__dn[13] IN1__dn[14] IN1__dn[15] IN1__dn[16] IN1__dn[17] IN1__dn[18] IN1__dn[19] IN1__dn[20] IN1__dn[21] IN1__dn[22] IN1__dn[23]
+.outputs O__dp[0] O__dp[1] O__dp[2] O__dp[3] O__dp[4] O__dp[5] O__dp[6] O__dp[7] O__dp[8] O__dp[9] O__dp[10] O__dp[11] O__dp[12] O__dp[13] O__dp[14] O__dp[15] O__dp[16] O__dp[17] O__dp[18] O__dp[19] O__dp[20] O__dp[21] O__dp[22] O__dp[23] O__dp[24] O__dp[25] O__dp[26] O__dp[27] O__dp[28] O__dp[29] O__dn[0] O__dn[1] O__dn[2] O__dn[3] O__dn[4] O__dn[5] O__dn[6] O__dn[7] O__dn[8] O__dn[9] O__dn[10] O__dn[11] O__dn[12] O__dn[13] O__dn[14] O__dn[15] O__dn[16] O__dn[17] O__dn[18] O__dn[19] O__dn[20] O__dn[21] O__dn[22] O__dn[23] O__dn[24] O__dn[25] O__dn[26] O__dn[27] O__dn[28] O__dn[29]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.U0.I_p U0.U0.O_p
+1 1
+.names U0.U0.I_n U0.U0.O_n
+1 1
+.names U0.U0.O_p U0.O__dp[24]
+1 1
+.names U0.U0.O_n U0.O__dn[24]
+1 1
+.names U0.I__dp[24] U0.U0.I_p
+1 1
+.names U0.I__dn[24] U0.U0.I_n
+1 1
+.names U0.U1.I_p U0.U1.O_p
+1 1
+.names U0.U1.I_n U0.U1.O_n
+1 1
+.names U0.U1.O_p U0.O__dp[25]
+1 1
+.names U0.U1.O_n U0.O__dn[25]
+1 1
+.names U0.I__dp[25] U0.U1.I_p
+1 1
+.names U0.I__dn[25] U0.U1.I_n
+1 1
+.names U0.U2.I_p U0.U2.O_p
+1 1
+.names U0.U2.I_n U0.U2.O_n
+1 1
+.names U0.U2.O_p U0.O__dp[26]
+1 1
+.names U0.U2.O_n U0.O__dn[26]
+1 1
+.names U0.I__dp[26] U0.U2.I_p
+1 1
+.names U0.I__dn[26] U0.U2.I_n
+1 1
+.names U0.U3.I_p U0.U3.O_p
+1 1
+.names U0.U3.I_n U0.U3.O_n
+1 1
+.names U0.U3.O_p U0.O__dp[27]
+1 1
+.names U0.U3.O_n U0.O__dn[27]
+1 1
+.names U0.I__dp[27] U0.U3.I_p
+1 1
+.names U0.I__dn[27] U0.U3.I_n
+1 1
+.names U0.U4.I_p U0.U4.O_p
+1 1
+.names U0.U4.I_n U0.U4.O_n
+1 1
+.names U0.U4.O_p U0.O__dp[28]
+1 1
+.names U0.U4.O_n U0.O__dn[28]
+1 1
+.names U0.I__dp[28] U0.U4.I_p
+1 1
+.names U0.I__dn[28] U0.U4.I_n
+1 1
+.names U0.U5.I_p U0.U5.O_p
+1 1
+.names U0.U5.I_n U0.U5.O_n
+1 1
+.names U0.U5.O_p U0.O__dp[29]
+1 1
+.names U0.U5.O_n U0.O__dn[29]
+1 1
+.names U0.I__dp[29] U0.U5.I_p
+1 1
+.names U0.I__dn[29] U0.U5.I_n
+1 1
+.names U0.O__dp[24] O__dp[24]
+1 1
+.names U0.O__dp[25] O__dp[25]
+1 1
+.names U0.O__dp[26] O__dp[26]
+1 1
+.names U0.O__dp[27] O__dp[27]
+1 1
+.names U0.O__dp[28] O__dp[28]
+1 1
+.names U0.O__dp[29] O__dp[29]
+1 1
+.names U0.O__dn[24] O__dn[24]
+1 1
+.names U0.O__dn[25] O__dn[25]
+1 1
+.names U0.O__dn[26] O__dn[26]
+1 1
+.names U0.O__dn[27] O__dn[27]
+1 1
+.names U0.O__dn[28] O__dn[28]
+1 1
+.names U0.O__dn[29] O__dn[29]
+1 1
+.names IN0__dp[24] U0.I__dp[24]
+1 1
+.names IN0__dp[25] U0.I__dp[25]
+1 1
+.names IN0__dp[26] U0.I__dp[26]
+1 1
+.names IN0__dp[27] U0.I__dp[27]
+1 1
+.names IN0__dp[28] U0.I__dp[28]
+1 1
+.names IN0__dp[29] U0.I__dp[29]
+1 1
+.names IN0__dn[24] U0.I__dn[24]
+1 1
+.names IN0__dn[25] U0.I__dn[25]
+1 1
+.names IN0__dn[26] U0.I__dn[26]
+1 1
+.names IN0__dn[27] U0.I__dn[27]
+1 1
+.names IN0__dn[28] U0.I__dn[28]
+1 1
+.names IN0__dn[29] U0.I__dn[29]
+1 1
+.names U1.U0.I_p U1.U0.O_p
+1 1
+.names U1.U0.I_n U1.U0.O_n
+1 1
+.names U1.U0.O_p U1.O__dp[0]
+1 1
+.names U1.U0.O_n U1.O__dn[0]
+1 1
+.names U1.I__dp[0] U1.U0.I_p
+1 1
+.names U1.I__dn[0] U1.U0.I_n
+1 1
+.names U1.U1.I_p U1.U1.O_p
+1 1
+.names U1.U1.I_n U1.U1.O_n
+1 1
+.names U1.U1.O_p U1.O__dp[1]
+1 1
+.names U1.U1.O_n U1.O__dn[1]
+1 1
+.names U1.I__dp[1] U1.U1.I_p
+1 1
+.names U1.I__dn[1] U1.U1.I_n
+1 1
+.names U1.U2.I_p U1.U2.O_p
+1 1
+.names U1.U2.I_n U1.U2.O_n
+1 1
+.names U1.U2.O_p U1.O__dp[2]
+1 1
+.names U1.U2.O_n U1.O__dn[2]
+1 1
+.names U1.I__dp[2] U1.U2.I_p
+1 1
+.names U1.I__dn[2] U1.U2.I_n
+1 1
+.names U1.U3.I_p U1.U3.O_p
+1 1
+.names U1.U3.I_n U1.U3.O_n
+1 1
+.names U1.U3.O_p U1.O__dp[3]
+1 1
+.names U1.U3.O_n U1.O__dn[3]
+1 1
+.names U1.I__dp[3] U1.U3.I_p
+1 1
+.names U1.I__dn[3] U1.U3.I_n
+1 1
+.names U1.U4.I_p U1.U4.O_p
+1 1
+.names U1.U4.I_n U1.U4.O_n
+1 1
+.names U1.U4.O_p U1.O__dp[4]
+1 1
+.names U1.U4.O_n U1.O__dn[4]
+1 1
+.names U1.I__dp[4] U1.U4.I_p
+1 1
+.names U1.I__dn[4] U1.U4.I_n
+1 1
+.names U1.U5.I_p U1.U5.O_p
+1 1
+.names U1.U5.I_n U1.U5.O_n
+1 1
+.names U1.U5.O_p U1.O__dp[5]
+1 1
+.names U1.U5.O_n U1.O__dn[5]
+1 1
+.names U1.I__dp[5] U1.U5.I_p
+1 1
+.names U1.I__dn[5] U1.U5.I_n
+1 1
+.names U1.U6.I_p U1.U6.O_p
+1 1
+.names U1.U6.I_n U1.U6.O_n
+1 1
+.names U1.U6.O_p U1.O__dp[6]
+1 1
+.names U1.U6.O_n U1.O__dn[6]
+1 1
+.names U1.I__dp[6] U1.U6.I_p
+1 1
+.names U1.I__dn[6] U1.U6.I_n
+1 1
+.names U1.U7.I_p U1.U7.O_p
+1 1
+.names U1.U7.I_n U1.U7.O_n
+1 1
+.names U1.U7.O_p U1.O__dp[7]
+1 1
+.names U1.U7.O_n U1.O__dn[7]
+1 1
+.names U1.I__dp[7] U1.U7.I_p
+1 1
+.names U1.I__dn[7] U1.U7.I_n
+1 1
+.names U1.U8.I_p U1.U8.O_p
+1 1
+.names U1.U8.I_n U1.U8.O_n
+1 1
+.names U1.U8.O_p U1.O__dp[8]
+1 1
+.names U1.U8.O_n U1.O__dn[8]
+1 1
+.names U1.I__dp[8] U1.U8.I_p
+1 1
+.names U1.I__dn[8] U1.U8.I_n
+1 1
+.names U1.U9.I_p U1.U9.O_p
+1 1
+.names U1.U9.I_n U1.U9.O_n
+1 1
+.names U1.U9.O_p U1.O__dp[9]
+1 1
+.names U1.U9.O_n U1.O__dn[9]
+1 1
+.names U1.I__dp[9] U1.U9.I_p
+1 1
+.names U1.I__dn[9] U1.U9.I_n
+1 1
+.names U1.U10.I_p U1.U10.O_p
+1 1
+.names U1.U10.I_n U1.U10.O_n
+1 1
+.names U1.U10.O_p U1.O__dp[10]
+1 1
+.names U1.U10.O_n U1.O__dn[10]
+1 1
+.names U1.I__dp[10] U1.U10.I_p
+1 1
+.names U1.I__dn[10] U1.U10.I_n
+1 1
+.names U1.U11.I_p U1.U11.O_p
+1 1
+.names U1.U11.I_n U1.U11.O_n
+1 1
+.names U1.U11.O_p U1.O__dp[11]
+1 1
+.names U1.U11.O_n U1.O__dn[11]
+1 1
+.names U1.I__dp[11] U1.U11.I_p
+1 1
+.names U1.I__dn[11] U1.U11.I_n
+1 1
+.names U1.U12.I_p U1.U12.O_p
+1 1
+.names U1.U12.I_n U1.U12.O_n
+1 1
+.names U1.U12.O_p U1.O__dp[12]
+1 1
+.names U1.U12.O_n U1.O__dn[12]
+1 1
+.names U1.I__dp[12] U1.U12.I_p
+1 1
+.names U1.I__dn[12] U1.U12.I_n
+1 1
+.names U1.U13.I_p U1.U13.O_p
+1 1
+.names U1.U13.I_n U1.U13.O_n
+1 1
+.names U1.U13.O_p U1.O__dp[13]
+1 1
+.names U1.U13.O_n U1.O__dn[13]
+1 1
+.names U1.I__dp[13] U1.U13.I_p
+1 1
+.names U1.I__dn[13] U1.U13.I_n
+1 1
+.names U1.U14.I_p U1.U14.O_p
+1 1
+.names U1.U14.I_n U1.U14.O_n
+1 1
+.names U1.U14.O_p U1.O__dp[14]
+1 1
+.names U1.U14.O_n U1.O__dn[14]
+1 1
+.names U1.I__dp[14] U1.U14.I_p
+1 1
+.names U1.I__dn[14] U1.U14.I_n
+1 1
+.names U1.U15.I_p U1.U15.O_p
+1 1
+.names U1.U15.I_n U1.U15.O_n
+1 1
+.names U1.U15.O_p U1.O__dp[15]
+1 1
+.names U1.U15.O_n U1.O__dn[15]
+1 1
+.names U1.I__dp[15] U1.U15.I_p
+1 1
+.names U1.I__dn[15] U1.U15.I_n
+1 1
+.names U1.U16.I_p U1.U16.O_p
+1 1
+.names U1.U16.I_n U1.U16.O_n
+1 1
+.names U1.U16.O_p U1.O__dp[16]
+1 1
+.names U1.U16.O_n U1.O__dn[16]
+1 1
+.names U1.I__dp[16] U1.U16.I_p
+1 1
+.names U1.I__dn[16] U1.U16.I_n
+1 1
+.names U1.U17.I_p U1.U17.O_p
+1 1
+.names U1.U17.I_n U1.U17.O_n
+1 1
+.names U1.U17.O_p U1.O__dp[17]
+1 1
+.names U1.U17.O_n U1.O__dn[17]
+1 1
+.names U1.I__dp[17] U1.U17.I_p
+1 1
+.names U1.I__dn[17] U1.U17.I_n
+1 1
+.names U1.U18.I_p U1.U18.O_p
+1 1
+.names U1.U18.I_n U1.U18.O_n
+1 1
+.names U1.U18.O_p U1.O__dp[18]
+1 1
+.names U1.U18.O_n U1.O__dn[18]
+1 1
+.names U1.I__dp[18] U1.U18.I_p
+1 1
+.names U1.I__dn[18] U1.U18.I_n
+1 1
+.names U1.U19.I_p U1.U19.O_p
+1 1
+.names U1.U19.I_n U1.U19.O_n
+1 1
+.names U1.U19.O_p U1.O__dp[19]
+1 1
+.names U1.U19.O_n U1.O__dn[19]
+1 1
+.names U1.I__dp[19] U1.U19.I_p
+1 1
+.names U1.I__dn[19] U1.U19.I_n
+1 1
+.names U1.U20.I_p U1.U20.O_p
+1 1
+.names U1.U20.I_n U1.U20.O_n
+1 1
+.names U1.U20.O_p U1.O__dp[20]
+1 1
+.names U1.U20.O_n U1.O__dn[20]
+1 1
+.names U1.I__dp[20] U1.U20.I_p
+1 1
+.names U1.I__dn[20] U1.U20.I_n
+1 1
+.names U1.U21.I_p U1.U21.O_p
+1 1
+.names U1.U21.I_n U1.U21.O_n
+1 1
+.names U1.U21.O_p U1.O__dp[21]
+1 1
+.names U1.U21.O_n U1.O__dn[21]
+1 1
+.names U1.I__dp[21] U1.U21.I_p
+1 1
+.names U1.I__dn[21] U1.U21.I_n
+1 1
+.names U1.U22.I_p U1.U22.O_p
+1 1
+.names U1.U22.I_n U1.U22.O_n
+1 1
+.names U1.U22.O_p U1.O__dp[22]
+1 1
+.names U1.U22.O_n U1.O__dn[22]
+1 1
+.names U1.I__dp[22] U1.U22.I_p
+1 1
+.names U1.I__dn[22] U1.U22.I_n
+1 1
+.names U1.U23.I_p U1.U23.O_p
+1 1
+.names U1.U23.I_n U1.U23.O_n
+1 1
+.names U1.U23.O_p U1.O__dp[23]
+1 1
+.names U1.U23.O_n U1.O__dn[23]
+1 1
+.names U1.I__dp[23] U1.U23.I_p
+1 1
+.names U1.I__dn[23] U1.U23.I_n
+1 1
+.names U1.O__dp[0] O__dp[0]
+1 1
+.names U1.O__dp[1] O__dp[1]
+1 1
+.names U1.O__dp[2] O__dp[2]
+1 1
+.names U1.O__dp[3] O__dp[3]
+1 1
+.names U1.O__dp[4] O__dp[4]
+1 1
+.names U1.O__dp[5] O__dp[5]
+1 1
+.names U1.O__dp[6] O__dp[6]
+1 1
+.names U1.O__dp[7] O__dp[7]
+1 1
+.names U1.O__dp[8] O__dp[8]
+1 1
+.names U1.O__dp[9] O__dp[9]
+1 1
+.names U1.O__dp[10] O__dp[10]
+1 1
+.names U1.O__dp[11] O__dp[11]
+1 1
+.names U1.O__dp[12] O__dp[12]
+1 1
+.names U1.O__dp[13] O__dp[13]
+1 1
+.names U1.O__dp[14] O__dp[14]
+1 1
+.names U1.O__dp[15] O__dp[15]
+1 1
+.names U1.O__dp[16] O__dp[16]
+1 1
+.names U1.O__dp[17] O__dp[17]
+1 1
+.names U1.O__dp[18] O__dp[18]
+1 1
+.names U1.O__dp[19] O__dp[19]
+1 1
+.names U1.O__dp[20] O__dp[20]
+1 1
+.names U1.O__dp[21] O__dp[21]
+1 1
+.names U1.O__dp[22] O__dp[22]
+1 1
+.names U1.O__dp[23] O__dp[23]
+1 1
+.names U1.O__dn[0] O__dn[0]
+1 1
+.names U1.O__dn[1] O__dn[1]
+1 1
+.names U1.O__dn[2] O__dn[2]
+1 1
+.names U1.O__dn[3] O__dn[3]
+1 1
+.names U1.O__dn[4] O__dn[4]
+1 1
+.names U1.O__dn[5] O__dn[5]
+1 1
+.names U1.O__dn[6] O__dn[6]
+1 1
+.names U1.O__dn[7] O__dn[7]
+1 1
+.names U1.O__dn[8] O__dn[8]
+1 1
+.names U1.O__dn[9] O__dn[9]
+1 1
+.names U1.O__dn[10] O__dn[10]
+1 1
+.names U1.O__dn[11] O__dn[11]
+1 1
+.names U1.O__dn[12] O__dn[12]
+1 1
+.names U1.O__dn[13] O__dn[13]
+1 1
+.names U1.O__dn[14] O__dn[14]
+1 1
+.names U1.O__dn[15] O__dn[15]
+1 1
+.names U1.O__dn[16] O__dn[16]
+1 1
+.names U1.O__dn[17] O__dn[17]
+1 1
+.names U1.O__dn[18] O__dn[18]
+1 1
+.names U1.O__dn[19] O__dn[19]
+1 1
+.names U1.O__dn[20] O__dn[20]
+1 1
+.names U1.O__dn[21] O__dn[21]
+1 1
+.names U1.O__dn[22] O__dn[22]
+1 1
+.names U1.O__dn[23] O__dn[23]
+1 1
+.names IN1__dp[0] U1.I__dp[0]
+1 1
+.names IN1__dp[1] U1.I__dp[1]
+1 1
+.names IN1__dp[2] U1.I__dp[2]
+1 1
+.names IN1__dp[3] U1.I__dp[3]
+1 1
+.names IN1__dp[4] U1.I__dp[4]
+1 1
+.names IN1__dp[5] U1.I__dp[5]
+1 1
+.names IN1__dp[6] U1.I__dp[6]
+1 1
+.names IN1__dp[7] U1.I__dp[7]
+1 1
+.names IN1__dp[8] U1.I__dp[8]
+1 1
+.names IN1__dp[9] U1.I__dp[9]
+1 1
+.names IN1__dp[10] U1.I__dp[10]
+1 1
+.names IN1__dp[11] U1.I__dp[11]
+1 1
+.names IN1__dp[12] U1.I__dp[12]
+1 1
+.names IN1__dp[13] U1.I__dp[13]
+1 1
+.names IN1__dp[14] U1.I__dp[14]
+1 1
+.names IN1__dp[15] U1.I__dp[15]
+1 1
+.names IN1__dp[16] U1.I__dp[16]
+1 1
+.names IN1__dp[17] U1.I__dp[17]
+1 1
+.names IN1__dp[18] U1.I__dp[18]
+1 1
+.names IN1__dp[19] U1.I__dp[19]
+1 1
+.names IN1__dp[20] U1.I__dp[20]
+1 1
+.names IN1__dp[21] U1.I__dp[21]
+1 1
+.names IN1__dp[22] U1.I__dp[22]
+1 1
+.names IN1__dp[23] U1.I__dp[23]
+1 1
+.names IN1__dn[0] U1.I__dn[0]
+1 1
+.names IN1__dn[1] U1.I__dn[1]
+1 1
+.names IN1__dn[2] U1.I__dn[2]
+1 1
+.names IN1__dn[3] U1.I__dn[3]
+1 1
+.names IN1__dn[4] U1.I__dn[4]
+1 1
+.names IN1__dn[5] U1.I__dn[5]
+1 1
+.names IN1__dn[6] U1.I__dn[6]
+1 1
+.names IN1__dn[7] U1.I__dn[7]
+1 1
+.names IN1__dn[8] U1.I__dn[8]
+1 1
+.names IN1__dn[9] U1.I__dn[9]
+1 1
+.names IN1__dn[10] U1.I__dn[10]
+1 1
+.names IN1__dn[11] U1.I__dn[11]
+1 1
+.names IN1__dn[12] U1.I__dn[12]
+1 1
+.names IN1__dn[13] U1.I__dn[13]
+1 1
+.names IN1__dn[14] U1.I__dn[14]
+1 1
+.names IN1__dn[15] U1.I__dn[15]
+1 1
+.names IN1__dn[16] U1.I__dn[16]
+1 1
+.names IN1__dn[17] U1.I__dn[17]
+1 1
+.names IN1__dn[18] U1.I__dn[18]
+1 1
+.names IN1__dn[19] U1.I__dn[19]
+1 1
+.names IN1__dn[20] U1.I__dn[20]
+1 1
+.names IN1__dn[21] U1.I__dn[21]
+1 1
+.names IN1__dn[22] U1.I__dn[22]
+1 1
+.names IN1__dn[23] U1.I__dn[23]
+1 1
+.end
+

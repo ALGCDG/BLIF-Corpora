@@ -1,0 +1,16 @@
+.model BWCPN_11
+.inputs I S
+.outputs O
+.names $false
+.names $true
+1
+.names $undef
+.names I $not$pre_corpus/58294.v:655$67_Y
+0 1
+.names S $not$pre_corpus/58294.v:655$67_Y $xor$pre_corpus/58294.v:655$68_Y
+10 1
+01 1
+.names $xor$pre_corpus/58294.v:655$68_Y O
+1 1
+.end
+

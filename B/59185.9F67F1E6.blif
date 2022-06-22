@@ -1,0 +1,126 @@
+.model UBCSkB_4_3
+.inputs X[3] X[4] Y[3] Y[4] Ci
+.outputs Co S[3] S[4]
+.names $false
+.names $true
+1
+.names $undef
+.names P3 P4 $and$pre_corpus/59185.v:548$105_Y
+11 1
+.names $and$pre_corpus/59185.v:548$105_Y Ci $and$pre_corpus/59185.v:548$106_Y
+11 1
+.names C5 Sk $or$pre_corpus/59185.v:549$107_Y
+1- 1
+-1 1
+.names U0.C_0 U0.C_1 $flatten\U0.$or$pre_corpus/59185.v:515$103_Y
+1- 1
+-1 1
+.names U0.U0.X U0.U0.Y $flatten\U0.\U0.$and$pre_corpus/59185.v:388$64_Y
+11 1
+.names U0.U0.X U0.U0.Y $flatten\U0.\U0.$xor$pre_corpus/59185.v:389$65_Y
+10 1
+01 1
+.names U0.U1.X U0.U1.Y $flatten\U0.\U1.$and$pre_corpus/59185.v:388$64_Y
+11 1
+.names U0.U1.X U0.U1.Y $flatten\U0.\U1.$xor$pre_corpus/59185.v:389$65_Y
+10 1
+01 1
+.names U1.C_0 U1.C_1 $flatten\U1.$or$pre_corpus/59185.v:531$104_Y
+1- 1
+-1 1
+.names U1.U0.X U1.U0.Y $flatten\U1.\U0.$and$pre_corpus/59185.v:271$37_Y
+11 1
+.names U1.U0.X U1.U0.Y $flatten\U1.\U0.$xor$pre_corpus/59185.v:272$38_Y
+10 1
+01 1
+.names U1.U1.X U1.U1.Y $flatten\U1.\U1.$and$pre_corpus/59185.v:271$37_Y
+11 1
+.names U1.U1.X U1.U1.Y $flatten\U1.\U1.$xor$pre_corpus/59185.v:272$38_Y
+10 1
+01 1
+.names $and$pre_corpus/59185.v:548$106_Y Sk
+1 1
+.names $or$pre_corpus/59185.v:549$107_Y Co
+1 1
+.names $flatten\U0.$or$pre_corpus/59185.v:515$103_Y U0.Co
+1 1
+.names U0.S_0 U0.P
+1 1
+.names $flatten\U0.\U0.$and$pre_corpus/59185.v:388$64_Y U0.U0.C
+1 1
+.names $flatten\U0.\U0.$xor$pre_corpus/59185.v:389$65_Y U0.U0.S
+1 1
+.names U0.U0.C U0.C_0
+1 1
+.names U0.U0.S U0.S_0
+1 1
+.names U0.X U0.U0.X
+1 1
+.names U0.Y U0.U0.Y
+1 1
+.names $flatten\U0.\U1.$and$pre_corpus/59185.v:388$64_Y U0.U1.C
+1 1
+.names $flatten\U0.\U1.$xor$pre_corpus/59185.v:389$65_Y U0.U1.S
+1 1
+.names U0.U1.C U0.C_1
+1 1
+.names U0.U1.S U0.S
+1 1
+.names U0.S_0 U0.U1.X
+1 1
+.names U0.Ci U0.U1.Y
+1 1
+.names U0.Co C4
+1 1
+.names U0.S S[3]
+1 1
+.names U0.P P3
+1 1
+.names X[3] U0.X
+1 1
+.names Y[3] U0.Y
+1 1
+.names Ci U0.Ci
+1 1
+.names $flatten\U1.$or$pre_corpus/59185.v:531$104_Y U1.Co
+1 1
+.names U1.S_0 U1.P
+1 1
+.names $flatten\U1.\U0.$and$pre_corpus/59185.v:271$37_Y U1.U0.C
+1 1
+.names $flatten\U1.\U0.$xor$pre_corpus/59185.v:272$38_Y U1.U0.S
+1 1
+.names U1.U0.C U1.C_0
+1 1
+.names U1.U0.S U1.S_0
+1 1
+.names U1.X U1.U0.X
+1 1
+.names U1.Y U1.U0.Y
+1 1
+.names $flatten\U1.\U1.$and$pre_corpus/59185.v:271$37_Y U1.U1.C
+1 1
+.names $flatten\U1.\U1.$xor$pre_corpus/59185.v:272$38_Y U1.U1.S
+1 1
+.names U1.U1.C U1.C_1
+1 1
+.names U1.U1.S U1.S
+1 1
+.names U1.S_0 U1.U1.X
+1 1
+.names U1.Ci U1.U1.Y
+1 1
+.names U1.Co C5
+1 1
+.names U1.S S[4]
+1 1
+.names U1.P P4
+1 1
+.names X[4] U1.X
+1 1
+.names Y[4] U1.Y
+1 1
+.names C4 U1.Ci
+1 1
+.end
+

@@ -1,0 +1,89 @@
+.model UBVPPG_7_0_6
+.inputs IN1[0] IN1[1] IN1[2] IN1[3] IN1[4] IN1[5] IN1[6] IN1[7] IN2
+.outputs O[6] O[7] O[8] O[9] O[10] O[11] O[12] O[13]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.IN1 U0.IN2 $flatten\U0.$and$pre_corpus/57945.v:354$49_Y
+11 1
+.names U1.IN1 U1.IN2 $flatten\U1.$and$pre_corpus/57945.v:361$50_Y
+11 1
+.names U2.IN1 U2.IN2 $flatten\U2.$and$pre_corpus/57945.v:368$51_Y
+11 1
+.names U3.IN1 U3.IN2 $flatten\U3.$and$pre_corpus/57945.v:375$52_Y
+11 1
+.names U4.IN1 U4.IN2 $flatten\U4.$and$pre_corpus/57945.v:382$53_Y
+11 1
+.names U5.IN1 U5.IN2 $flatten\U5.$and$pre_corpus/57945.v:389$54_Y
+11 1
+.names U6.IN1 U6.IN2 $flatten\U6.$and$pre_corpus/57945.v:396$55_Y
+11 1
+.names U7.IN1 U7.IN2 $flatten\U7.$and$pre_corpus/57945.v:403$56_Y
+11 1
+.names $flatten\U0.$and$pre_corpus/57945.v:354$49_Y U0.O
+1 1
+.names U0.O O[6]
+1 1
+.names IN1[0] U0.IN1
+1 1
+.names IN2 U0.IN2
+1 1
+.names $flatten\U1.$and$pre_corpus/57945.v:361$50_Y U1.O
+1 1
+.names U1.O O[7]
+1 1
+.names IN1[1] U1.IN1
+1 1
+.names IN2 U1.IN2
+1 1
+.names $flatten\U2.$and$pre_corpus/57945.v:368$51_Y U2.O
+1 1
+.names U2.O O[8]
+1 1
+.names IN1[2] U2.IN1
+1 1
+.names IN2 U2.IN2
+1 1
+.names $flatten\U3.$and$pre_corpus/57945.v:375$52_Y U3.O
+1 1
+.names U3.O O[9]
+1 1
+.names IN1[3] U3.IN1
+1 1
+.names IN2 U3.IN2
+1 1
+.names $flatten\U4.$and$pre_corpus/57945.v:382$53_Y U4.O
+1 1
+.names U4.O O[10]
+1 1
+.names IN1[4] U4.IN1
+1 1
+.names IN2 U4.IN2
+1 1
+.names $flatten\U5.$and$pre_corpus/57945.v:389$54_Y U5.O
+1 1
+.names U5.O O[11]
+1 1
+.names IN1[5] U5.IN1
+1 1
+.names IN2 U5.IN2
+1 1
+.names $flatten\U6.$and$pre_corpus/57945.v:396$55_Y U6.O
+1 1
+.names U6.O O[12]
+1 1
+.names IN1[6] U6.IN1
+1 1
+.names IN2 U6.IN2
+1 1
+.names $flatten\U7.$and$pre_corpus/57945.v:403$56_Y U7.O
+1 1
+.names U7.O O[13]
+1 1
+.names IN1[7] U7.IN1
+1 1
+.names IN2 U7.IN2
+1 1
+.end
+

@@ -1,0 +1,28 @@
+.model mux2_4
+.inputs a[0] a[1] a[2] a[3] b[0] b[1] b[2] b[3] s
+.outputs out[0] out[1] out[2] out[3]
+.names $false
+.names $true
+1
+.names $undef
+.names a[0] b[0] s $ternary$pre_corpus/4555.v:3$1_Y[0]
+1-0 1
+-11 1
+.names a[1] b[1] s $ternary$pre_corpus/4555.v:3$1_Y[1]
+1-0 1
+-11 1
+.names a[2] b[2] s $ternary$pre_corpus/4555.v:3$1_Y[2]
+1-0 1
+-11 1
+.names a[3] b[3] s $ternary$pre_corpus/4555.v:3$1_Y[3]
+1-0 1
+-11 1
+.names $ternary$pre_corpus/4555.v:3$1_Y[0] out[0]
+1 1
+.names $ternary$pre_corpus/4555.v:3$1_Y[1] out[1]
+1 1
+.names $ternary$pre_corpus/4555.v:3$1_Y[2] out[2]
+1 1
+.names $ternary$pre_corpus/4555.v:3$1_Y[3] out[3]
+1 1
+.end

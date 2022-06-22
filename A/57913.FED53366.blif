@@ -1,0 +1,89 @@
+.model UB4_3C7
+.inputs X1 X2 X3 X4
+.outputs S1 S2 S3
+.names $false
+.names $true
+1
+.names $undef
+.names $and$pre_corpus/57913.v:954$220_Y $not$pre_corpus/57913.v:954$221_Y
+0 1
+.names $and$pre_corpus/57913.v:954$222_Y $not$pre_corpus/57913.v:954$223_Y
+0 1
+.names $and$pre_corpus/57913.v:954$225_Y $not$pre_corpus/57913.v:954$226_Y
+0 1
+.names $and$pre_corpus/57913.v:954$227_Y $not$pre_corpus/57913.v:954$228_Y
+0 1
+.names $xor$pre_corpus/57913.v:957$231_Y $not$pre_corpus/57913.v:957$232_Y
+0 1
+.names $and$pre_corpus/57913.v:959$234_Y $not$pre_corpus/57913.v:959$235_Y
+0 1
+.names $xor$pre_corpus/57913.v:959$236_Y $not$pre_corpus/57913.v:959$237_Y
+0 1
+.names $and$pre_corpus/57913.v:960$242_Y $not$pre_corpus/57913.v:960$243_Y
+0 1
+.names X1 X2 $xor$pre_corpus/57913.v:952$218_Y
+10 1
+01 1
+.names $xor$pre_corpus/57913.v:952$218_Y X3 $xor$pre_corpus/57913.v:952$219_Y
+10 1
+01 1
+.names X1 X2 $and$pre_corpus/57913.v:954$220_Y
+11 1
+.names X1 X3 $and$pre_corpus/57913.v:954$222_Y
+11 1
+.names $not$pre_corpus/57913.v:954$221_Y $not$pre_corpus/57913.v:954$223_Y $and$pre_corpus/57913.v:954$224_Y
+11 1
+.names X2 X3 $and$pre_corpus/57913.v:954$225_Y
+11 1
+.names $and$pre_corpus/57913.v:954$224_Y $not$pre_corpus/57913.v:954$226_Y $and$pre_corpus/57913.v:954$227_Y
+11 1
+.names W1 W2 $xor$pre_corpus/57913.v:958$233_Y
+10 1
+01 1
+.names W1 W2 $and$pre_corpus/57913.v:959$234_Y
+11 1
+.names W6 $not$pre_corpus/57913.v:959$235_Y $xor$pre_corpus/57913.v:959$236_Y
+10 1
+01 1
+.names W1 W2 $and$pre_corpus/57913.v:960$241_Y
+11 1
+.names $and$pre_corpus/57913.v:960$241_Y W6 $and$pre_corpus/57913.v:960$242_Y
+11 1
+.names $xor$pre_corpus/57913.v:952$219_Y W1
+1 1
+.names X4 W2
+1 1
+.names $not$pre_corpus/57913.v:954$228_Y W3
+1 1
+.names $false W4
+1 1
+.names $true W5
+1 1
+.names $not$pre_corpus/57913.v:957$232_Y W6
+1 1
+.names $xor$pre_corpus/57913.v:958$233_Y S3
+1 1
+.names $not$pre_corpus/57913.v:959$237_Y S2
+1 1
+.names $not$pre_corpus/57913.v:960$245_Y S1
+1 1
+.names $false $and$pre_corpus/57913.v:957$229_Y
+1 1
+.names $true $not$pre_corpus/57913.v:957$230_Y
+1 1
+.names $auto$rtlil.cc:2367:Not$559 $xor$pre_corpus/57913.v:957$231_Y
+1 1
+.names $false $and$pre_corpus/57913.v:960$238_Y
+1 1
+.names $true $not$pre_corpus/57913.v:960$239_Y
+1 1
+.names $true $and$pre_corpus/57913.v:960$240_Y
+1 1
+.names $not$pre_corpus/57913.v:960$243_Y $and$pre_corpus/57913.v:960$244_Y
+1 1
+.names $and$pre_corpus/57913.v:960$242_Y $not$pre_corpus/57913.v:960$245_Y
+1 1
+.names $and$pre_corpus/57913.v:954$227_Y $auto$rtlil.cc:2367:Not$559
+1 1
+.end
+

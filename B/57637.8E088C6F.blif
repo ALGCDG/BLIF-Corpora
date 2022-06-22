@@ -1,0 +1,15 @@
+.model SD41DDECON_3
+.inputs I_ds I_d1 I_d0
+.outputs S U_d1 U_d0
+.names $false
+.names $true
+1
+.names $undef
+.names I_ds S
+1 1
+.names I_d0 U_d0
+1 1
+.names I_d1 U_d1
+1 1
+.end
+

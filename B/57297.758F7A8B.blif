@@ -1,0 +1,223 @@
+.model UBTCCONV31_32_0
+.inputs I[0] I[1] I[2] I[3] I[4] I[5] I[6] I[7] I[8] I[9] I[10] I[11] I[12] I[13] I[14] I[15] I[16] I[17] I[18] I[19] I[20] I[21] I[22] I[23] I[24] I[25] I[26] I[27] I[28] I[29] I[30] I[31] I[32]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] O[8] O[9] O[10] O[11] O[12] O[13] O[14] O[15] O[16] O[17] O[18] O[19] O[20] O[21] O[22] O[23] O[24] O[25] O[26] O[27] O[28] O[29] O[30] O[31] O[32] O[33]
+.names $false
+.names $true
+1
+.names $undef
+.names U31.I[31] $flatten\U31.$not$pre_corpus/57297.v:3479$1043_Y
+0 1
+.names U31.I[32] $flatten\U31.$not$pre_corpus/57297.v:3480$1044_Y
+0 1
+.names $flatten\U31.$or$pre_corpus/57297.v:3481$1046_Y $flatten\U31.$not$pre_corpus/57297.v:3481$1047_Y
+0 1
+.names $flatten\U31.$not$pre_corpus/57297.v:3480$1044_Y U31.I[31] $flatten\U31.$xor$pre_corpus/57297.v:3480$1045_Y
+10 1
+01 1
+.names U31.I[32] U31.I[31] $flatten\U31.$or$pre_corpus/57297.v:3481$1046_Y
+1- 1
+-1 1
+.names U0.I U0.O
+1 1
+.names U0.O O[0]
+1 1
+.names I[0] U0.I
+1 1
+.names U1.I U1.O
+1 1
+.names U1.O O[1]
+1 1
+.names I[1] U1.I
+1 1
+.names U2.I U2.O
+1 1
+.names U2.O O[2]
+1 1
+.names I[2] U2.I
+1 1
+.names U3.I U3.O
+1 1
+.names U3.O O[3]
+1 1
+.names I[3] U3.I
+1 1
+.names U4.I U4.O
+1 1
+.names U4.O O[4]
+1 1
+.names I[4] U4.I
+1 1
+.names U5.I U5.O
+1 1
+.names U5.O O[5]
+1 1
+.names I[5] U5.I
+1 1
+.names U6.I U6.O
+1 1
+.names U6.O O[6]
+1 1
+.names I[6] U6.I
+1 1
+.names U7.I U7.O
+1 1
+.names U7.O O[7]
+1 1
+.names I[7] U7.I
+1 1
+.names U8.I U8.O
+1 1
+.names U8.O O[8]
+1 1
+.names I[8] U8.I
+1 1
+.names U9.I U9.O
+1 1
+.names U9.O O[9]
+1 1
+.names I[9] U9.I
+1 1
+.names U10.I U10.O
+1 1
+.names U10.O O[10]
+1 1
+.names I[10] U10.I
+1 1
+.names U11.I U11.O
+1 1
+.names U11.O O[11]
+1 1
+.names I[11] U11.I
+1 1
+.names U12.I U12.O
+1 1
+.names U12.O O[12]
+1 1
+.names I[12] U12.I
+1 1
+.names U13.I U13.O
+1 1
+.names U13.O O[13]
+1 1
+.names I[13] U13.I
+1 1
+.names U14.I U14.O
+1 1
+.names U14.O O[14]
+1 1
+.names I[14] U14.I
+1 1
+.names U15.I U15.O
+1 1
+.names U15.O O[15]
+1 1
+.names I[15] U15.I
+1 1
+.names U16.I U16.O
+1 1
+.names U16.O O[16]
+1 1
+.names I[16] U16.I
+1 1
+.names U17.I U17.O
+1 1
+.names U17.O O[17]
+1 1
+.names I[17] U17.I
+1 1
+.names U18.I U18.O
+1 1
+.names U18.O O[18]
+1 1
+.names I[18] U18.I
+1 1
+.names U19.I U19.O
+1 1
+.names U19.O O[19]
+1 1
+.names I[19] U19.I
+1 1
+.names U20.I U20.O
+1 1
+.names U20.O O[20]
+1 1
+.names I[20] U20.I
+1 1
+.names U21.I U21.O
+1 1
+.names U21.O O[21]
+1 1
+.names I[21] U21.I
+1 1
+.names U22.I U22.O
+1 1
+.names U22.O O[22]
+1 1
+.names I[22] U22.I
+1 1
+.names U23.I U23.O
+1 1
+.names U23.O O[23]
+1 1
+.names I[23] U23.I
+1 1
+.names U24.I U24.O
+1 1
+.names U24.O O[24]
+1 1
+.names I[24] U24.I
+1 1
+.names U25.I U25.O
+1 1
+.names U25.O O[25]
+1 1
+.names I[25] U25.I
+1 1
+.names U26.I U26.O
+1 1
+.names U26.O O[26]
+1 1
+.names I[26] U26.I
+1 1
+.names U27.I U27.O
+1 1
+.names U27.O O[27]
+1 1
+.names I[27] U27.I
+1 1
+.names U28.I U28.O
+1 1
+.names U28.O O[28]
+1 1
+.names I[28] U28.I
+1 1
+.names U29.I U29.O
+1 1
+.names U29.O O[29]
+1 1
+.names I[29] U29.I
+1 1
+.names U30.I U30.O
+1 1
+.names U30.O O[30]
+1 1
+.names I[30] U30.I
+1 1
+.names $flatten\U31.$not$pre_corpus/57297.v:3479$1043_Y U31.O[31]
+1 1
+.names $flatten\U31.$xor$pre_corpus/57297.v:3480$1045_Y U31.O[32]
+1 1
+.names $flatten\U31.$not$pre_corpus/57297.v:3481$1047_Y U31.O[33]
+1 1
+.names U31.O[31] O[31]
+1 1
+.names U31.O[32] O[32]
+1 1
+.names U31.O[33] O[33]
+1 1
+.names I[31] U31.I[31]
+1 1
+.names I[32] U31.I[32]
+1 1
+.end
+

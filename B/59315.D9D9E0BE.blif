@@ -1,0 +1,13 @@
+.model UB1BPPG_9_7
+.inputs IN1 IN2
+.outputs O
+.names $false
+.names $true
+1
+.names $undef
+.names IN1 IN2 $and$pre_corpus/59315.v:816$115_Y
+11 1
+.names $and$pre_corpus/59315.v:816$115_Y O
+1 1
+.end
+

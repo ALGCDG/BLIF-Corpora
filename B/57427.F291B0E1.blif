@@ -1,0 +1,13 @@
+.model SD2DigitCom_3
+.inputs I_n I_p
+.outputs O_p O_n
+.names $false
+.names $true
+1
+.names $undef
+.names I_p O_p
+1 1
+.names I_n O_n
+1 1
+.end
+

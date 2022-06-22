@@ -1,0 +1,100 @@
+.model UBNUBWCON_12_6
+.inputs I[6] I[7] I[8] I[9] I[10] I[11] I[12] S
+.outputs O[6] O[7] O[8] O[9] O[10] O[11] O[12]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.I $flatten\U0.$not$pre_corpus/57423.v:286$63_Y
+0 1
+.names U0.S $flatten\U0.$not$pre_corpus/57423.v:286$63_Y $flatten\U0.$xor$pre_corpus/57423.v:286$64_Y
+10 1
+01 1
+.names U1.I $flatten\U1.$not$pre_corpus/57423.v:293$65_Y
+0 1
+.names U1.S $flatten\U1.$not$pre_corpus/57423.v:293$65_Y $flatten\U1.$xor$pre_corpus/57423.v:293$66_Y
+10 1
+01 1
+.names U2.I $flatten\U2.$not$pre_corpus/57423.v:300$67_Y
+0 1
+.names U2.S $flatten\U2.$not$pre_corpus/57423.v:300$67_Y $flatten\U2.$xor$pre_corpus/57423.v:300$68_Y
+10 1
+01 1
+.names U3.I $flatten\U3.$not$pre_corpus/57423.v:700$109_Y
+0 1
+.names U3.S $flatten\U3.$not$pre_corpus/57423.v:700$109_Y $flatten\U3.$xor$pre_corpus/57423.v:700$110_Y
+10 1
+01 1
+.names U4.I $flatten\U4.$not$pre_corpus/57423.v:707$111_Y
+0 1
+.names U4.S $flatten\U4.$not$pre_corpus/57423.v:707$111_Y $flatten\U4.$xor$pre_corpus/57423.v:707$112_Y
+10 1
+01 1
+.names U5.I $flatten\U5.$not$pre_corpus/57423.v:714$113_Y
+0 1
+.names U5.S $flatten\U5.$not$pre_corpus/57423.v:714$113_Y $flatten\U5.$xor$pre_corpus/57423.v:714$114_Y
+10 1
+01 1
+.names U6.I $flatten\U6.$not$pre_corpus/57423.v:721$115_Y
+0 1
+.names U6.S $flatten\U6.$not$pre_corpus/57423.v:721$115_Y $flatten\U6.$xor$pre_corpus/57423.v:721$116_Y
+10 1
+01 1
+.names $flatten\U0.$xor$pre_corpus/57423.v:286$64_Y U0.O
+1 1
+.names U0.O O[6]
+1 1
+.names I[6] U0.I
+1 1
+.names S U0.S
+1 1
+.names $flatten\U1.$xor$pre_corpus/57423.v:293$66_Y U1.O
+1 1
+.names U1.O O[7]
+1 1
+.names I[7] U1.I
+1 1
+.names S U1.S
+1 1
+.names $flatten\U2.$xor$pre_corpus/57423.v:300$68_Y U2.O
+1 1
+.names U2.O O[8]
+1 1
+.names I[8] U2.I
+1 1
+.names S U2.S
+1 1
+.names $flatten\U3.$xor$pre_corpus/57423.v:700$110_Y U3.O
+1 1
+.names U3.O O[9]
+1 1
+.names I[9] U3.I
+1 1
+.names S U3.S
+1 1
+.names $flatten\U4.$xor$pre_corpus/57423.v:707$112_Y U4.O
+1 1
+.names U4.O O[10]
+1 1
+.names I[10] U4.I
+1 1
+.names S U4.S
+1 1
+.names $flatten\U5.$xor$pre_corpus/57423.v:714$114_Y U5.O
+1 1
+.names U5.O O[11]
+1 1
+.names I[11] U5.I
+1 1
+.names S U5.S
+1 1
+.names $flatten\U6.$xor$pre_corpus/57423.v:721$116_Y U6.O
+1 1
+.names U6.O O[12]
+1 1
+.names I[12] U6.I
+1 1
+.names S U6.S
+1 1
+.end
+

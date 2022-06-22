@@ -1,0 +1,33 @@
+.model UBCMBIN_4_4_0_0
+.inputs IN0 IN1
+.outputs O[0] O[1] O[2] O[3] O[4]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.I U0.O
+1 1
+.names U0.O O[4]
+1 1
+.names IN0 U0.I
+1 1
+.names $false U1.O[1]
+1 1
+.names $false U1.O[2]
+1 1
+.names $false U1.O[3]
+1 1
+.names U1.O[1] O[1]
+1 1
+.names U1.O[2] O[2]
+1 1
+.names U1.O[3] O[3]
+1 1
+.names U2.I U2.O
+1 1
+.names U2.O O[0]
+1 1
+.names IN1 U2.I
+1 1
+.end
+

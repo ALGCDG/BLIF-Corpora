@@ -1,0 +1,31 @@
+.model UBFA_26
+.inputs X Y Z
+.outputs C S
+.names $false
+.names $true
+1
+.names $undef
+.names X Y $and$pre_corpus/59093.v:2352$457_Y
+11 1
+.names Y Z $and$pre_corpus/59093.v:2352$458_Y
+11 1
+.names $and$pre_corpus/59093.v:2352$457_Y $and$pre_corpus/59093.v:2352$458_Y $or$pre_corpus/59093.v:2352$459_Y
+1- 1
+-1 1
+.names Z X $and$pre_corpus/59093.v:2352$460_Y
+11 1
+.names $or$pre_corpus/59093.v:2352$459_Y $and$pre_corpus/59093.v:2352$460_Y $or$pre_corpus/59093.v:2352$461_Y
+1- 1
+-1 1
+.names X Y $xor$pre_corpus/59093.v:2353$462_Y
+10 1
+01 1
+.names $xor$pre_corpus/59093.v:2353$462_Y Z $xor$pre_corpus/59093.v:2353$463_Y
+10 1
+01 1
+.names $or$pre_corpus/59093.v:2352$461_Y C
+1 1
+.names $xor$pre_corpus/59093.v:2353$463_Y S
+1 1
+.end
+

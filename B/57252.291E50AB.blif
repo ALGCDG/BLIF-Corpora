@@ -1,0 +1,14 @@
+.model BWCPP_1
+.inputs I S
+.outputs O
+.names $false
+.names $true
+1
+.names $undef
+.names S I $xor$pre_corpus/57252.v:277$87_Y
+10 1
+01 1
+.names $xor$pre_corpus/57252.v:277$87_Y O
+1 1
+.end
+

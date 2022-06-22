@@ -1,0 +1,13 @@
+.model UBInv_7
+.inputs I
+.outputs O
+.names $false
+.names $true
+1
+.names $undef
+.names I $not$pre_corpus/57919.v:1223$145_Y
+0 1
+.names $not$pre_corpus/57919.v:1223$145_Y O
+1 1
+.end
+

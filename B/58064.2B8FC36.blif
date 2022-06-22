@@ -1,0 +1,17 @@
+.model U4DPPGL_0_6
+.inputs I U_d1 U_d0
+.outputs Po O
+.names $false
+.names $true
+1
+.names $undef
+.names I U_d0 $and$pre_corpus/58064.v:1312$341_Y
+11 1
+.names I U_d1 $and$pre_corpus/58064.v:1313$342_Y
+11 1
+.names $and$pre_corpus/58064.v:1312$341_Y O
+1 1
+.names $and$pre_corpus/58064.v:1313$342_Y Po
+1 1
+.end
+

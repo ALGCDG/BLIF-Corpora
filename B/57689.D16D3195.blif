@@ -1,0 +1,396 @@
+.model UBSD4VPPG_6_0_0
+.inputs IN1[0] IN1[1] IN1[2] IN1[3] IN1[4] IN1[5] IN1[6] IN2__ds IN2__d1 IN2__d0
+.outputs PP[0] PP[1] PP[2] PP[3] PP[4] PP[5] PP[6] PP[7] PP[8] C
+.names $false
+.names $true
+1
+.names $undef
+.names U2.U0.I U2.U0.U_d0 $flatten\U2.\U0.$and$pre_corpus/57689.v:72$18_Y
+11 1
+.names U2.U0.I U2.U0.U_d1 $flatten\U2.\U0.$and$pre_corpus/57689.v:73$19_Y
+11 1
+.names U2.U1.I U2.U1.U_d0 $flatten\U2.\U1.$and$pre_corpus/57689.v:82$20_Y
+11 1
+.names $flatten\U2.\U1.$and$pre_corpus/57689.v:82$20_Y U2.U1.Pi $flatten\U2.\U1.$or$pre_corpus/57689.v:82$21_Y
+1- 1
+-1 1
+.names U2.U1.I U2.U1.U_d1 $flatten\U2.\U1.$and$pre_corpus/57689.v:83$22_Y
+11 1
+.names U2.U2.I U2.U2.U_d0 $flatten\U2.\U2.$and$pre_corpus/57689.v:92$23_Y
+11 1
+.names $flatten\U2.\U2.$and$pre_corpus/57689.v:92$23_Y U2.U2.Pi $flatten\U2.\U2.$or$pre_corpus/57689.v:92$24_Y
+1- 1
+-1 1
+.names U2.U2.I U2.U2.U_d1 $flatten\U2.\U2.$and$pre_corpus/57689.v:93$25_Y
+11 1
+.names U2.U3.I U2.U3.U_d0 $flatten\U2.\U3.$and$pre_corpus/57689.v:102$26_Y
+11 1
+.names $flatten\U2.\U3.$and$pre_corpus/57689.v:102$26_Y U2.U3.Pi $flatten\U2.\U3.$or$pre_corpus/57689.v:102$27_Y
+1- 1
+-1 1
+.names U2.U3.I U2.U3.U_d1 $flatten\U2.\U3.$and$pre_corpus/57689.v:103$28_Y
+11 1
+.names U2.U4.I U2.U4.U_d0 $flatten\U2.\U4.$and$pre_corpus/57689.v:112$29_Y
+11 1
+.names $flatten\U2.\U4.$and$pre_corpus/57689.v:112$29_Y U2.U4.Pi $flatten\U2.\U4.$or$pre_corpus/57689.v:112$30_Y
+1- 1
+-1 1
+.names U2.U4.I U2.U4.U_d1 $flatten\U2.\U4.$and$pre_corpus/57689.v:113$31_Y
+11 1
+.names U2.U5.I U2.U5.U_d0 $flatten\U2.\U5.$and$pre_corpus/57689.v:122$32_Y
+11 1
+.names $flatten\U2.\U5.$and$pre_corpus/57689.v:122$32_Y U2.U5.Pi $flatten\U2.\U5.$or$pre_corpus/57689.v:122$33_Y
+1- 1
+-1 1
+.names U2.U5.I U2.U5.U_d1 $flatten\U2.\U5.$and$pre_corpus/57689.v:123$34_Y
+11 1
+.names U2.U6.I U2.U6.U_d0 $flatten\U2.\U6.$and$pre_corpus/57689.v:132$35_Y
+11 1
+.names $flatten\U2.\U6.$and$pre_corpus/57689.v:132$35_Y U2.U6.Pi $flatten\U2.\U6.$or$pre_corpus/57689.v:132$36_Y
+1- 1
+-1 1
+.names U2.U6.I U2.U6.U_d1 $flatten\U2.\U6.$and$pre_corpus/57689.v:133$37_Y
+11 1
+.names U2.U7.I U2.U7.U_d0 $flatten\U2.\U7.$and$pre_corpus/57689.v:142$38_Y
+11 1
+.names $flatten\U2.\U7.$and$pre_corpus/57689.v:142$38_Y U2.U7.Pi $flatten\U2.\U7.$or$pre_corpus/57689.v:142$39_Y
+1- 1
+-1 1
+.names U2.U7.U_d1 U2.U7.U_d0 $flatten\U2.\U7.$or$pre_corpus/57689.v:143$40_Y
+1- 1
+-1 1
+.names U2.U7.I $flatten\U2.\U7.$or$pre_corpus/57689.v:143$40_Y $flatten\U2.\U7.$and$pre_corpus/57689.v:143$41_Y
+11 1
+.names U3.U0.S U3.U0.I $flatten\U3.\U0.$xor$pre_corpus/57689.v:150$42_Y
+10 1
+01 1
+.names U3.U1.S U3.U1.I $flatten\U3.\U1.$xor$pre_corpus/57689.v:157$43_Y
+10 1
+01 1
+.names U3.U2.S U3.U2.I $flatten\U3.\U2.$xor$pre_corpus/57689.v:164$44_Y
+10 1
+01 1
+.names U3.U3.S U3.U3.I $flatten\U3.\U3.$xor$pre_corpus/57689.v:171$45_Y
+10 1
+01 1
+.names U3.U4.S U3.U4.I $flatten\U3.\U4.$xor$pre_corpus/57689.v:178$46_Y
+10 1
+01 1
+.names U3.U5.S U3.U5.I $flatten\U3.\U5.$xor$pre_corpus/57689.v:185$47_Y
+10 1
+01 1
+.names U3.U6.S U3.U6.I $flatten\U3.\U6.$xor$pre_corpus/57689.v:192$48_Y
+10 1
+01 1
+.names U3.U7.S U3.U7.I $flatten\U3.\U7.$xor$pre_corpus/57689.v:199$49_Y
+10 1
+01 1
+.names U3.U8.S $flatten\U3.\U8.$not$pre_corpus/57689.v:206$50_Y
+0 1
+.names $flatten\U3.\U8.$not$pre_corpus/57689.v:206$50_Y U3.U8.I $flatten\U3.\U8.$xor$pre_corpus/57689.v:206$51_Y
+10 1
+01 1
+.names U0.I_ds U0.S
+1 1
+.names U0.I_d0 U0.U_d0
+1 1
+.names U0.I_d1 U0.U_d1
+1 1
+.names U0.S S
+1 1
+.names U0.U_d1 U__d1
+1 1
+.names U0.U_d0 U__d0
+1 1
+.names IN2__ds U0.I_ds
+1 1
+.names IN2__d1 U0.I_d1
+1 1
+.names IN2__d0 U0.I_d0
+1 1
+.names $false U1.O
+1 1
+.names U1.O NZ
+1 1
+.names $flatten\U2.\U0.$and$pre_corpus/57689.v:72$18_Y U2.U0.O
+1 1
+.names $flatten\U2.\U0.$and$pre_corpus/57689.v:73$19_Y U2.U0.Po
+1 1
+.names U2.U0.Po U2.P[1]
+1 1
+.names U2.U0.O U2.O_R[0]
+1 1
+.names U2.IN1_R[0] U2.U0.I
+1 1
+.names U2.U__d1 U2.U0.U_d1
+1 1
+.names U2.U__d0 U2.U0.U_d0
+1 1
+.names $flatten\U2.\U1.$or$pre_corpus/57689.v:82$21_Y U2.U1.O
+1 1
+.names $flatten\U2.\U1.$and$pre_corpus/57689.v:83$22_Y U2.U1.Po
+1 1
+.names U2.U1.Po U2.P[2]
+1 1
+.names U2.U1.O U2.O_R[1]
+1 1
+.names U2.IN1_R[1] U2.U1.I
+1 1
+.names U2.U__d1 U2.U1.U_d1
+1 1
+.names U2.U__d0 U2.U1.U_d0
+1 1
+.names U2.P[1] U2.U1.Pi
+1 1
+.names $flatten\U2.\U2.$or$pre_corpus/57689.v:92$24_Y U2.U2.O
+1 1
+.names $flatten\U2.\U2.$and$pre_corpus/57689.v:93$25_Y U2.U2.Po
+1 1
+.names U2.U2.Po U2.P[3]
+1 1
+.names U2.U2.O U2.O_R[2]
+1 1
+.names U2.IN1_R[2] U2.U2.I
+1 1
+.names U2.U__d1 U2.U2.U_d1
+1 1
+.names U2.U__d0 U2.U2.U_d0
+1 1
+.names U2.P[2] U2.U2.Pi
+1 1
+.names $flatten\U2.\U3.$or$pre_corpus/57689.v:102$27_Y U2.U3.O
+1 1
+.names $flatten\U2.\U3.$and$pre_corpus/57689.v:103$28_Y U2.U3.Po
+1 1
+.names U2.U3.Po U2.P[4]
+1 1
+.names U2.U3.O U2.O_R[3]
+1 1
+.names U2.IN1_R[3] U2.U3.I
+1 1
+.names U2.U__d1 U2.U3.U_d1
+1 1
+.names U2.U__d0 U2.U3.U_d0
+1 1
+.names U2.P[3] U2.U3.Pi
+1 1
+.names $flatten\U2.\U4.$or$pre_corpus/57689.v:112$30_Y U2.U4.O
+1 1
+.names $flatten\U2.\U4.$and$pre_corpus/57689.v:113$31_Y U2.U4.Po
+1 1
+.names U2.U4.Po U2.P[5]
+1 1
+.names U2.U4.O U2.O_R[4]
+1 1
+.names U2.IN1_R[4] U2.U4.I
+1 1
+.names U2.U__d1 U2.U4.U_d1
+1 1
+.names U2.U__d0 U2.U4.U_d0
+1 1
+.names U2.P[4] U2.U4.Pi
+1 1
+.names $flatten\U2.\U5.$or$pre_corpus/57689.v:122$33_Y U2.U5.O
+1 1
+.names $flatten\U2.\U5.$and$pre_corpus/57689.v:123$34_Y U2.U5.Po
+1 1
+.names U2.U5.Po U2.P[6]
+1 1
+.names U2.U5.O U2.O_R[5]
+1 1
+.names U2.IN1_R[5] U2.U5.I
+1 1
+.names U2.U__d1 U2.U5.U_d1
+1 1
+.names U2.U__d0 U2.U5.U_d0
+1 1
+.names U2.P[5] U2.U5.Pi
+1 1
+.names $flatten\U2.\U6.$or$pre_corpus/57689.v:132$36_Y U2.U6.O
+1 1
+.names $flatten\U2.\U6.$and$pre_corpus/57689.v:133$37_Y U2.U6.Po
+1 1
+.names U2.U6.Po U2.P[7]
+1 1
+.names U2.U6.O U2.O_R[6]
+1 1
+.names U2.IN1_R[6] U2.U6.I
+1 1
+.names U2.U__d1 U2.U6.U_d1
+1 1
+.names U2.U__d0 U2.U6.U_d0
+1 1
+.names U2.P[6] U2.U6.Pi
+1 1
+.names $flatten\U2.\U7.$or$pre_corpus/57689.v:142$39_Y U2.U7.O
+1 1
+.names $flatten\U2.\U7.$and$pre_corpus/57689.v:143$41_Y U2.U7.Po
+1 1
+.names U2.U7.Po U2.O_T
+1 1
+.names U2.U7.O U2.O_R[7]
+1 1
+.names U2.IN1_T U2.U7.I
+1 1
+.names U2.U__d1 U2.U7.U_d1
+1 1
+.names U2.U__d0 U2.U7.U_d0
+1 1
+.names U2.P[7] U2.U7.Pi
+1 1
+.names U2.O_T W_T
+1 1
+.names U2.O_R[0] W_R[0]
+1 1
+.names U2.O_R[1] W_R[1]
+1 1
+.names U2.O_R[2] W_R[2]
+1 1
+.names U2.O_R[3] W_R[3]
+1 1
+.names U2.O_R[4] W_R[4]
+1 1
+.names U2.O_R[5] W_R[5]
+1 1
+.names U2.O_R[6] W_R[6]
+1 1
+.names U2.O_R[7] W_R[7]
+1 1
+.names NZ U2.IN1_T
+1 1
+.names IN1[0] U2.IN1_R[0]
+1 1
+.names IN1[1] U2.IN1_R[1]
+1 1
+.names IN1[2] U2.IN1_R[2]
+1 1
+.names IN1[3] U2.IN1_R[3]
+1 1
+.names IN1[4] U2.IN1_R[4]
+1 1
+.names IN1[5] U2.IN1_R[5]
+1 1
+.names IN1[6] U2.IN1_R[6]
+1 1
+.names U__d1 U2.U__d1
+1 1
+.names U__d0 U2.U__d0
+1 1
+.names $flatten\U3.\U0.$xor$pre_corpus/57689.v:150$42_Y U3.U0.O
+1 1
+.names U3.U0.O U3.O[0]
+1 1
+.names U3.I_R[0] U3.U0.I
+1 1
+.names U3.S U3.U0.S
+1 1
+.names $flatten\U3.\U1.$xor$pre_corpus/57689.v:157$43_Y U3.U1.O
+1 1
+.names U3.U1.O U3.O[1]
+1 1
+.names U3.I_R[1] U3.U1.I
+1 1
+.names U3.S U3.U1.S
+1 1
+.names $flatten\U3.\U2.$xor$pre_corpus/57689.v:164$44_Y U3.U2.O
+1 1
+.names U3.U2.O U3.O[2]
+1 1
+.names U3.I_R[2] U3.U2.I
+1 1
+.names U3.S U3.U2.S
+1 1
+.names $flatten\U3.\U3.$xor$pre_corpus/57689.v:171$45_Y U3.U3.O
+1 1
+.names U3.U3.O U3.O[3]
+1 1
+.names U3.I_R[3] U3.U3.I
+1 1
+.names U3.S U3.U3.S
+1 1
+.names $flatten\U3.\U4.$xor$pre_corpus/57689.v:178$46_Y U3.U4.O
+1 1
+.names U3.U4.O U3.O[4]
+1 1
+.names U3.I_R[4] U3.U4.I
+1 1
+.names U3.S U3.U4.S
+1 1
+.names $flatten\U3.\U5.$xor$pre_corpus/57689.v:185$47_Y U3.U5.O
+1 1
+.names U3.U5.O U3.O[5]
+1 1
+.names U3.I_R[5] U3.U5.I
+1 1
+.names U3.S U3.U5.S
+1 1
+.names $flatten\U3.\U6.$xor$pre_corpus/57689.v:192$48_Y U3.U6.O
+1 1
+.names U3.U6.O U3.O[6]
+1 1
+.names U3.I_R[6] U3.U6.I
+1 1
+.names U3.S U3.U6.S
+1 1
+.names $flatten\U3.\U7.$xor$pre_corpus/57689.v:199$49_Y U3.U7.O
+1 1
+.names U3.U7.O U3.O[7]
+1 1
+.names U3.I_R[7] U3.U7.I
+1 1
+.names U3.S U3.U7.S
+1 1
+.names $flatten\U3.\U8.$xor$pre_corpus/57689.v:206$51_Y U3.U8.O
+1 1
+.names U3.U8.O U3.O[8]
+1 1
+.names U3.I_T U3.U8.I
+1 1
+.names U3.S U3.U8.S
+1 1
+.names U3.O[0] PP[0]
+1 1
+.names U3.O[1] PP[1]
+1 1
+.names U3.O[2] PP[2]
+1 1
+.names U3.O[3] PP[3]
+1 1
+.names U3.O[4] PP[4]
+1 1
+.names U3.O[5] PP[5]
+1 1
+.names U3.O[6] PP[6]
+1 1
+.names U3.O[7] PP[7]
+1 1
+.names U3.O[8] PP[8]
+1 1
+.names W_T U3.I_T
+1 1
+.names W_R[0] U3.I_R[0]
+1 1
+.names W_R[1] U3.I_R[1]
+1 1
+.names W_R[2] U3.I_R[2]
+1 1
+.names W_R[3] U3.I_R[3]
+1 1
+.names W_R[4] U3.I_R[4]
+1 1
+.names W_R[5] U3.I_R[5]
+1 1
+.names W_R[6] U3.I_R[6]
+1 1
+.names W_R[7] U3.I_R[7]
+1 1
+.names S U3.S
+1 1
+.names U4.S U4.O
+1 1
+.names U4.O C
+1 1
+.names S U4.S
+1 1
+.end
+

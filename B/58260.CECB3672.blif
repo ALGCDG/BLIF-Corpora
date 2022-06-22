@@ -1,0 +1,393 @@
+.model PureCSA_26_15
+.inputs X[15] X[16] X[17] X[18] X[19] X[20] X[21] X[22] X[23] X[24] X[25] X[26] Y[15] Y[16] Y[17] Y[18] Y[19] Y[20] Y[21] Y[22] Y[23] Y[24] Y[25] Y[26] Z[15] Z[16] Z[17] Z[18] Z[19] Z[20] Z[21] Z[22] Z[23] Z[24] Z[25] Z[26]
+.outputs C[16] C[17] C[18] C[19] C[20] C[21] C[22] C[23] C[24] C[25] C[26] C[27] S[15] S[16] S[17] S[18] S[19] S[20] S[21] S[22] S[23] S[24] S[25] S[26]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.X U0.Y $flatten\U0.$and$pre_corpus/58260.v:1957$350_Y
+11 1
+.names U0.Y U0.Z $flatten\U0.$and$pre_corpus/58260.v:1957$351_Y
+11 1
+.names $flatten\U0.$and$pre_corpus/58260.v:1957$350_Y $flatten\U0.$and$pre_corpus/58260.v:1957$351_Y $flatten\U0.$or$pre_corpus/58260.v:1957$352_Y
+1- 1
+-1 1
+.names U0.Z U0.X $flatten\U0.$and$pre_corpus/58260.v:1957$353_Y
+11 1
+.names $flatten\U0.$or$pre_corpus/58260.v:1957$352_Y $flatten\U0.$and$pre_corpus/58260.v:1957$353_Y $flatten\U0.$or$pre_corpus/58260.v:1957$354_Y
+1- 1
+-1 1
+.names U0.X U0.Y $flatten\U0.$xor$pre_corpus/58260.v:1958$355_Y
+10 1
+01 1
+.names $flatten\U0.$xor$pre_corpus/58260.v:1958$355_Y U0.Z $flatten\U0.$xor$pre_corpus/58260.v:1958$356_Y
+10 1
+01 1
+.names U1.X U1.Y $flatten\U1.$and$pre_corpus/58260.v:1997$361_Y
+11 1
+.names U1.Y U1.Z $flatten\U1.$and$pre_corpus/58260.v:1997$362_Y
+11 1
+.names $flatten\U1.$and$pre_corpus/58260.v:1997$361_Y $flatten\U1.$and$pre_corpus/58260.v:1997$362_Y $flatten\U1.$or$pre_corpus/58260.v:1997$363_Y
+1- 1
+-1 1
+.names U1.Z U1.X $flatten\U1.$and$pre_corpus/58260.v:1997$364_Y
+11 1
+.names $flatten\U1.$or$pre_corpus/58260.v:1997$363_Y $flatten\U1.$and$pre_corpus/58260.v:1997$364_Y $flatten\U1.$or$pre_corpus/58260.v:1997$365_Y
+1- 1
+-1 1
+.names U1.X U1.Y $flatten\U1.$xor$pre_corpus/58260.v:1998$366_Y
+10 1
+01 1
+.names $flatten\U1.$xor$pre_corpus/58260.v:1998$366_Y U1.Z $flatten\U1.$xor$pre_corpus/58260.v:1998$367_Y
+10 1
+01 1
+.names U10.X U10.Y $flatten\U10.$and$pre_corpus/58260.v:2306$454_Y
+11 1
+.names U10.Y U10.Z $flatten\U10.$and$pre_corpus/58260.v:2306$455_Y
+11 1
+.names $flatten\U10.$and$pre_corpus/58260.v:2306$454_Y $flatten\U10.$and$pre_corpus/58260.v:2306$455_Y $flatten\U10.$or$pre_corpus/58260.v:2306$456_Y
+1- 1
+-1 1
+.names U10.Z U10.X $flatten\U10.$and$pre_corpus/58260.v:2306$457_Y
+11 1
+.names $flatten\U10.$or$pre_corpus/58260.v:2306$456_Y $flatten\U10.$and$pre_corpus/58260.v:2306$457_Y $flatten\U10.$or$pre_corpus/58260.v:2306$458_Y
+1- 1
+-1 1
+.names U10.X U10.Y $flatten\U10.$xor$pre_corpus/58260.v:2307$459_Y
+10 1
+01 1
+.names $flatten\U10.$xor$pre_corpus/58260.v:2307$459_Y U10.Z $flatten\U10.$xor$pre_corpus/58260.v:2307$460_Y
+10 1
+01 1
+.names U11.X U11.Y $flatten\U11.$and$pre_corpus/58260.v:2316$461_Y
+11 1
+.names U11.Y U11.Z $flatten\U11.$and$pre_corpus/58260.v:2316$462_Y
+11 1
+.names $flatten\U11.$and$pre_corpus/58260.v:2316$461_Y $flatten\U11.$and$pre_corpus/58260.v:2316$462_Y $flatten\U11.$or$pre_corpus/58260.v:2316$463_Y
+1- 1
+-1 1
+.names U11.Z U11.X $flatten\U11.$and$pre_corpus/58260.v:2316$464_Y
+11 1
+.names $flatten\U11.$or$pre_corpus/58260.v:2316$463_Y $flatten\U11.$and$pre_corpus/58260.v:2316$464_Y $flatten\U11.$or$pre_corpus/58260.v:2316$465_Y
+1- 1
+-1 1
+.names U11.X U11.Y $flatten\U11.$xor$pre_corpus/58260.v:2317$466_Y
+10 1
+01 1
+.names $flatten\U11.$xor$pre_corpus/58260.v:2317$466_Y U11.Z $flatten\U11.$xor$pre_corpus/58260.v:2317$467_Y
+10 1
+01 1
+.names U2.X U2.Y $flatten\U2.$and$pre_corpus/58260.v:2007$368_Y
+11 1
+.names U2.Y U2.Z $flatten\U2.$and$pre_corpus/58260.v:2007$369_Y
+11 1
+.names $flatten\U2.$and$pre_corpus/58260.v:2007$368_Y $flatten\U2.$and$pre_corpus/58260.v:2007$369_Y $flatten\U2.$or$pre_corpus/58260.v:2007$370_Y
+1- 1
+-1 1
+.names U2.Z U2.X $flatten\U2.$and$pre_corpus/58260.v:2007$371_Y
+11 1
+.names $flatten\U2.$or$pre_corpus/58260.v:2007$370_Y $flatten\U2.$and$pre_corpus/58260.v:2007$371_Y $flatten\U2.$or$pre_corpus/58260.v:2007$372_Y
+1- 1
+-1 1
+.names U2.X U2.Y $flatten\U2.$xor$pre_corpus/58260.v:2008$373_Y
+10 1
+01 1
+.names $flatten\U2.$xor$pre_corpus/58260.v:2008$373_Y U2.Z $flatten\U2.$xor$pre_corpus/58260.v:2008$374_Y
+10 1
+01 1
+.names U3.X U3.Y $flatten\U3.$and$pre_corpus/58260.v:2017$375_Y
+11 1
+.names U3.Y U3.Z $flatten\U3.$and$pre_corpus/58260.v:2017$376_Y
+11 1
+.names $flatten\U3.$and$pre_corpus/58260.v:2017$375_Y $flatten\U3.$and$pre_corpus/58260.v:2017$376_Y $flatten\U3.$or$pre_corpus/58260.v:2017$377_Y
+1- 1
+-1 1
+.names U3.Z U3.X $flatten\U3.$and$pre_corpus/58260.v:2017$378_Y
+11 1
+.names $flatten\U3.$or$pre_corpus/58260.v:2017$377_Y $flatten\U3.$and$pre_corpus/58260.v:2017$378_Y $flatten\U3.$or$pre_corpus/58260.v:2017$379_Y
+1- 1
+-1 1
+.names U3.X U3.Y $flatten\U3.$xor$pre_corpus/58260.v:2018$380_Y
+10 1
+01 1
+.names $flatten\U3.$xor$pre_corpus/58260.v:2018$380_Y U3.Z $flatten\U3.$xor$pre_corpus/58260.v:2018$381_Y
+10 1
+01 1
+.names U4.X U4.Y $flatten\U4.$and$pre_corpus/58260.v:2111$394_Y
+11 1
+.names U4.Y U4.Z $flatten\U4.$and$pre_corpus/58260.v:2111$395_Y
+11 1
+.names $flatten\U4.$and$pre_corpus/58260.v:2111$394_Y $flatten\U4.$and$pre_corpus/58260.v:2111$395_Y $flatten\U4.$or$pre_corpus/58260.v:2111$396_Y
+1- 1
+-1 1
+.names U4.Z U4.X $flatten\U4.$and$pre_corpus/58260.v:2111$397_Y
+11 1
+.names $flatten\U4.$or$pre_corpus/58260.v:2111$396_Y $flatten\U4.$and$pre_corpus/58260.v:2111$397_Y $flatten\U4.$or$pre_corpus/58260.v:2111$398_Y
+1- 1
+-1 1
+.names U4.X U4.Y $flatten\U4.$xor$pre_corpus/58260.v:2112$399_Y
+10 1
+01 1
+.names $flatten\U4.$xor$pre_corpus/58260.v:2112$399_Y U4.Z $flatten\U4.$xor$pre_corpus/58260.v:2112$400_Y
+10 1
+01 1
+.names U5.X U5.Y $flatten\U5.$and$pre_corpus/58260.v:2121$401_Y
+11 1
+.names U5.Y U5.Z $flatten\U5.$and$pre_corpus/58260.v:2121$402_Y
+11 1
+.names $flatten\U5.$and$pre_corpus/58260.v:2121$401_Y $flatten\U5.$and$pre_corpus/58260.v:2121$402_Y $flatten\U5.$or$pre_corpus/58260.v:2121$403_Y
+1- 1
+-1 1
+.names U5.Z U5.X $flatten\U5.$and$pre_corpus/58260.v:2121$404_Y
+11 1
+.names $flatten\U5.$or$pre_corpus/58260.v:2121$403_Y $flatten\U5.$and$pre_corpus/58260.v:2121$404_Y $flatten\U5.$or$pre_corpus/58260.v:2121$405_Y
+1- 1
+-1 1
+.names U5.X U5.Y $flatten\U5.$xor$pre_corpus/58260.v:2122$406_Y
+10 1
+01 1
+.names $flatten\U5.$xor$pre_corpus/58260.v:2122$406_Y U5.Z $flatten\U5.$xor$pre_corpus/58260.v:2122$407_Y
+10 1
+01 1
+.names U6.X U6.Y $flatten\U6.$and$pre_corpus/58260.v:2131$408_Y
+11 1
+.names U6.Y U6.Z $flatten\U6.$and$pre_corpus/58260.v:2131$409_Y
+11 1
+.names $flatten\U6.$and$pre_corpus/58260.v:2131$408_Y $flatten\U6.$and$pre_corpus/58260.v:2131$409_Y $flatten\U6.$or$pre_corpus/58260.v:2131$410_Y
+1- 1
+-1 1
+.names U6.Z U6.X $flatten\U6.$and$pre_corpus/58260.v:2131$411_Y
+11 1
+.names $flatten\U6.$or$pre_corpus/58260.v:2131$410_Y $flatten\U6.$and$pre_corpus/58260.v:2131$411_Y $flatten\U6.$or$pre_corpus/58260.v:2131$412_Y
+1- 1
+-1 1
+.names U6.X U6.Y $flatten\U6.$xor$pre_corpus/58260.v:2132$413_Y
+10 1
+01 1
+.names $flatten\U6.$xor$pre_corpus/58260.v:2132$413_Y U6.Z $flatten\U6.$xor$pre_corpus/58260.v:2132$414_Y
+10 1
+01 1
+.names U7.X U7.Y $flatten\U7.$and$pre_corpus/58260.v:2171$419_Y
+11 1
+.names U7.Y U7.Z $flatten\U7.$and$pre_corpus/58260.v:2171$420_Y
+11 1
+.names $flatten\U7.$and$pre_corpus/58260.v:2171$419_Y $flatten\U7.$and$pre_corpus/58260.v:2171$420_Y $flatten\U7.$or$pre_corpus/58260.v:2171$421_Y
+1- 1
+-1 1
+.names U7.Z U7.X $flatten\U7.$and$pre_corpus/58260.v:2171$422_Y
+11 1
+.names $flatten\U7.$or$pre_corpus/58260.v:2171$421_Y $flatten\U7.$and$pre_corpus/58260.v:2171$422_Y $flatten\U7.$or$pre_corpus/58260.v:2171$423_Y
+1- 1
+-1 1
+.names U7.X U7.Y $flatten\U7.$xor$pre_corpus/58260.v:2172$424_Y
+10 1
+01 1
+.names $flatten\U7.$xor$pre_corpus/58260.v:2172$424_Y U7.Z $flatten\U7.$xor$pre_corpus/58260.v:2172$425_Y
+10 1
+01 1
+.names U8.X U8.Y $flatten\U8.$and$pre_corpus/58260.v:2181$426_Y
+11 1
+.names U8.Y U8.Z $flatten\U8.$and$pre_corpus/58260.v:2181$427_Y
+11 1
+.names $flatten\U8.$and$pre_corpus/58260.v:2181$426_Y $flatten\U8.$and$pre_corpus/58260.v:2181$427_Y $flatten\U8.$or$pre_corpus/58260.v:2181$428_Y
+1- 1
+-1 1
+.names U8.Z U8.X $flatten\U8.$and$pre_corpus/58260.v:2181$429_Y
+11 1
+.names $flatten\U8.$or$pre_corpus/58260.v:2181$428_Y $flatten\U8.$and$pre_corpus/58260.v:2181$429_Y $flatten\U8.$or$pre_corpus/58260.v:2181$430_Y
+1- 1
+-1 1
+.names U8.X U8.Y $flatten\U8.$xor$pre_corpus/58260.v:2182$431_Y
+10 1
+01 1
+.names $flatten\U8.$xor$pre_corpus/58260.v:2182$431_Y U8.Z $flatten\U8.$xor$pre_corpus/58260.v:2182$432_Y
+10 1
+01 1
+.names U9.X U9.Y $flatten\U9.$and$pre_corpus/58260.v:2212$435_Y
+11 1
+.names U9.Y U9.Z $flatten\U9.$and$pre_corpus/58260.v:2212$436_Y
+11 1
+.names $flatten\U9.$and$pre_corpus/58260.v:2212$435_Y $flatten\U9.$and$pre_corpus/58260.v:2212$436_Y $flatten\U9.$or$pre_corpus/58260.v:2212$437_Y
+1- 1
+-1 1
+.names U9.Z U9.X $flatten\U9.$and$pre_corpus/58260.v:2212$438_Y
+11 1
+.names $flatten\U9.$or$pre_corpus/58260.v:2212$437_Y $flatten\U9.$and$pre_corpus/58260.v:2212$438_Y $flatten\U9.$or$pre_corpus/58260.v:2212$439_Y
+1- 1
+-1 1
+.names U9.X U9.Y $flatten\U9.$xor$pre_corpus/58260.v:2213$440_Y
+10 1
+01 1
+.names $flatten\U9.$xor$pre_corpus/58260.v:2213$440_Y U9.Z $flatten\U9.$xor$pre_corpus/58260.v:2213$441_Y
+10 1
+01 1
+.names $flatten\U0.$or$pre_corpus/58260.v:1957$354_Y U0.C
+1 1
+.names $flatten\U0.$xor$pre_corpus/58260.v:1958$356_Y U0.S
+1 1
+.names U0.C C[16]
+1 1
+.names U0.S S[15]
+1 1
+.names X[15] U0.X
+1 1
+.names Y[15] U0.Y
+1 1
+.names Z[15] U0.Z
+1 1
+.names $flatten\U1.$or$pre_corpus/58260.v:1997$365_Y U1.C
+1 1
+.names $flatten\U1.$xor$pre_corpus/58260.v:1998$367_Y U1.S
+1 1
+.names U1.C C[17]
+1 1
+.names U1.S S[16]
+1 1
+.names X[16] U1.X
+1 1
+.names Y[16] U1.Y
+1 1
+.names Z[16] U1.Z
+1 1
+.names $flatten\U2.$or$pre_corpus/58260.v:2007$372_Y U2.C
+1 1
+.names $flatten\U2.$xor$pre_corpus/58260.v:2008$374_Y U2.S
+1 1
+.names U2.C C[18]
+1 1
+.names U2.S S[17]
+1 1
+.names X[17] U2.X
+1 1
+.names Y[17] U2.Y
+1 1
+.names Z[17] U2.Z
+1 1
+.names $flatten\U3.$or$pre_corpus/58260.v:2017$379_Y U3.C
+1 1
+.names $flatten\U3.$xor$pre_corpus/58260.v:2018$381_Y U3.S
+1 1
+.names U3.C C[19]
+1 1
+.names U3.S S[18]
+1 1
+.names X[18] U3.X
+1 1
+.names Y[18] U3.Y
+1 1
+.names Z[18] U3.Z
+1 1
+.names $flatten\U4.$or$pre_corpus/58260.v:2111$398_Y U4.C
+1 1
+.names $flatten\U4.$xor$pre_corpus/58260.v:2112$400_Y U4.S
+1 1
+.names U4.C C[20]
+1 1
+.names U4.S S[19]
+1 1
+.names X[19] U4.X
+1 1
+.names Y[19] U4.Y
+1 1
+.names Z[19] U4.Z
+1 1
+.names $flatten\U5.$or$pre_corpus/58260.v:2121$405_Y U5.C
+1 1
+.names $flatten\U5.$xor$pre_corpus/58260.v:2122$407_Y U5.S
+1 1
+.names U5.C C[21]
+1 1
+.names U5.S S[20]
+1 1
+.names X[20] U5.X
+1 1
+.names Y[20] U5.Y
+1 1
+.names Z[20] U5.Z
+1 1
+.names $flatten\U6.$or$pre_corpus/58260.v:2131$412_Y U6.C
+1 1
+.names $flatten\U6.$xor$pre_corpus/58260.v:2132$414_Y U6.S
+1 1
+.names U6.C C[22]
+1 1
+.names U6.S S[21]
+1 1
+.names X[21] U6.X
+1 1
+.names Y[21] U6.Y
+1 1
+.names Z[21] U6.Z
+1 1
+.names $flatten\U7.$or$pre_corpus/58260.v:2171$423_Y U7.C
+1 1
+.names $flatten\U7.$xor$pre_corpus/58260.v:2172$425_Y U7.S
+1 1
+.names U7.C C[23]
+1 1
+.names U7.S S[22]
+1 1
+.names X[22] U7.X
+1 1
+.names Y[22] U7.Y
+1 1
+.names Z[22] U7.Z
+1 1
+.names $flatten\U8.$or$pre_corpus/58260.v:2181$430_Y U8.C
+1 1
+.names $flatten\U8.$xor$pre_corpus/58260.v:2182$432_Y U8.S
+1 1
+.names U8.C C[24]
+1 1
+.names U8.S S[23]
+1 1
+.names X[23] U8.X
+1 1
+.names Y[23] U8.Y
+1 1
+.names Z[23] U8.Z
+1 1
+.names $flatten\U9.$or$pre_corpus/58260.v:2212$439_Y U9.C
+1 1
+.names $flatten\U9.$xor$pre_corpus/58260.v:2213$441_Y U9.S
+1 1
+.names U9.C C[25]
+1 1
+.names U9.S S[24]
+1 1
+.names X[24] U9.X
+1 1
+.names Y[24] U9.Y
+1 1
+.names Z[24] U9.Z
+1 1
+.names $flatten\U10.$or$pre_corpus/58260.v:2306$458_Y U10.C
+1 1
+.names $flatten\U10.$xor$pre_corpus/58260.v:2307$460_Y U10.S
+1 1
+.names U10.C C[26]
+1 1
+.names U10.S S[25]
+1 1
+.names X[25] U10.X
+1 1
+.names Y[25] U10.Y
+1 1
+.names Z[25] U10.Z
+1 1
+.names $flatten\U11.$or$pre_corpus/58260.v:2316$465_Y U11.C
+1 1
+.names $flatten\U11.$xor$pre_corpus/58260.v:2317$467_Y U11.S
+1 1
+.names U11.C C[27]
+1 1
+.names U11.S S[26]
+1 1
+.names X[26] U11.X
+1 1
+.names Y[26] U11.Y
+1 1
+.names Z[26] U11.Z
+1 1
+.end
+

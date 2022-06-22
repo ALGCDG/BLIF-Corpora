@@ -1,0 +1,33 @@
+.model UBCON_11_8
+.inputs I[8] I[9] I[10] I[11]
+.outputs O[8] O[9] O[10] O[11]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.I U0.O
+1 1
+.names U0.O O[8]
+1 1
+.names I[8] U0.I
+1 1
+.names U1.I U1.O
+1 1
+.names U1.O O[9]
+1 1
+.names I[9] U1.I
+1 1
+.names U2.I U2.O
+1 1
+.names U2.O O[10]
+1 1
+.names I[10] U2.I
+1 1
+.names U3.I U3.O
+1 1
+.names U3.O O[11]
+1 1
+.names I[11] U3.I
+1 1
+.end
+

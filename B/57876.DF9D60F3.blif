@@ -1,0 +1,28 @@
+.model R4BEE_2
+.inputs I2 I1 I0
+.outputs O_ds O_d1 O_d0
+.names $false
+.names $true
+1
+.names $undef
+.names $xor$pre_corpus/57876.v:44$10_Y $not$pre_corpus/57876.v:44$11_Y
+0 1
+.names I1 I0 $xor$pre_corpus/57876.v:43$8_Y
+10 1
+01 1
+.names I2 I1 $xor$pre_corpus/57876.v:44$9_Y
+10 1
+01 1
+.names I1 I0 $xor$pre_corpus/57876.v:44$10_Y
+10 1
+01 1
+.names $xor$pre_corpus/57876.v:44$9_Y $not$pre_corpus/57876.v:44$11_Y $and$pre_corpus/57876.v:44$12_Y
+11 1
+.names $xor$pre_corpus/57876.v:43$8_Y O_d0
+1 1
+.names $and$pre_corpus/57876.v:44$12_Y O_d1
+1 1
+.names I2 O_ds
+1 1
+.end
+

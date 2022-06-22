@@ -1,0 +1,20 @@
+.model U4DPPG_1_1
+.inputs I U_d1 U_d0 Pi
+.outputs Po O
+.names $false
+.names $true
+1
+.names $undef
+.names I U_d0 $and$pre_corpus/58018.v:386$92_Y
+11 1
+.names $and$pre_corpus/58018.v:386$92_Y Pi $or$pre_corpus/58018.v:386$93_Y
+1- 1
+-1 1
+.names I U_d1 $and$pre_corpus/58018.v:387$94_Y
+11 1
+.names $or$pre_corpus/58018.v:386$93_Y O
+1 1
+.names $and$pre_corpus/58018.v:387$94_Y Po
+1 1
+.end
+

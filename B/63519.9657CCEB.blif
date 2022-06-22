@@ -1,0 +1,364 @@
+.model Pc
+.inputs clock reset id_shouldStall nextPc[0] nextPc[1] nextPc[2] nextPc[3] nextPc[4] nextPc[5] nextPc[6] nextPc[7] nextPc[8] nextPc[9] nextPc[10] nextPc[11] nextPc[12] nextPc[13] nextPc[14] nextPc[15] nextPc[16] nextPc[17] nextPc[18] nextPc[19] nextPc[20] nextPc[21] nextPc[22] nextPc[23] nextPc[24] nextPc[25] nextPc[26] nextPc[27] nextPc[28] nextPc[29] nextPc[30] nextPc[31]
+.outputs pc[0] pc[1] pc[2] pc[3] pc[4] pc[5] pc[6] pc[7] pc[8] pc[9] pc[10] pc[11] pc[12] pc[13] pc[14] pc[15] pc[16] pc[17] pc[18] pc[19] pc[20] pc[21] pc[22] pc[23] pc[24] pc[25] pc[26] pc[27] pc[28] pc[29] pc[30] pc[31]
+.names $false
+.names $true
+1
+.names $undef
+.latch $procmux$7_Y[0] pc[0] re clock 0
+.latch $procmux$7_Y[1] pc[1] re clock 0
+.latch $procmux$7_Y[2] pc[2] re clock 0
+.latch $procmux$7_Y[3] pc[3] re clock 0
+.latch $procmux$7_Y[4] pc[4] re clock 0
+.latch $procmux$7_Y[5] pc[5] re clock 0
+.latch $procmux$7_Y[6] pc[6] re clock 0
+.latch $procmux$7_Y[7] pc[7] re clock 0
+.latch $procmux$7_Y[8] pc[8] re clock 0
+.latch $procmux$7_Y[9] pc[9] re clock 0
+.latch $procmux$7_Y[10] pc[10] re clock 0
+.latch $procmux$7_Y[11] pc[11] re clock 0
+.latch $procmux$7_Y[12] pc[12] re clock 0
+.latch $procmux$7_Y[13] pc[13] re clock 0
+.latch $procmux$7_Y[14] pc[14] re clock 0
+.latch $procmux$7_Y[15] pc[15] re clock 0
+.latch $procmux$7_Y[16] pc[16] re clock 0
+.latch $procmux$7_Y[17] pc[17] re clock 0
+.latch $procmux$7_Y[18] pc[18] re clock 0
+.latch $procmux$7_Y[19] pc[19] re clock 0
+.latch $procmux$7_Y[20] pc[20] re clock 0
+.latch $procmux$7_Y[21] pc[21] re clock 0
+.latch $procmux$7_Y[22] pc[22] re clock 0
+.latch $procmux$7_Y[23] pc[23] re clock 0
+.latch $procmux$7_Y[24] pc[24] re clock 0
+.latch $procmux$7_Y[25] pc[25] re clock 0
+.latch $procmux$7_Y[26] pc[26] re clock 0
+.latch $procmux$7_Y[27] pc[27] re clock 0
+.latch $procmux$7_Y[28] pc[28] re clock 0
+.latch $procmux$7_Y[29] pc[29] re clock 0
+.latch $procmux$7_Y[30] pc[30] re clock 0
+.latch $procmux$7_Y[31] pc[31] re clock 0
+.names nextPc[17] pc[17] $procmux$5_CMP $procmux$4_Y[17]
+1-0 1
+-11 1
+.names nextPc[18] pc[18] $procmux$5_CMP $procmux$4_Y[18]
+1-0 1
+-11 1
+.names nextPc[19] pc[19] $procmux$5_CMP $procmux$4_Y[19]
+1-0 1
+-11 1
+.names nextPc[20] pc[20] $procmux$5_CMP $procmux$4_Y[20]
+1-0 1
+-11 1
+.names nextPc[21] pc[21] $procmux$5_CMP $procmux$4_Y[21]
+1-0 1
+-11 1
+.names nextPc[22] pc[22] $procmux$5_CMP $procmux$4_Y[22]
+1-0 1
+-11 1
+.names nextPc[23] pc[23] $procmux$5_CMP $procmux$4_Y[23]
+1-0 1
+-11 1
+.names nextPc[24] pc[24] $procmux$5_CMP $procmux$4_Y[24]
+1-0 1
+-11 1
+.names nextPc[25] pc[25] $procmux$5_CMP $procmux$4_Y[25]
+1-0 1
+-11 1
+.names nextPc[26] pc[26] $procmux$5_CMP $procmux$4_Y[26]
+1-0 1
+-11 1
+.names nextPc[27] pc[27] $procmux$5_CMP $procmux$4_Y[27]
+1-0 1
+-11 1
+.names nextPc[28] pc[28] $procmux$5_CMP $procmux$4_Y[28]
+1-0 1
+-11 1
+.names nextPc[29] pc[29] $procmux$5_CMP $procmux$4_Y[29]
+1-0 1
+-11 1
+.names nextPc[30] pc[30] $procmux$5_CMP $procmux$4_Y[30]
+1-0 1
+-11 1
+.names nextPc[31] pc[31] $procmux$5_CMP $procmux$4_Y[31]
+1-0 1
+-11 1
+.names $procmux$4_Y[0] $false $procmux$8_CMP $procmux$7_Y[0]
+1-0 1
+-11 1
+.names $procmux$4_Y[1] $false $procmux$8_CMP $procmux$7_Y[1]
+1-0 1
+-11 1
+.names $procmux$4_Y[2] $false $procmux$8_CMP $procmux$7_Y[2]
+1-0 1
+-11 1
+.names $procmux$4_Y[3] $false $procmux$8_CMP $procmux$7_Y[3]
+1-0 1
+-11 1
+.names $procmux$4_Y[4] $false $procmux$8_CMP $procmux$7_Y[4]
+1-0 1
+-11 1
+.names $procmux$4_Y[5] $false $procmux$8_CMP $procmux$7_Y[5]
+1-0 1
+-11 1
+.names $procmux$4_Y[6] $false $procmux$8_CMP $procmux$7_Y[6]
+1-0 1
+-11 1
+.names $procmux$4_Y[7] $false $procmux$8_CMP $procmux$7_Y[7]
+1-0 1
+-11 1
+.names $procmux$4_Y[8] $false $procmux$8_CMP $procmux$7_Y[8]
+1-0 1
+-11 1
+.names $procmux$4_Y[9] $false $procmux$8_CMP $procmux$7_Y[9]
+1-0 1
+-11 1
+.names $procmux$4_Y[10] $false $procmux$8_CMP $procmux$7_Y[10]
+1-0 1
+-11 1
+.names $procmux$4_Y[11] $false $procmux$8_CMP $procmux$7_Y[11]
+1-0 1
+-11 1
+.names $procmux$4_Y[12] $false $procmux$8_CMP $procmux$7_Y[12]
+1-0 1
+-11 1
+.names $procmux$4_Y[13] $false $procmux$8_CMP $procmux$7_Y[13]
+1-0 1
+-11 1
+.names $procmux$4_Y[14] $false $procmux$8_CMP $procmux$7_Y[14]
+1-0 1
+-11 1
+.names $procmux$4_Y[15] $false $procmux$8_CMP $procmux$7_Y[15]
+1-0 1
+-11 1
+.names $procmux$4_Y[16] $false $procmux$8_CMP $procmux$7_Y[16]
+1-0 1
+-11 1
+.names $procmux$4_Y[17] $false $procmux$8_CMP $procmux$7_Y[17]
+1-0 1
+-11 1
+.names $procmux$4_Y[18] $false $procmux$8_CMP $procmux$7_Y[18]
+1-0 1
+-11 1
+.names $procmux$4_Y[19] $false $procmux$8_CMP $procmux$7_Y[19]
+1-0 1
+-11 1
+.names $procmux$4_Y[20] $false $procmux$8_CMP $procmux$7_Y[20]
+1-0 1
+-11 1
+.names $procmux$4_Y[21] $false $procmux$8_CMP $procmux$7_Y[21]
+1-0 1
+-11 1
+.names $procmux$4_Y[22] $false $procmux$8_CMP $procmux$7_Y[22]
+1-0 1
+-11 1
+.names $procmux$4_Y[23] $false $procmux$8_CMP $procmux$7_Y[23]
+1-0 1
+-11 1
+.names $procmux$4_Y[24] $false $procmux$8_CMP $procmux$7_Y[24]
+1-0 1
+-11 1
+.names $procmux$4_Y[25] $false $procmux$8_CMP $procmux$7_Y[25]
+1-0 1
+-11 1
+.names $procmux$4_Y[26] $false $procmux$8_CMP $procmux$7_Y[26]
+1-0 1
+-11 1
+.names $procmux$4_Y[27] $false $procmux$8_CMP $procmux$7_Y[27]
+1-0 1
+-11 1
+.names $procmux$4_Y[28] $false $procmux$8_CMP $procmux$7_Y[28]
+1-0 1
+-11 1
+.names $procmux$4_Y[29] $false $procmux$8_CMP $procmux$7_Y[29]
+1-0 1
+-11 1
+.names $procmux$4_Y[30] $false $procmux$8_CMP $procmux$7_Y[30]
+1-0 1
+-11 1
+.names $procmux$4_Y[31] $false $procmux$8_CMP $procmux$7_Y[31]
+1-0 1
+-11 1
+.names nextPc[0] pc[0] $procmux$5_CMP $procmux$4_Y[0]
+1-0 1
+-11 1
+.names nextPc[1] pc[1] $procmux$5_CMP $procmux$4_Y[1]
+1-0 1
+-11 1
+.names nextPc[2] pc[2] $procmux$5_CMP $procmux$4_Y[2]
+1-0 1
+-11 1
+.names nextPc[3] pc[3] $procmux$5_CMP $procmux$4_Y[3]
+1-0 1
+-11 1
+.names nextPc[4] pc[4] $procmux$5_CMP $procmux$4_Y[4]
+1-0 1
+-11 1
+.names nextPc[5] pc[5] $procmux$5_CMP $procmux$4_Y[5]
+1-0 1
+-11 1
+.names nextPc[6] pc[6] $procmux$5_CMP $procmux$4_Y[6]
+1-0 1
+-11 1
+.names nextPc[7] pc[7] $procmux$5_CMP $procmux$4_Y[7]
+1-0 1
+-11 1
+.names nextPc[8] pc[8] $procmux$5_CMP $procmux$4_Y[8]
+1-0 1
+-11 1
+.names nextPc[9] pc[9] $procmux$5_CMP $procmux$4_Y[9]
+1-0 1
+-11 1
+.names nextPc[10] pc[10] $procmux$5_CMP $procmux$4_Y[10]
+1-0 1
+-11 1
+.names nextPc[11] pc[11] $procmux$5_CMP $procmux$4_Y[11]
+1-0 1
+-11 1
+.names nextPc[12] pc[12] $procmux$5_CMP $procmux$4_Y[12]
+1-0 1
+-11 1
+.names nextPc[13] pc[13] $procmux$5_CMP $procmux$4_Y[13]
+1-0 1
+-11 1
+.names nextPc[14] pc[14] $procmux$5_CMP $procmux$4_Y[14]
+1-0 1
+-11 1
+.names nextPc[15] pc[15] $procmux$5_CMP $procmux$4_Y[15]
+1-0 1
+-11 1
+.names nextPc[16] pc[16] $procmux$5_CMP $procmux$4_Y[16]
+1-0 1
+-11 1
+.names $false $1\pc[31:0][0]
+1 1
+.names $false $1\pc[31:0][1]
+1 1
+.names $false $1\pc[31:0][2]
+1 1
+.names $false $1\pc[31:0][3]
+1 1
+.names $false $1\pc[31:0][4]
+1 1
+.names $false $1\pc[31:0][5]
+1 1
+.names $false $1\pc[31:0][6]
+1 1
+.names $false $1\pc[31:0][7]
+1 1
+.names $false $1\pc[31:0][8]
+1 1
+.names $false $1\pc[31:0][9]
+1 1
+.names $false $1\pc[31:0][10]
+1 1
+.names $false $1\pc[31:0][11]
+1 1
+.names $false $1\pc[31:0][12]
+1 1
+.names $false $1\pc[31:0][13]
+1 1
+.names $false $1\pc[31:0][14]
+1 1
+.names $false $1\pc[31:0][15]
+1 1
+.names $false $1\pc[31:0][16]
+1 1
+.names $false $1\pc[31:0][17]
+1 1
+.names $false $1\pc[31:0][18]
+1 1
+.names $false $1\pc[31:0][19]
+1 1
+.names $false $1\pc[31:0][20]
+1 1
+.names $false $1\pc[31:0][21]
+1 1
+.names $false $1\pc[31:0][22]
+1 1
+.names $false $1\pc[31:0][23]
+1 1
+.names $false $1\pc[31:0][24]
+1 1
+.names $false $1\pc[31:0][25]
+1 1
+.names $false $1\pc[31:0][26]
+1 1
+.names $false $1\pc[31:0][27]
+1 1
+.names $false $1\pc[31:0][28]
+1 1
+.names $false $1\pc[31:0][29]
+1 1
+.names $false $1\pc[31:0][30]
+1 1
+.names $false $1\pc[31:0][31]
+1 1
+.names id_shouldStall $procmux$5_CMP
+1 1
+.names reset $procmux$8_CMP
+1 1
+.names $procmux$7_Y[0] $0\pc[31:0][0]
+1 1
+.names $procmux$7_Y[1] $0\pc[31:0][1]
+1 1
+.names $procmux$7_Y[2] $0\pc[31:0][2]
+1 1
+.names $procmux$7_Y[3] $0\pc[31:0][3]
+1 1
+.names $procmux$7_Y[4] $0\pc[31:0][4]
+1 1
+.names $procmux$7_Y[5] $0\pc[31:0][5]
+1 1
+.names $procmux$7_Y[6] $0\pc[31:0][6]
+1 1
+.names $procmux$7_Y[7] $0\pc[31:0][7]
+1 1
+.names $procmux$7_Y[8] $0\pc[31:0][8]
+1 1
+.names $procmux$7_Y[9] $0\pc[31:0][9]
+1 1
+.names $procmux$7_Y[10] $0\pc[31:0][10]
+1 1
+.names $procmux$7_Y[11] $0\pc[31:0][11]
+1 1
+.names $procmux$7_Y[12] $0\pc[31:0][12]
+1 1
+.names $procmux$7_Y[13] $0\pc[31:0][13]
+1 1
+.names $procmux$7_Y[14] $0\pc[31:0][14]
+1 1
+.names $procmux$7_Y[15] $0\pc[31:0][15]
+1 1
+.names $procmux$7_Y[16] $0\pc[31:0][16]
+1 1
+.names $procmux$7_Y[17] $0\pc[31:0][17]
+1 1
+.names $procmux$7_Y[18] $0\pc[31:0][18]
+1 1
+.names $procmux$7_Y[19] $0\pc[31:0][19]
+1 1
+.names $procmux$7_Y[20] $0\pc[31:0][20]
+1 1
+.names $procmux$7_Y[21] $0\pc[31:0][21]
+1 1
+.names $procmux$7_Y[22] $0\pc[31:0][22]
+1 1
+.names $procmux$7_Y[23] $0\pc[31:0][23]
+1 1
+.names $procmux$7_Y[24] $0\pc[31:0][24]
+1 1
+.names $procmux$7_Y[25] $0\pc[31:0][25]
+1 1
+.names $procmux$7_Y[26] $0\pc[31:0][26]
+1 1
+.names $procmux$7_Y[27] $0\pc[31:0][27]
+1 1
+.names $procmux$7_Y[28] $0\pc[31:0][28]
+1 1
+.names $procmux$7_Y[29] $0\pc[31:0][29]
+1 1
+.names $procmux$7_Y[30] $0\pc[31:0][30]
+1 1
+.names $procmux$7_Y[31] $0\pc[31:0][31]
+1 1
+.end

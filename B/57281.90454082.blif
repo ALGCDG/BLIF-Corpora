@@ -1,0 +1,20 @@
+.model U4DPPG_13_2
+.inputs I U_d1 U_d0 Pi
+.outputs Po O
+.names $false
+.names $true
+1
+.names $undef
+.names I U_d0 $and$pre_corpus/57281.v:730$194_Y
+11 1
+.names $and$pre_corpus/57281.v:730$194_Y Pi $or$pre_corpus/57281.v:730$195_Y
+1- 1
+-1 1
+.names I U_d1 $and$pre_corpus/57281.v:731$196_Y
+11 1
+.names $or$pre_corpus/57281.v:730$195_Y O
+1 1
+.names $and$pre_corpus/57281.v:731$196_Y Po
+1 1
+.end
+

@@ -1,0 +1,43 @@
+.model PureCSHA_11_10
+.inputs X[10] X[11] Y[10] Y[11]
+.outputs C[11] C[12] S[10] S[11]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.X U0.Y $flatten\U0.$and$pre_corpus/57297.v:2584$789_Y
+11 1
+.names U0.X U0.Y $flatten\U0.$xor$pre_corpus/57297.v:2585$790_Y
+10 1
+01 1
+.names U1.X U1.Y $flatten\U1.$and$pre_corpus/57297.v:2593$791_Y
+11 1
+.names U1.X U1.Y $flatten\U1.$xor$pre_corpus/57297.v:2594$792_Y
+10 1
+01 1
+.names $flatten\U0.$and$pre_corpus/57297.v:2584$789_Y U0.C
+1 1
+.names $flatten\U0.$xor$pre_corpus/57297.v:2585$790_Y U0.S
+1 1
+.names U0.C C[11]
+1 1
+.names U0.S S[10]
+1 1
+.names X[10] U0.X
+1 1
+.names Y[10] U0.Y
+1 1
+.names $flatten\U1.$and$pre_corpus/57297.v:2593$791_Y U1.C
+1 1
+.names $flatten\U1.$xor$pre_corpus/57297.v:2594$792_Y U1.S
+1 1
+.names U1.C C[12]
+1 1
+.names U1.S S[11]
+1 1
+.names X[11] U1.X
+1 1
+.names Y[11] U1.Y
+1 1
+.end
+

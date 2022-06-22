@@ -1,0 +1,128 @@
+.model UB7_3C9
+.inputs X1 X2 X3 X4 X5 X6 X7
+.outputs S1 S2 S3
+.names $false
+.names $true
+1
+.names $undef
+.names $and$pre_corpus/58197.v:2196$1018_Y $not$pre_corpus/58197.v:2196$1019_Y
+0 1
+.names $and$pre_corpus/58197.v:2196$1020_Y $not$pre_corpus/58197.v:2196$1021_Y
+0 1
+.names $and$pre_corpus/58197.v:2196$1023_Y $not$pre_corpus/58197.v:2196$1024_Y
+0 1
+.names $and$pre_corpus/58197.v:2196$1025_Y $not$pre_corpus/58197.v:2196$1026_Y
+0 1
+.names $and$pre_corpus/58197.v:2197$1029_Y $not$pre_corpus/58197.v:2197$1030_Y
+0 1
+.names $or$pre_corpus/58197.v:2197$1033_Y $not$pre_corpus/58197.v:2197$1034_Y
+0 1
+.names $and$pre_corpus/58197.v:2197$1035_Y $not$pre_corpus/58197.v:2197$1036_Y
+0 1
+.names $and$pre_corpus/58197.v:2198$1039_Y $not$pre_corpus/58197.v:2198$1040_Y
+0 1
+.names $and$pre_corpus/58197.v:2199$1041_Y $not$pre_corpus/58197.v:2199$1042_Y
+0 1
+.names $xor$pre_corpus/58197.v:2199$1043_Y $not$pre_corpus/58197.v:2199$1044_Y
+0 1
+.names $and$pre_corpus/58197.v:2201$1046_Y $not$pre_corpus/58197.v:2201$1047_Y
+0 1
+.names $xor$pre_corpus/58197.v:2201$1048_Y $not$pre_corpus/58197.v:2201$1049_Y
+0 1
+.names $and$pre_corpus/58197.v:2202$1050_Y $not$pre_corpus/58197.v:2202$1051_Y
+0 1
+.names $and$pre_corpus/58197.v:2202$1054_Y $not$pre_corpus/58197.v:2202$1055_Y
+0 1
+.names $and$pre_corpus/58197.v:2202$1056_Y $not$pre_corpus/58197.v:2202$1057_Y
+0 1
+.names X1 X2 $xor$pre_corpus/58197.v:2194$1013_Y
+10 1
+01 1
+.names $xor$pre_corpus/58197.v:2194$1013_Y X3 $xor$pre_corpus/58197.v:2194$1014_Y
+10 1
+01 1
+.names X4 X5 $xor$pre_corpus/58197.v:2195$1015_Y
+10 1
+01 1
+.names X6 X7 $xor$pre_corpus/58197.v:2195$1016_Y
+10 1
+01 1
+.names $xor$pre_corpus/58197.v:2195$1015_Y $xor$pre_corpus/58197.v:2195$1016_Y $xor$pre_corpus/58197.v:2195$1017_Y
+10 1
+01 1
+.names X1 X2 $and$pre_corpus/58197.v:2196$1018_Y
+11 1
+.names X1 X3 $and$pre_corpus/58197.v:2196$1020_Y
+11 1
+.names $not$pre_corpus/58197.v:2196$1019_Y $not$pre_corpus/58197.v:2196$1021_Y $and$pre_corpus/58197.v:2196$1022_Y
+11 1
+.names X2 X3 $and$pre_corpus/58197.v:2196$1023_Y
+11 1
+.names $and$pre_corpus/58197.v:2196$1022_Y $not$pre_corpus/58197.v:2196$1024_Y $and$pre_corpus/58197.v:2196$1025_Y
+11 1
+.names X4 X5 $or$pre_corpus/58197.v:2197$1027_Y
+1- 1
+-1 1
+.names X6 X7 $or$pre_corpus/58197.v:2197$1028_Y
+1- 1
+-1 1
+.names $or$pre_corpus/58197.v:2197$1027_Y $or$pre_corpus/58197.v:2197$1028_Y $and$pre_corpus/58197.v:2197$1029_Y
+11 1
+.names X4 X5 $and$pre_corpus/58197.v:2197$1031_Y
+11 1
+.names X6 X7 $and$pre_corpus/58197.v:2197$1032_Y
+11 1
+.names $and$pre_corpus/58197.v:2197$1031_Y $and$pre_corpus/58197.v:2197$1032_Y $or$pre_corpus/58197.v:2197$1033_Y
+1- 1
+-1 1
+.names $not$pre_corpus/58197.v:2197$1030_Y $not$pre_corpus/58197.v:2197$1034_Y $and$pre_corpus/58197.v:2197$1035_Y
+11 1
+.names X4 X5 $and$pre_corpus/58197.v:2198$1037_Y
+11 1
+.names $and$pre_corpus/58197.v:2198$1037_Y X6 $and$pre_corpus/58197.v:2198$1038_Y
+11 1
+.names $and$pre_corpus/58197.v:2198$1038_Y X7 $and$pre_corpus/58197.v:2198$1039_Y
+11 1
+.names W4 W5 $and$pre_corpus/58197.v:2199$1041_Y
+11 1
+.names $not$pre_corpus/58197.v:2199$1042_Y W3 $xor$pre_corpus/58197.v:2199$1043_Y
+10 1
+01 1
+.names W1 W2 $xor$pre_corpus/58197.v:2200$1045_Y
+10 1
+01 1
+.names W1 W2 $and$pre_corpus/58197.v:2201$1046_Y
+11 1
+.names W6 $not$pre_corpus/58197.v:2201$1047_Y $xor$pre_corpus/58197.v:2201$1048_Y
+10 1
+01 1
+.names W3 W4 $and$pre_corpus/58197.v:2202$1050_Y
+11 1
+.names W5 $not$pre_corpus/58197.v:2202$1051_Y $and$pre_corpus/58197.v:2202$1052_Y
+11 1
+.names W1 W2 $and$pre_corpus/58197.v:2202$1053_Y
+11 1
+.names $and$pre_corpus/58197.v:2202$1053_Y W6 $and$pre_corpus/58197.v:2202$1054_Y
+11 1
+.names $and$pre_corpus/58197.v:2202$1052_Y $not$pre_corpus/58197.v:2202$1055_Y $and$pre_corpus/58197.v:2202$1056_Y
+11 1
+.names $xor$pre_corpus/58197.v:2194$1014_Y W1
+1 1
+.names $xor$pre_corpus/58197.v:2195$1017_Y W2
+1 1
+.names $not$pre_corpus/58197.v:2196$1026_Y W3
+1 1
+.names $not$pre_corpus/58197.v:2197$1036_Y W4
+1 1
+.names $not$pre_corpus/58197.v:2198$1040_Y W5
+1 1
+.names $not$pre_corpus/58197.v:2199$1044_Y W6
+1 1
+.names $xor$pre_corpus/58197.v:2200$1045_Y S3
+1 1
+.names $not$pre_corpus/58197.v:2201$1049_Y S2
+1 1
+.names $not$pre_corpus/58197.v:2202$1057_Y S1
+1 1
+.end
+

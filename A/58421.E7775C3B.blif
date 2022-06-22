@@ -1,0 +1,169 @@
+.model UBVPPG_15_0_14
+.inputs IN1[0] IN1[1] IN1[2] IN1[3] IN1[4] IN1[5] IN1[6] IN1[7] IN1[8] IN1[9] IN1[10] IN1[11] IN1[12] IN1[13] IN1[14] IN1[15] IN2
+.outputs O[14] O[15] O[16] O[17] O[18] O[19] O[20] O[21] O[22] O[23] O[24] O[25] O[26] O[27] O[28] O[29]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.IN1 U0.IN2 $flatten\U0.$and$pre_corpus/58421.v:1586$225_Y
+11 1
+.names U1.IN1 U1.IN2 $flatten\U1.$and$pre_corpus/58421.v:1593$226_Y
+11 1
+.names U10.IN1 U10.IN2 $flatten\U10.$and$pre_corpus/58421.v:1656$235_Y
+11 1
+.names U11.IN1 U11.IN2 $flatten\U11.$and$pre_corpus/58421.v:1663$236_Y
+11 1
+.names U12.IN1 U12.IN2 $flatten\U12.$and$pre_corpus/58421.v:1670$237_Y
+11 1
+.names U13.IN1 U13.IN2 $flatten\U13.$and$pre_corpus/58421.v:1677$238_Y
+11 1
+.names U14.IN1 U14.IN2 $flatten\U14.$and$pre_corpus/58421.v:1684$239_Y
+11 1
+.names U15.IN1 U15.IN2 $flatten\U15.$and$pre_corpus/58421.v:1691$240_Y
+11 1
+.names U2.IN1 U2.IN2 $flatten\U2.$and$pre_corpus/58421.v:1600$227_Y
+11 1
+.names U3.IN1 U3.IN2 $flatten\U3.$and$pre_corpus/58421.v:1607$228_Y
+11 1
+.names U4.IN1 U4.IN2 $flatten\U4.$and$pre_corpus/58421.v:1614$229_Y
+11 1
+.names U5.IN1 U5.IN2 $flatten\U5.$and$pre_corpus/58421.v:1621$230_Y
+11 1
+.names U6.IN1 U6.IN2 $flatten\U6.$and$pre_corpus/58421.v:1628$231_Y
+11 1
+.names U7.IN1 U7.IN2 $flatten\U7.$and$pre_corpus/58421.v:1635$232_Y
+11 1
+.names U8.IN1 U8.IN2 $flatten\U8.$and$pre_corpus/58421.v:1642$233_Y
+11 1
+.names U9.IN1 U9.IN2 $flatten\U9.$and$pre_corpus/58421.v:1649$234_Y
+11 1
+.names $flatten\U0.$and$pre_corpus/58421.v:1586$225_Y U0.O
+1 1
+.names U0.O O[14]
+1 1
+.names IN1[0] U0.IN1
+1 1
+.names IN2 U0.IN2
+1 1
+.names $flatten\U1.$and$pre_corpus/58421.v:1593$226_Y U1.O
+1 1
+.names U1.O O[15]
+1 1
+.names IN1[1] U1.IN1
+1 1
+.names IN2 U1.IN2
+1 1
+.names $flatten\U2.$and$pre_corpus/58421.v:1600$227_Y U2.O
+1 1
+.names U2.O O[16]
+1 1
+.names IN1[2] U2.IN1
+1 1
+.names IN2 U2.IN2
+1 1
+.names $flatten\U3.$and$pre_corpus/58421.v:1607$228_Y U3.O
+1 1
+.names U3.O O[17]
+1 1
+.names IN1[3] U3.IN1
+1 1
+.names IN2 U3.IN2
+1 1
+.names $flatten\U4.$and$pre_corpus/58421.v:1614$229_Y U4.O
+1 1
+.names U4.O O[18]
+1 1
+.names IN1[4] U4.IN1
+1 1
+.names IN2 U4.IN2
+1 1
+.names $flatten\U5.$and$pre_corpus/58421.v:1621$230_Y U5.O
+1 1
+.names U5.O O[19]
+1 1
+.names IN1[5] U5.IN1
+1 1
+.names IN2 U5.IN2
+1 1
+.names $flatten\U6.$and$pre_corpus/58421.v:1628$231_Y U6.O
+1 1
+.names U6.O O[20]
+1 1
+.names IN1[6] U6.IN1
+1 1
+.names IN2 U6.IN2
+1 1
+.names $flatten\U7.$and$pre_corpus/58421.v:1635$232_Y U7.O
+1 1
+.names U7.O O[21]
+1 1
+.names IN1[7] U7.IN1
+1 1
+.names IN2 U7.IN2
+1 1
+.names $flatten\U8.$and$pre_corpus/58421.v:1642$233_Y U8.O
+1 1
+.names U8.O O[22]
+1 1
+.names IN1[8] U8.IN1
+1 1
+.names IN2 U8.IN2
+1 1
+.names $flatten\U9.$and$pre_corpus/58421.v:1649$234_Y U9.O
+1 1
+.names U9.O O[23]
+1 1
+.names IN1[9] U9.IN1
+1 1
+.names IN2 U9.IN2
+1 1
+.names $flatten\U10.$and$pre_corpus/58421.v:1656$235_Y U10.O
+1 1
+.names U10.O O[24]
+1 1
+.names IN1[10] U10.IN1
+1 1
+.names IN2 U10.IN2
+1 1
+.names $flatten\U11.$and$pre_corpus/58421.v:1663$236_Y U11.O
+1 1
+.names U11.O O[25]
+1 1
+.names IN1[11] U11.IN1
+1 1
+.names IN2 U11.IN2
+1 1
+.names $flatten\U12.$and$pre_corpus/58421.v:1670$237_Y U12.O
+1 1
+.names U12.O O[26]
+1 1
+.names IN1[12] U12.IN1
+1 1
+.names IN2 U12.IN2
+1 1
+.names $flatten\U13.$and$pre_corpus/58421.v:1677$238_Y U13.O
+1 1
+.names U13.O O[27]
+1 1
+.names IN1[13] U13.IN1
+1 1
+.names IN2 U13.IN2
+1 1
+.names $flatten\U14.$and$pre_corpus/58421.v:1684$239_Y U14.O
+1 1
+.names U14.O O[28]
+1 1
+.names IN1[14] U14.IN1
+1 1
+.names IN2 U14.IN2
+1 1
+.names $flatten\U15.$and$pre_corpus/58421.v:1691$240_Y U15.O
+1 1
+.names U15.O O[29]
+1 1
+.names IN1[15] U15.IN1
+1 1
+.names IN2 U15.IN2
+1 1
+.end
+

@@ -1,0 +1,60 @@
+.model PureCSHA_4_2
+.inputs X[2] X[3] X[4] Y[2] Y[3] Y[4]
+.outputs C[3] C[4] C[5] S[2] S[3] S[4]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.X U0.Y $flatten\U0.$and$pre_corpus/59265.v:2137$384_Y
+11 1
+.names U0.X U0.Y $flatten\U0.$xor$pre_corpus/59265.v:2138$385_Y
+10 1
+01 1
+.names U1.X U1.Y $flatten\U1.$and$pre_corpus/59265.v:2146$386_Y
+11 1
+.names U1.X U1.Y $flatten\U1.$xor$pre_corpus/59265.v:2147$387_Y
+10 1
+01 1
+.names U2.X U2.Y $flatten\U2.$and$pre_corpus/59265.v:2083$359_Y
+11 1
+.names U2.X U2.Y $flatten\U2.$xor$pre_corpus/59265.v:2084$360_Y
+10 1
+01 1
+.names $flatten\U0.$and$pre_corpus/59265.v:2137$384_Y U0.C
+1 1
+.names $flatten\U0.$xor$pre_corpus/59265.v:2138$385_Y U0.S
+1 1
+.names U0.C C[3]
+1 1
+.names U0.S S[2]
+1 1
+.names X[2] U0.X
+1 1
+.names Y[2] U0.Y
+1 1
+.names $flatten\U1.$and$pre_corpus/59265.v:2146$386_Y U1.C
+1 1
+.names $flatten\U1.$xor$pre_corpus/59265.v:2147$387_Y U1.S
+1 1
+.names U1.C C[4]
+1 1
+.names U1.S S[3]
+1 1
+.names X[3] U1.X
+1 1
+.names Y[3] U1.Y
+1 1
+.names $flatten\U2.$and$pre_corpus/59265.v:2083$359_Y U2.C
+1 1
+.names $flatten\U2.$xor$pre_corpus/59265.v:2084$360_Y U2.S
+1 1
+.names U2.C C[5]
+1 1
+.names U2.S S[4]
+1 1
+.names X[4] U2.X
+1 1
+.names Y[4] U2.Y
+1 1
+.end
+

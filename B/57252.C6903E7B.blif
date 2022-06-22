@@ -1,0 +1,41 @@
+.model UBHCSuB_0_0
+.inputs X Y Ci
+.outputs C S
+.names $false
+.names $true
+1
+.names $undef
+.names U0.X U0.Y $flatten\U0.$and$pre_corpus/57252.v:2414$678_Y
+11 1
+.names U0.Y U0.Z $flatten\U0.$and$pre_corpus/57252.v:2414$679_Y
+11 1
+.names $flatten\U0.$and$pre_corpus/57252.v:2414$678_Y $flatten\U0.$and$pre_corpus/57252.v:2414$679_Y $flatten\U0.$or$pre_corpus/57252.v:2414$680_Y
+1- 1
+-1 1
+.names U0.Z U0.X $flatten\U0.$and$pre_corpus/57252.v:2414$681_Y
+11 1
+.names $flatten\U0.$or$pre_corpus/57252.v:2414$680_Y $flatten\U0.$and$pre_corpus/57252.v:2414$681_Y $flatten\U0.$or$pre_corpus/57252.v:2414$682_Y
+1- 1
+-1 1
+.names U0.X U0.Y $flatten\U0.$xor$pre_corpus/57252.v:2415$683_Y
+10 1
+01 1
+.names $flatten\U0.$xor$pre_corpus/57252.v:2415$683_Y U0.Z $flatten\U0.$xor$pre_corpus/57252.v:2415$684_Y
+10 1
+01 1
+.names $flatten\U0.$or$pre_corpus/57252.v:2414$682_Y U0.C
+1 1
+.names $flatten\U0.$xor$pre_corpus/57252.v:2415$684_Y U0.S
+1 1
+.names U0.C C
+1 1
+.names U0.S S
+1 1
+.names X U0.X
+1 1
+.names Y U0.Y
+1 1
+.names Ci U0.Z
+1 1
+.end
+

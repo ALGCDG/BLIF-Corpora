@@ -1,0 +1,3165 @@
+.model UBCSe_31_4_31_0
+.inputs X[4] X[5] X[6] X[7] X[8] X[9] X[10] X[11] X[12] X[13] X[14] X[15] X[16] X[17] X[18] X[19] X[20] X[21] X[22] X[23] X[24] X[25] X[26] X[27] X[28] X[29] X[30] X[31] Y[0] Y[1] Y[2] Y[3] Y[4] Y[5] Y[6] Y[7] Y[8] Y[9] Y[10] Y[11] Y[12] Y[13] Y[14] Y[15] Y[16] Y[17] Y[18] Y[19] Y[20] Y[21] Y[22] Y[23] Y[24] Y[25] Y[26] Y[27] Y[28] Y[29] Y[30] Y[31]
+.outputs S[0] S[1] S[2] S[3] S[4] S[5] S[6] S[7] S[8] S[9] S[10] S[11] S[12] S[13] S[14] S[15] S[16] S[17] S[18] S[19] S[20] S[21] S[22] S[23] S[24] S[25] S[26] S[27] S[28] S[29] S[30] S[31] S[32]
+.names $false
+.names $true
+1
+.names $undef
+.names U0.U0.U0.U0.X U0.U0.U0.U0.Y $flatten\U0.\U0.\U0.\U0.$and$pre_corpus/59093.v:1847$273_Y
+11 1
+.names U0.U0.U0.U0.Y U0.U0.U0.U0.Z $flatten\U0.\U0.\U0.\U0.$and$pre_corpus/59093.v:1847$274_Y
+11 1
+.names $flatten\U0.\U0.\U0.\U0.$and$pre_corpus/59093.v:1847$273_Y $flatten\U0.\U0.\U0.\U0.$and$pre_corpus/59093.v:1847$274_Y $flatten\U0.\U0.\U0.\U0.$or$pre_corpus/59093.v:1847$275_Y
+1- 1
+-1 1
+.names U0.U0.U0.U0.Z U0.U0.U0.U0.X $flatten\U0.\U0.\U0.\U0.$and$pre_corpus/59093.v:1847$276_Y
+11 1
+.names $flatten\U0.\U0.\U0.\U0.$or$pre_corpus/59093.v:1847$275_Y $flatten\U0.\U0.\U0.\U0.$and$pre_corpus/59093.v:1847$276_Y $flatten\U0.\U0.\U0.\U0.$or$pre_corpus/59093.v:1847$277_Y
+1- 1
+-1 1
+.names U0.U0.U0.U0.X U0.U0.U0.U0.Y $flatten\U0.\U0.\U0.\U0.$xor$pre_corpus/59093.v:1848$278_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U0.\U0.$xor$pre_corpus/59093.v:1848$278_Y U0.U0.U0.U0.Z $flatten\U0.\U0.\U0.\U0.$xor$pre_corpus/59093.v:1848$279_Y
+10 1
+01 1
+.names U0.U0.U1.Ci $flatten\U0.\U0.\U1.$not$pre_corpus/59093.v:2543$507_Y
+0 1
+.names U0.U0.U1.Ci $flatten\U0.\U0.\U1.$not$pre_corpus/59093.v:2544$511_Y
+0 1
+.names U0.U0.U1.S_0 $flatten\U0.\U0.\U1.$not$pre_corpus/59093.v:2543$507_Y $flatten\U0.\U0.\U1.$and$pre_corpus/59093.v:2543$508_Y
+11 1
+.names U0.U0.U1.S_1 U0.U0.U1.Ci $flatten\U0.\U0.\U1.$and$pre_corpus/59093.v:2543$509_Y
+11 1
+.names $flatten\U0.\U0.\U1.$and$pre_corpus/59093.v:2543$508_Y $flatten\U0.\U0.\U1.$and$pre_corpus/59093.v:2543$509_Y $flatten\U0.\U0.\U1.$or$pre_corpus/59093.v:2543$510_Y
+1- 1
+-1 1
+.names U0.U0.U1.Co_0 $flatten\U0.\U0.\U1.$not$pre_corpus/59093.v:2544$511_Y $flatten\U0.\U0.\U1.$and$pre_corpus/59093.v:2544$512_Y
+11 1
+.names U0.U0.U1.Co_1 U0.U0.U1.Ci $flatten\U0.\U0.\U1.$and$pre_corpus/59093.v:2544$513_Y
+11 1
+.names $flatten\U0.\U0.\U1.$and$pre_corpus/59093.v:2544$512_Y $flatten\U0.\U0.\U1.$and$pre_corpus/59093.v:2544$513_Y $flatten\U0.\U0.\U1.$or$pre_corpus/59093.v:2544$514_Y
+1- 1
+-1 1
+.names U0.U0.U1.U2.U0.X U0.U0.U1.U2.U0.Y $flatten\U0.\U0.\U1.\U2.\U0.$and$pre_corpus/59093.v:1857$280_Y
+11 1
+.names U0.U0.U1.U2.U0.Y U0.U0.U1.U2.U0.Z $flatten\U0.\U0.\U1.\U2.\U0.$and$pre_corpus/59093.v:1857$281_Y
+11 1
+.names $flatten\U0.\U0.\U1.\U2.\U0.$and$pre_corpus/59093.v:1857$280_Y $flatten\U0.\U0.\U1.\U2.\U0.$and$pre_corpus/59093.v:1857$281_Y $flatten\U0.\U0.\U1.\U2.\U0.$or$pre_corpus/59093.v:1857$282_Y
+1- 1
+-1 1
+.names U0.U0.U1.U2.U0.Z U0.U0.U1.U2.U0.X $flatten\U0.\U0.\U1.\U2.\U0.$and$pre_corpus/59093.v:1857$283_Y
+11 1
+.names $flatten\U0.\U0.\U1.\U2.\U0.$or$pre_corpus/59093.v:1857$282_Y $flatten\U0.\U0.\U1.\U2.\U0.$and$pre_corpus/59093.v:1857$283_Y $flatten\U0.\U0.\U1.\U2.\U0.$or$pre_corpus/59093.v:1857$284_Y
+1- 1
+-1 1
+.names U0.U0.U1.U2.U0.X U0.U0.U1.U2.U0.Y $flatten\U0.\U0.\U1.\U2.\U0.$xor$pre_corpus/59093.v:1858$285_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U1.\U2.\U0.$xor$pre_corpus/59093.v:1858$285_Y U0.U0.U1.U2.U0.Z $flatten\U0.\U0.\U1.\U2.\U0.$xor$pre_corpus/59093.v:1858$286_Y
+10 1
+01 1
+.names U0.U0.U1.U3.U0.X U0.U0.U1.U3.U0.Y $flatten\U0.\U0.\U1.\U3.\U0.$and$pre_corpus/59093.v:1857$280_Y
+11 1
+.names U0.U0.U1.U3.U0.Y U0.U0.U1.U3.U0.Z $flatten\U0.\U0.\U1.\U3.\U0.$and$pre_corpus/59093.v:1857$281_Y
+11 1
+.names $flatten\U0.\U0.\U1.\U3.\U0.$and$pre_corpus/59093.v:1857$280_Y $flatten\U0.\U0.\U1.\U3.\U0.$and$pre_corpus/59093.v:1857$281_Y $flatten\U0.\U0.\U1.\U3.\U0.$or$pre_corpus/59093.v:1857$282_Y
+1- 1
+-1 1
+.names U0.U0.U1.U3.U0.Z U0.U0.U1.U3.U0.X $flatten\U0.\U0.\U1.\U3.\U0.$and$pre_corpus/59093.v:1857$283_Y
+11 1
+.names $flatten\U0.\U0.\U1.\U3.\U0.$or$pre_corpus/59093.v:1857$282_Y $flatten\U0.\U0.\U1.\U3.\U0.$and$pre_corpus/59093.v:1857$283_Y $flatten\U0.\U0.\U1.\U3.\U0.$or$pre_corpus/59093.v:1857$284_Y
+1- 1
+-1 1
+.names U0.U0.U1.U3.U0.X U0.U0.U1.U3.U0.Y $flatten\U0.\U0.\U1.\U3.\U0.$xor$pre_corpus/59093.v:1858$285_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U1.\U3.\U0.$xor$pre_corpus/59093.v:1858$285_Y U0.U0.U1.U3.U0.Z $flatten\U0.\U0.\U1.\U3.\U0.$xor$pre_corpus/59093.v:1858$286_Y
+10 1
+01 1
+.names U0.U0.U2.Ci $flatten\U0.\U0.\U2.$not$pre_corpus/59093.v:2573$515_Y
+0 1
+.names U0.U0.U2.Ci $flatten\U0.\U0.\U2.$not$pre_corpus/59093.v:2574$519_Y
+0 1
+.names U0.U0.U2.Ci $flatten\U0.\U0.\U2.$not$pre_corpus/59093.v:2575$523_Y
+0 1
+.names U0.U0.U2.S_0[6] $flatten\U0.\U0.\U2.$not$pre_corpus/59093.v:2573$515_Y $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2573$516_Y
+11 1
+.names U0.U0.U2.S_1[6] U0.U0.U2.Ci $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2573$517_Y
+11 1
+.names $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2573$516_Y $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2573$517_Y $flatten\U0.\U0.\U2.$or$pre_corpus/59093.v:2573$518_Y
+1- 1
+-1 1
+.names U0.U0.U2.S_0[7] $flatten\U0.\U0.\U2.$not$pre_corpus/59093.v:2574$519_Y $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2574$520_Y
+11 1
+.names U0.U0.U2.S_1[7] U0.U0.U2.Ci $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2574$521_Y
+11 1
+.names $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2574$520_Y $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2574$521_Y $flatten\U0.\U0.\U2.$or$pre_corpus/59093.v:2574$522_Y
+1- 1
+-1 1
+.names U0.U0.U2.Co_0 $flatten\U0.\U0.\U2.$not$pre_corpus/59093.v:2575$523_Y $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2575$524_Y
+11 1
+.names U0.U0.U2.Co_1 U0.U0.U2.Ci $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2575$525_Y
+11 1
+.names $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2575$524_Y $flatten\U0.\U0.\U2.$and$pre_corpus/59093.v:2575$525_Y $flatten\U0.\U0.\U2.$or$pre_corpus/59093.v:2575$526_Y
+1- 1
+-1 1
+.names U0.U0.U2.U2.U0.X U0.U0.U2.U2.U0.Y $flatten\U0.\U0.\U2.\U2.\U0.$and$pre_corpus/59093.v:1867$287_Y
+11 1
+.names U0.U0.U2.U2.U0.Y U0.U0.U2.U2.U0.Z $flatten\U0.\U0.\U2.\U2.\U0.$and$pre_corpus/59093.v:1867$288_Y
+11 1
+.names $flatten\U0.\U0.\U2.\U2.\U0.$and$pre_corpus/59093.v:1867$287_Y $flatten\U0.\U0.\U2.\U2.\U0.$and$pre_corpus/59093.v:1867$288_Y $flatten\U0.\U0.\U2.\U2.\U0.$or$pre_corpus/59093.v:1867$289_Y
+1- 1
+-1 1
+.names U0.U0.U2.U2.U0.Z U0.U0.U2.U2.U0.X $flatten\U0.\U0.\U2.\U2.\U0.$and$pre_corpus/59093.v:1867$290_Y
+11 1
+.names $flatten\U0.\U0.\U2.\U2.\U0.$or$pre_corpus/59093.v:1867$289_Y $flatten\U0.\U0.\U2.\U2.\U0.$and$pre_corpus/59093.v:1867$290_Y $flatten\U0.\U0.\U2.\U2.\U0.$or$pre_corpus/59093.v:1867$291_Y
+1- 1
+-1 1
+.names U0.U0.U2.U2.U0.X U0.U0.U2.U2.U0.Y $flatten\U0.\U0.\U2.\U2.\U0.$xor$pre_corpus/59093.v:1868$292_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U2.\U2.\U0.$xor$pre_corpus/59093.v:1868$292_Y U0.U0.U2.U2.U0.Z $flatten\U0.\U0.\U2.\U2.\U0.$xor$pre_corpus/59093.v:1868$293_Y
+10 1
+01 1
+.names U0.U0.U2.U2.U1.X U0.U0.U2.U2.U1.Y $flatten\U0.\U0.\U2.\U2.\U1.$and$pre_corpus/59093.v:1877$294_Y
+11 1
+.names U0.U0.U2.U2.U1.Y U0.U0.U2.U2.U1.Z $flatten\U0.\U0.\U2.\U2.\U1.$and$pre_corpus/59093.v:1877$295_Y
+11 1
+.names $flatten\U0.\U0.\U2.\U2.\U1.$and$pre_corpus/59093.v:1877$294_Y $flatten\U0.\U0.\U2.\U2.\U1.$and$pre_corpus/59093.v:1877$295_Y $flatten\U0.\U0.\U2.\U2.\U1.$or$pre_corpus/59093.v:1877$296_Y
+1- 1
+-1 1
+.names U0.U0.U2.U2.U1.Z U0.U0.U2.U2.U1.X $flatten\U0.\U0.\U2.\U2.\U1.$and$pre_corpus/59093.v:1877$297_Y
+11 1
+.names $flatten\U0.\U0.\U2.\U2.\U1.$or$pre_corpus/59093.v:1877$296_Y $flatten\U0.\U0.\U2.\U2.\U1.$and$pre_corpus/59093.v:1877$297_Y $flatten\U0.\U0.\U2.\U2.\U1.$or$pre_corpus/59093.v:1877$298_Y
+1- 1
+-1 1
+.names U0.U0.U2.U2.U1.X U0.U0.U2.U2.U1.Y $flatten\U0.\U0.\U2.\U2.\U1.$xor$pre_corpus/59093.v:1878$299_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U2.\U2.\U1.$xor$pre_corpus/59093.v:1878$299_Y U0.U0.U2.U2.U1.Z $flatten\U0.\U0.\U2.\U2.\U1.$xor$pre_corpus/59093.v:1878$300_Y
+10 1
+01 1
+.names U0.U0.U2.U3.U0.X U0.U0.U2.U3.U0.Y $flatten\U0.\U0.\U2.\U3.\U0.$and$pre_corpus/59093.v:1867$287_Y
+11 1
+.names U0.U0.U2.U3.U0.Y U0.U0.U2.U3.U0.Z $flatten\U0.\U0.\U2.\U3.\U0.$and$pre_corpus/59093.v:1867$288_Y
+11 1
+.names $flatten\U0.\U0.\U2.\U3.\U0.$and$pre_corpus/59093.v:1867$287_Y $flatten\U0.\U0.\U2.\U3.\U0.$and$pre_corpus/59093.v:1867$288_Y $flatten\U0.\U0.\U2.\U3.\U0.$or$pre_corpus/59093.v:1867$289_Y
+1- 1
+-1 1
+.names U0.U0.U2.U3.U0.Z U0.U0.U2.U3.U0.X $flatten\U0.\U0.\U2.\U3.\U0.$and$pre_corpus/59093.v:1867$290_Y
+11 1
+.names $flatten\U0.\U0.\U2.\U3.\U0.$or$pre_corpus/59093.v:1867$289_Y $flatten\U0.\U0.\U2.\U3.\U0.$and$pre_corpus/59093.v:1867$290_Y $flatten\U0.\U0.\U2.\U3.\U0.$or$pre_corpus/59093.v:1867$291_Y
+1- 1
+-1 1
+.names U0.U0.U2.U3.U0.X U0.U0.U2.U3.U0.Y $flatten\U0.\U0.\U2.\U3.\U0.$xor$pre_corpus/59093.v:1868$292_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U2.\U3.\U0.$xor$pre_corpus/59093.v:1868$292_Y U0.U0.U2.U3.U0.Z $flatten\U0.\U0.\U2.\U3.\U0.$xor$pre_corpus/59093.v:1868$293_Y
+10 1
+01 1
+.names U0.U0.U2.U3.U1.X U0.U0.U2.U3.U1.Y $flatten\U0.\U0.\U2.\U3.\U1.$and$pre_corpus/59093.v:1877$294_Y
+11 1
+.names U0.U0.U2.U3.U1.Y U0.U0.U2.U3.U1.Z $flatten\U0.\U0.\U2.\U3.\U1.$and$pre_corpus/59093.v:1877$295_Y
+11 1
+.names $flatten\U0.\U0.\U2.\U3.\U1.$and$pre_corpus/59093.v:1877$294_Y $flatten\U0.\U0.\U2.\U3.\U1.$and$pre_corpus/59093.v:1877$295_Y $flatten\U0.\U0.\U2.\U3.\U1.$or$pre_corpus/59093.v:1877$296_Y
+1- 1
+-1 1
+.names U0.U0.U2.U3.U1.Z U0.U0.U2.U3.U1.X $flatten\U0.\U0.\U2.\U3.\U1.$and$pre_corpus/59093.v:1877$297_Y
+11 1
+.names $flatten\U0.\U0.\U2.\U3.\U1.$or$pre_corpus/59093.v:1877$296_Y $flatten\U0.\U0.\U2.\U3.\U1.$and$pre_corpus/59093.v:1877$297_Y $flatten\U0.\U0.\U2.\U3.\U1.$or$pre_corpus/59093.v:1877$298_Y
+1- 1
+-1 1
+.names U0.U0.U2.U3.U1.X U0.U0.U2.U3.U1.Y $flatten\U0.\U0.\U2.\U3.\U1.$xor$pre_corpus/59093.v:1878$299_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U2.\U3.\U1.$xor$pre_corpus/59093.v:1878$299_Y U0.U0.U2.U3.U1.Z $flatten\U0.\U0.\U2.\U3.\U1.$xor$pre_corpus/59093.v:1878$300_Y
+10 1
+01 1
+.names U0.U0.U3.Ci $flatten\U0.\U0.\U3.$not$pre_corpus/59093.v:2604$527_Y
+0 1
+.names U0.U0.U3.Ci $flatten\U0.\U0.\U3.$not$pre_corpus/59093.v:2605$531_Y
+0 1
+.names U0.U0.U3.Ci $flatten\U0.\U0.\U3.$not$pre_corpus/59093.v:2606$535_Y
+0 1
+.names U0.U0.U3.Ci $flatten\U0.\U0.\U3.$not$pre_corpus/59093.v:2607$539_Y
+0 1
+.names U0.U0.U3.S_0[8] $flatten\U0.\U0.\U3.$not$pre_corpus/59093.v:2604$527_Y $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2604$528_Y
+11 1
+.names U0.U0.U3.S_1[8] U0.U0.U3.Ci $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2604$529_Y
+11 1
+.names $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2604$528_Y $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2604$529_Y $flatten\U0.\U0.\U3.$or$pre_corpus/59093.v:2604$530_Y
+1- 1
+-1 1
+.names U0.U0.U3.S_0[9] $flatten\U0.\U0.\U3.$not$pre_corpus/59093.v:2605$531_Y $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2605$532_Y
+11 1
+.names U0.U0.U3.S_1[9] U0.U0.U3.Ci $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2605$533_Y
+11 1
+.names $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2605$532_Y $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2605$533_Y $flatten\U0.\U0.\U3.$or$pre_corpus/59093.v:2605$534_Y
+1- 1
+-1 1
+.names U0.U0.U3.S_0[10] $flatten\U0.\U0.\U3.$not$pre_corpus/59093.v:2606$535_Y $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2606$536_Y
+11 1
+.names U0.U0.U3.S_1[10] U0.U0.U3.Ci $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2606$537_Y
+11 1
+.names $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2606$536_Y $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2606$537_Y $flatten\U0.\U0.\U3.$or$pre_corpus/59093.v:2606$538_Y
+1- 1
+-1 1
+.names U0.U0.U3.Co_0 $flatten\U0.\U0.\U3.$not$pre_corpus/59093.v:2607$539_Y $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2607$540_Y
+11 1
+.names U0.U0.U3.Co_1 U0.U0.U3.Ci $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2607$541_Y
+11 1
+.names $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2607$540_Y $flatten\U0.\U0.\U3.$and$pre_corpus/59093.v:2607$541_Y $flatten\U0.\U0.\U3.$or$pre_corpus/59093.v:2607$542_Y
+1- 1
+-1 1
+.names U0.U0.U3.U2.U0.X U0.U0.U3.U2.U0.Y $flatten\U0.\U0.\U3.\U2.\U0.$and$pre_corpus/59093.v:1887$301_Y
+11 1
+.names U0.U0.U3.U2.U0.Y U0.U0.U3.U2.U0.Z $flatten\U0.\U0.\U3.\U2.\U0.$and$pre_corpus/59093.v:1887$302_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U2.\U0.$and$pre_corpus/59093.v:1887$301_Y $flatten\U0.\U0.\U3.\U2.\U0.$and$pre_corpus/59093.v:1887$302_Y $flatten\U0.\U0.\U3.\U2.\U0.$or$pre_corpus/59093.v:1887$303_Y
+1- 1
+-1 1
+.names U0.U0.U3.U2.U0.Z U0.U0.U3.U2.U0.X $flatten\U0.\U0.\U3.\U2.\U0.$and$pre_corpus/59093.v:1887$304_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U2.\U0.$or$pre_corpus/59093.v:1887$303_Y $flatten\U0.\U0.\U3.\U2.\U0.$and$pre_corpus/59093.v:1887$304_Y $flatten\U0.\U0.\U3.\U2.\U0.$or$pre_corpus/59093.v:1887$305_Y
+1- 1
+-1 1
+.names U0.U0.U3.U2.U0.X U0.U0.U3.U2.U0.Y $flatten\U0.\U0.\U3.\U2.\U0.$xor$pre_corpus/59093.v:1888$306_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U3.\U2.\U0.$xor$pre_corpus/59093.v:1888$306_Y U0.U0.U3.U2.U0.Z $flatten\U0.\U0.\U3.\U2.\U0.$xor$pre_corpus/59093.v:1888$307_Y
+10 1
+01 1
+.names U0.U0.U3.U2.U1.X U0.U0.U3.U2.U1.Y $flatten\U0.\U0.\U3.\U2.\U1.$and$pre_corpus/59093.v:1897$308_Y
+11 1
+.names U0.U0.U3.U2.U1.Y U0.U0.U3.U2.U1.Z $flatten\U0.\U0.\U3.\U2.\U1.$and$pre_corpus/59093.v:1897$309_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U2.\U1.$and$pre_corpus/59093.v:1897$308_Y $flatten\U0.\U0.\U3.\U2.\U1.$and$pre_corpus/59093.v:1897$309_Y $flatten\U0.\U0.\U3.\U2.\U1.$or$pre_corpus/59093.v:1897$310_Y
+1- 1
+-1 1
+.names U0.U0.U3.U2.U1.Z U0.U0.U3.U2.U1.X $flatten\U0.\U0.\U3.\U2.\U1.$and$pre_corpus/59093.v:1897$311_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U2.\U1.$or$pre_corpus/59093.v:1897$310_Y $flatten\U0.\U0.\U3.\U2.\U1.$and$pre_corpus/59093.v:1897$311_Y $flatten\U0.\U0.\U3.\U2.\U1.$or$pre_corpus/59093.v:1897$312_Y
+1- 1
+-1 1
+.names U0.U0.U3.U2.U1.X U0.U0.U3.U2.U1.Y $flatten\U0.\U0.\U3.\U2.\U1.$xor$pre_corpus/59093.v:1898$313_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U3.\U2.\U1.$xor$pre_corpus/59093.v:1898$313_Y U0.U0.U3.U2.U1.Z $flatten\U0.\U0.\U3.\U2.\U1.$xor$pre_corpus/59093.v:1898$314_Y
+10 1
+01 1
+.names U0.U0.U3.U2.U2.X U0.U0.U3.U2.U2.Y $flatten\U0.\U0.\U3.\U2.\U2.$and$pre_corpus/59093.v:1907$315_Y
+11 1
+.names U0.U0.U3.U2.U2.Y U0.U0.U3.U2.U2.Z $flatten\U0.\U0.\U3.\U2.\U2.$and$pre_corpus/59093.v:1907$316_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U2.\U2.$and$pre_corpus/59093.v:1907$315_Y $flatten\U0.\U0.\U3.\U2.\U2.$and$pre_corpus/59093.v:1907$316_Y $flatten\U0.\U0.\U3.\U2.\U2.$or$pre_corpus/59093.v:1907$317_Y
+1- 1
+-1 1
+.names U0.U0.U3.U2.U2.Z U0.U0.U3.U2.U2.X $flatten\U0.\U0.\U3.\U2.\U2.$and$pre_corpus/59093.v:1907$318_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U2.\U2.$or$pre_corpus/59093.v:1907$317_Y $flatten\U0.\U0.\U3.\U2.\U2.$and$pre_corpus/59093.v:1907$318_Y $flatten\U0.\U0.\U3.\U2.\U2.$or$pre_corpus/59093.v:1907$319_Y
+1- 1
+-1 1
+.names U0.U0.U3.U2.U2.X U0.U0.U3.U2.U2.Y $flatten\U0.\U0.\U3.\U2.\U2.$xor$pre_corpus/59093.v:1908$320_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U3.\U2.\U2.$xor$pre_corpus/59093.v:1908$320_Y U0.U0.U3.U2.U2.Z $flatten\U0.\U0.\U3.\U2.\U2.$xor$pre_corpus/59093.v:1908$321_Y
+10 1
+01 1
+.names U0.U0.U3.U3.U0.X U0.U0.U3.U3.U0.Y $flatten\U0.\U0.\U3.\U3.\U0.$and$pre_corpus/59093.v:1887$301_Y
+11 1
+.names U0.U0.U3.U3.U0.Y U0.U0.U3.U3.U0.Z $flatten\U0.\U0.\U3.\U3.\U0.$and$pre_corpus/59093.v:1887$302_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U3.\U0.$and$pre_corpus/59093.v:1887$301_Y $flatten\U0.\U0.\U3.\U3.\U0.$and$pre_corpus/59093.v:1887$302_Y $flatten\U0.\U0.\U3.\U3.\U0.$or$pre_corpus/59093.v:1887$303_Y
+1- 1
+-1 1
+.names U0.U0.U3.U3.U0.Z U0.U0.U3.U3.U0.X $flatten\U0.\U0.\U3.\U3.\U0.$and$pre_corpus/59093.v:1887$304_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U3.\U0.$or$pre_corpus/59093.v:1887$303_Y $flatten\U0.\U0.\U3.\U3.\U0.$and$pre_corpus/59093.v:1887$304_Y $flatten\U0.\U0.\U3.\U3.\U0.$or$pre_corpus/59093.v:1887$305_Y
+1- 1
+-1 1
+.names U0.U0.U3.U3.U0.X U0.U0.U3.U3.U0.Y $flatten\U0.\U0.\U3.\U3.\U0.$xor$pre_corpus/59093.v:1888$306_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U3.\U3.\U0.$xor$pre_corpus/59093.v:1888$306_Y U0.U0.U3.U3.U0.Z $flatten\U0.\U0.\U3.\U3.\U0.$xor$pre_corpus/59093.v:1888$307_Y
+10 1
+01 1
+.names U0.U0.U3.U3.U1.X U0.U0.U3.U3.U1.Y $flatten\U0.\U0.\U3.\U3.\U1.$and$pre_corpus/59093.v:1897$308_Y
+11 1
+.names U0.U0.U3.U3.U1.Y U0.U0.U3.U3.U1.Z $flatten\U0.\U0.\U3.\U3.\U1.$and$pre_corpus/59093.v:1897$309_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U3.\U1.$and$pre_corpus/59093.v:1897$308_Y $flatten\U0.\U0.\U3.\U3.\U1.$and$pre_corpus/59093.v:1897$309_Y $flatten\U0.\U0.\U3.\U3.\U1.$or$pre_corpus/59093.v:1897$310_Y
+1- 1
+-1 1
+.names U0.U0.U3.U3.U1.Z U0.U0.U3.U3.U1.X $flatten\U0.\U0.\U3.\U3.\U1.$and$pre_corpus/59093.v:1897$311_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U3.\U1.$or$pre_corpus/59093.v:1897$310_Y $flatten\U0.\U0.\U3.\U3.\U1.$and$pre_corpus/59093.v:1897$311_Y $flatten\U0.\U0.\U3.\U3.\U1.$or$pre_corpus/59093.v:1897$312_Y
+1- 1
+-1 1
+.names U0.U0.U3.U3.U1.X U0.U0.U3.U3.U1.Y $flatten\U0.\U0.\U3.\U3.\U1.$xor$pre_corpus/59093.v:1898$313_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U3.\U3.\U1.$xor$pre_corpus/59093.v:1898$313_Y U0.U0.U3.U3.U1.Z $flatten\U0.\U0.\U3.\U3.\U1.$xor$pre_corpus/59093.v:1898$314_Y
+10 1
+01 1
+.names U0.U0.U3.U3.U2.X U0.U0.U3.U3.U2.Y $flatten\U0.\U0.\U3.\U3.\U2.$and$pre_corpus/59093.v:1907$315_Y
+11 1
+.names U0.U0.U3.U3.U2.Y U0.U0.U3.U3.U2.Z $flatten\U0.\U0.\U3.\U3.\U2.$and$pre_corpus/59093.v:1907$316_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U3.\U2.$and$pre_corpus/59093.v:1907$315_Y $flatten\U0.\U0.\U3.\U3.\U2.$and$pre_corpus/59093.v:1907$316_Y $flatten\U0.\U0.\U3.\U3.\U2.$or$pre_corpus/59093.v:1907$317_Y
+1- 1
+-1 1
+.names U0.U0.U3.U3.U2.Z U0.U0.U3.U3.U2.X $flatten\U0.\U0.\U3.\U3.\U2.$and$pre_corpus/59093.v:1907$318_Y
+11 1
+.names $flatten\U0.\U0.\U3.\U3.\U2.$or$pre_corpus/59093.v:1907$317_Y $flatten\U0.\U0.\U3.\U3.\U2.$and$pre_corpus/59093.v:1907$318_Y $flatten\U0.\U0.\U3.\U3.\U2.$or$pre_corpus/59093.v:1907$319_Y
+1- 1
+-1 1
+.names U0.U0.U3.U3.U2.X U0.U0.U3.U3.U2.Y $flatten\U0.\U0.\U3.\U3.\U2.$xor$pre_corpus/59093.v:1908$320_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U3.\U3.\U2.$xor$pre_corpus/59093.v:1908$320_Y U0.U0.U3.U3.U2.Z $flatten\U0.\U0.\U3.\U3.\U2.$xor$pre_corpus/59093.v:1908$321_Y
+10 1
+01 1
+.names U0.U0.U4.Ci $flatten\U0.\U0.\U4.$not$pre_corpus/59093.v:2636$543_Y
+0 1
+.names U0.U0.U4.Ci $flatten\U0.\U0.\U4.$not$pre_corpus/59093.v:2637$547_Y
+0 1
+.names U0.U0.U4.Ci $flatten\U0.\U0.\U4.$not$pre_corpus/59093.v:2638$551_Y
+0 1
+.names U0.U0.U4.Ci $flatten\U0.\U0.\U4.$not$pre_corpus/59093.v:2639$555_Y
+0 1
+.names U0.U0.U4.Ci $flatten\U0.\U0.\U4.$not$pre_corpus/59093.v:2640$559_Y
+0 1
+.names U0.U0.U4.S_0[11] $flatten\U0.\U0.\U4.$not$pre_corpus/59093.v:2636$543_Y $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2636$544_Y
+11 1
+.names U0.U0.U4.S_1[11] U0.U0.U4.Ci $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2636$545_Y
+11 1
+.names $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2636$544_Y $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2636$545_Y $flatten\U0.\U0.\U4.$or$pre_corpus/59093.v:2636$546_Y
+1- 1
+-1 1
+.names U0.U0.U4.S_0[12] $flatten\U0.\U0.\U4.$not$pre_corpus/59093.v:2637$547_Y $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2637$548_Y
+11 1
+.names U0.U0.U4.S_1[12] U0.U0.U4.Ci $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2637$549_Y
+11 1
+.names $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2637$548_Y $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2637$549_Y $flatten\U0.\U0.\U4.$or$pre_corpus/59093.v:2637$550_Y
+1- 1
+-1 1
+.names U0.U0.U4.S_0[13] $flatten\U0.\U0.\U4.$not$pre_corpus/59093.v:2638$551_Y $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2638$552_Y
+11 1
+.names U0.U0.U4.S_1[13] U0.U0.U4.Ci $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2638$553_Y
+11 1
+.names $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2638$552_Y $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2638$553_Y $flatten\U0.\U0.\U4.$or$pre_corpus/59093.v:2638$554_Y
+1- 1
+-1 1
+.names U0.U0.U4.S_0[14] $flatten\U0.\U0.\U4.$not$pre_corpus/59093.v:2639$555_Y $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2639$556_Y
+11 1
+.names U0.U0.U4.S_1[14] U0.U0.U4.Ci $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2639$557_Y
+11 1
+.names $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2639$556_Y $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2639$557_Y $flatten\U0.\U0.\U4.$or$pre_corpus/59093.v:2639$558_Y
+1- 1
+-1 1
+.names U0.U0.U4.Co_0 $flatten\U0.\U0.\U4.$not$pre_corpus/59093.v:2640$559_Y $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2640$560_Y
+11 1
+.names U0.U0.U4.Co_1 U0.U0.U4.Ci $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2640$561_Y
+11 1
+.names $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2640$560_Y $flatten\U0.\U0.\U4.$and$pre_corpus/59093.v:2640$561_Y $flatten\U0.\U0.\U4.$or$pre_corpus/59093.v:2640$562_Y
+1- 1
+-1 1
+.names U0.U0.U4.U2.U0.X U0.U0.U4.U2.U0.Y $flatten\U0.\U0.\U4.\U2.\U0.$and$pre_corpus/59093.v:1917$322_Y
+11 1
+.names U0.U0.U4.U2.U0.Y U0.U0.U4.U2.U0.Z $flatten\U0.\U0.\U4.\U2.\U0.$and$pre_corpus/59093.v:1917$323_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U2.\U0.$and$pre_corpus/59093.v:1917$322_Y $flatten\U0.\U0.\U4.\U2.\U0.$and$pre_corpus/59093.v:1917$323_Y $flatten\U0.\U0.\U4.\U2.\U0.$or$pre_corpus/59093.v:1917$324_Y
+1- 1
+-1 1
+.names U0.U0.U4.U2.U0.Z U0.U0.U4.U2.U0.X $flatten\U0.\U0.\U4.\U2.\U0.$and$pre_corpus/59093.v:1917$325_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U2.\U0.$or$pre_corpus/59093.v:1917$324_Y $flatten\U0.\U0.\U4.\U2.\U0.$and$pre_corpus/59093.v:1917$325_Y $flatten\U0.\U0.\U4.\U2.\U0.$or$pre_corpus/59093.v:1917$326_Y
+1- 1
+-1 1
+.names U0.U0.U4.U2.U0.X U0.U0.U4.U2.U0.Y $flatten\U0.\U0.\U4.\U2.\U0.$xor$pre_corpus/59093.v:1918$327_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U4.\U2.\U0.$xor$pre_corpus/59093.v:1918$327_Y U0.U0.U4.U2.U0.Z $flatten\U0.\U0.\U4.\U2.\U0.$xor$pre_corpus/59093.v:1918$328_Y
+10 1
+01 1
+.names U0.U0.U4.U2.U1.X U0.U0.U4.U2.U1.Y $flatten\U0.\U0.\U4.\U2.\U1.$and$pre_corpus/59093.v:1927$329_Y
+11 1
+.names U0.U0.U4.U2.U1.Y U0.U0.U4.U2.U1.Z $flatten\U0.\U0.\U4.\U2.\U1.$and$pre_corpus/59093.v:1927$330_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U2.\U1.$and$pre_corpus/59093.v:1927$329_Y $flatten\U0.\U0.\U4.\U2.\U1.$and$pre_corpus/59093.v:1927$330_Y $flatten\U0.\U0.\U4.\U2.\U1.$or$pre_corpus/59093.v:1927$331_Y
+1- 1
+-1 1
+.names U0.U0.U4.U2.U1.Z U0.U0.U4.U2.U1.X $flatten\U0.\U0.\U4.\U2.\U1.$and$pre_corpus/59093.v:1927$332_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U2.\U1.$or$pre_corpus/59093.v:1927$331_Y $flatten\U0.\U0.\U4.\U2.\U1.$and$pre_corpus/59093.v:1927$332_Y $flatten\U0.\U0.\U4.\U2.\U1.$or$pre_corpus/59093.v:1927$333_Y
+1- 1
+-1 1
+.names U0.U0.U4.U2.U1.X U0.U0.U4.U2.U1.Y $flatten\U0.\U0.\U4.\U2.\U1.$xor$pre_corpus/59093.v:1928$334_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U4.\U2.\U1.$xor$pre_corpus/59093.v:1928$334_Y U0.U0.U4.U2.U1.Z $flatten\U0.\U0.\U4.\U2.\U1.$xor$pre_corpus/59093.v:1928$335_Y
+10 1
+01 1
+.names U0.U0.U4.U2.U2.X U0.U0.U4.U2.U2.Y $flatten\U0.\U0.\U4.\U2.\U2.$and$pre_corpus/59093.v:1937$336_Y
+11 1
+.names U0.U0.U4.U2.U2.Y U0.U0.U4.U2.U2.Z $flatten\U0.\U0.\U4.\U2.\U2.$and$pre_corpus/59093.v:1937$337_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U2.\U2.$and$pre_corpus/59093.v:1937$336_Y $flatten\U0.\U0.\U4.\U2.\U2.$and$pre_corpus/59093.v:1937$337_Y $flatten\U0.\U0.\U4.\U2.\U2.$or$pre_corpus/59093.v:1937$338_Y
+1- 1
+-1 1
+.names U0.U0.U4.U2.U2.Z U0.U0.U4.U2.U2.X $flatten\U0.\U0.\U4.\U2.\U2.$and$pre_corpus/59093.v:1937$339_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U2.\U2.$or$pre_corpus/59093.v:1937$338_Y $flatten\U0.\U0.\U4.\U2.\U2.$and$pre_corpus/59093.v:1937$339_Y $flatten\U0.\U0.\U4.\U2.\U2.$or$pre_corpus/59093.v:1937$340_Y
+1- 1
+-1 1
+.names U0.U0.U4.U2.U2.X U0.U0.U4.U2.U2.Y $flatten\U0.\U0.\U4.\U2.\U2.$xor$pre_corpus/59093.v:1938$341_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U4.\U2.\U2.$xor$pre_corpus/59093.v:1938$341_Y U0.U0.U4.U2.U2.Z $flatten\U0.\U0.\U4.\U2.\U2.$xor$pre_corpus/59093.v:1938$342_Y
+10 1
+01 1
+.names U0.U0.U4.U2.U3.X U0.U0.U4.U2.U3.Y $flatten\U0.\U0.\U4.\U2.\U3.$and$pre_corpus/59093.v:1947$343_Y
+11 1
+.names U0.U0.U4.U2.U3.Y U0.U0.U4.U2.U3.Z $flatten\U0.\U0.\U4.\U2.\U3.$and$pre_corpus/59093.v:1947$344_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U2.\U3.$and$pre_corpus/59093.v:1947$343_Y $flatten\U0.\U0.\U4.\U2.\U3.$and$pre_corpus/59093.v:1947$344_Y $flatten\U0.\U0.\U4.\U2.\U3.$or$pre_corpus/59093.v:1947$345_Y
+1- 1
+-1 1
+.names U0.U0.U4.U2.U3.Z U0.U0.U4.U2.U3.X $flatten\U0.\U0.\U4.\U2.\U3.$and$pre_corpus/59093.v:1947$346_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U2.\U3.$or$pre_corpus/59093.v:1947$345_Y $flatten\U0.\U0.\U4.\U2.\U3.$and$pre_corpus/59093.v:1947$346_Y $flatten\U0.\U0.\U4.\U2.\U3.$or$pre_corpus/59093.v:1947$347_Y
+1- 1
+-1 1
+.names U0.U0.U4.U2.U3.X U0.U0.U4.U2.U3.Y $flatten\U0.\U0.\U4.\U2.\U3.$xor$pre_corpus/59093.v:1948$348_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U4.\U2.\U3.$xor$pre_corpus/59093.v:1948$348_Y U0.U0.U4.U2.U3.Z $flatten\U0.\U0.\U4.\U2.\U3.$xor$pre_corpus/59093.v:1948$349_Y
+10 1
+01 1
+.names U0.U0.U4.U3.U0.X U0.U0.U4.U3.U0.Y $flatten\U0.\U0.\U4.\U3.\U0.$and$pre_corpus/59093.v:1917$322_Y
+11 1
+.names U0.U0.U4.U3.U0.Y U0.U0.U4.U3.U0.Z $flatten\U0.\U0.\U4.\U3.\U0.$and$pre_corpus/59093.v:1917$323_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U3.\U0.$and$pre_corpus/59093.v:1917$322_Y $flatten\U0.\U0.\U4.\U3.\U0.$and$pre_corpus/59093.v:1917$323_Y $flatten\U0.\U0.\U4.\U3.\U0.$or$pre_corpus/59093.v:1917$324_Y
+1- 1
+-1 1
+.names U0.U0.U4.U3.U0.Z U0.U0.U4.U3.U0.X $flatten\U0.\U0.\U4.\U3.\U0.$and$pre_corpus/59093.v:1917$325_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U3.\U0.$or$pre_corpus/59093.v:1917$324_Y $flatten\U0.\U0.\U4.\U3.\U0.$and$pre_corpus/59093.v:1917$325_Y $flatten\U0.\U0.\U4.\U3.\U0.$or$pre_corpus/59093.v:1917$326_Y
+1- 1
+-1 1
+.names U0.U0.U4.U3.U0.X U0.U0.U4.U3.U0.Y $flatten\U0.\U0.\U4.\U3.\U0.$xor$pre_corpus/59093.v:1918$327_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U4.\U3.\U0.$xor$pre_corpus/59093.v:1918$327_Y U0.U0.U4.U3.U0.Z $flatten\U0.\U0.\U4.\U3.\U0.$xor$pre_corpus/59093.v:1918$328_Y
+10 1
+01 1
+.names U0.U0.U4.U3.U1.X U0.U0.U4.U3.U1.Y $flatten\U0.\U0.\U4.\U3.\U1.$and$pre_corpus/59093.v:1927$329_Y
+11 1
+.names U0.U0.U4.U3.U1.Y U0.U0.U4.U3.U1.Z $flatten\U0.\U0.\U4.\U3.\U1.$and$pre_corpus/59093.v:1927$330_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U3.\U1.$and$pre_corpus/59093.v:1927$329_Y $flatten\U0.\U0.\U4.\U3.\U1.$and$pre_corpus/59093.v:1927$330_Y $flatten\U0.\U0.\U4.\U3.\U1.$or$pre_corpus/59093.v:1927$331_Y
+1- 1
+-1 1
+.names U0.U0.U4.U3.U1.Z U0.U0.U4.U3.U1.X $flatten\U0.\U0.\U4.\U3.\U1.$and$pre_corpus/59093.v:1927$332_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U3.\U1.$or$pre_corpus/59093.v:1927$331_Y $flatten\U0.\U0.\U4.\U3.\U1.$and$pre_corpus/59093.v:1927$332_Y $flatten\U0.\U0.\U4.\U3.\U1.$or$pre_corpus/59093.v:1927$333_Y
+1- 1
+-1 1
+.names U0.U0.U4.U3.U1.X U0.U0.U4.U3.U1.Y $flatten\U0.\U0.\U4.\U3.\U1.$xor$pre_corpus/59093.v:1928$334_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U4.\U3.\U1.$xor$pre_corpus/59093.v:1928$334_Y U0.U0.U4.U3.U1.Z $flatten\U0.\U0.\U4.\U3.\U1.$xor$pre_corpus/59093.v:1928$335_Y
+10 1
+01 1
+.names U0.U0.U4.U3.U2.X U0.U0.U4.U3.U2.Y $flatten\U0.\U0.\U4.\U3.\U2.$and$pre_corpus/59093.v:1937$336_Y
+11 1
+.names U0.U0.U4.U3.U2.Y U0.U0.U4.U3.U2.Z $flatten\U0.\U0.\U4.\U3.\U2.$and$pre_corpus/59093.v:1937$337_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U3.\U2.$and$pre_corpus/59093.v:1937$336_Y $flatten\U0.\U0.\U4.\U3.\U2.$and$pre_corpus/59093.v:1937$337_Y $flatten\U0.\U0.\U4.\U3.\U2.$or$pre_corpus/59093.v:1937$338_Y
+1- 1
+-1 1
+.names U0.U0.U4.U3.U2.Z U0.U0.U4.U3.U2.X $flatten\U0.\U0.\U4.\U3.\U2.$and$pre_corpus/59093.v:1937$339_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U3.\U2.$or$pre_corpus/59093.v:1937$338_Y $flatten\U0.\U0.\U4.\U3.\U2.$and$pre_corpus/59093.v:1937$339_Y $flatten\U0.\U0.\U4.\U3.\U2.$or$pre_corpus/59093.v:1937$340_Y
+1- 1
+-1 1
+.names U0.U0.U4.U3.U2.X U0.U0.U4.U3.U2.Y $flatten\U0.\U0.\U4.\U3.\U2.$xor$pre_corpus/59093.v:1938$341_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U4.\U3.\U2.$xor$pre_corpus/59093.v:1938$341_Y U0.U0.U4.U3.U2.Z $flatten\U0.\U0.\U4.\U3.\U2.$xor$pre_corpus/59093.v:1938$342_Y
+10 1
+01 1
+.names U0.U0.U4.U3.U3.X U0.U0.U4.U3.U3.Y $flatten\U0.\U0.\U4.\U3.\U3.$and$pre_corpus/59093.v:1947$343_Y
+11 1
+.names U0.U0.U4.U3.U3.Y U0.U0.U4.U3.U3.Z $flatten\U0.\U0.\U4.\U3.\U3.$and$pre_corpus/59093.v:1947$344_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U3.\U3.$and$pre_corpus/59093.v:1947$343_Y $flatten\U0.\U0.\U4.\U3.\U3.$and$pre_corpus/59093.v:1947$344_Y $flatten\U0.\U0.\U4.\U3.\U3.$or$pre_corpus/59093.v:1947$345_Y
+1- 1
+-1 1
+.names U0.U0.U4.U3.U3.Z U0.U0.U4.U3.U3.X $flatten\U0.\U0.\U4.\U3.\U3.$and$pre_corpus/59093.v:1947$346_Y
+11 1
+.names $flatten\U0.\U0.\U4.\U3.\U3.$or$pre_corpus/59093.v:1947$345_Y $flatten\U0.\U0.\U4.\U3.\U3.$and$pre_corpus/59093.v:1947$346_Y $flatten\U0.\U0.\U4.\U3.\U3.$or$pre_corpus/59093.v:1947$347_Y
+1- 1
+-1 1
+.names U0.U0.U4.U3.U3.X U0.U0.U4.U3.U3.Y $flatten\U0.\U0.\U4.\U3.\U3.$xor$pre_corpus/59093.v:1948$348_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U4.\U3.\U3.$xor$pre_corpus/59093.v:1948$348_Y U0.U0.U4.U3.U3.Z $flatten\U0.\U0.\U4.\U3.\U3.$xor$pre_corpus/59093.v:1948$349_Y
+10 1
+01 1
+.names U0.U0.U5.Ci $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2669$563_Y
+0 1
+.names U0.U0.U5.Ci $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2670$567_Y
+0 1
+.names U0.U0.U5.Ci $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2671$571_Y
+0 1
+.names U0.U0.U5.Ci $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2672$575_Y
+0 1
+.names U0.U0.U5.Ci $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2673$579_Y
+0 1
+.names U0.U0.U5.Ci $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2674$583_Y
+0 1
+.names U0.U0.U5.S_0[15] $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2669$563_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2669$564_Y
+11 1
+.names U0.U0.U5.S_1[15] U0.U0.U5.Ci $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2669$565_Y
+11 1
+.names $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2669$564_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2669$565_Y $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2669$566_Y
+1- 1
+-1 1
+.names U0.U0.U5.S_0[16] $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2670$567_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2670$568_Y
+11 1
+.names U0.U0.U5.S_1[16] U0.U0.U5.Ci $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2670$569_Y
+11 1
+.names $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2670$568_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2670$569_Y $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2670$570_Y
+1- 1
+-1 1
+.names U0.U0.U5.S_0[17] $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2671$571_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2671$572_Y
+11 1
+.names U0.U0.U5.S_1[17] U0.U0.U5.Ci $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2671$573_Y
+11 1
+.names $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2671$572_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2671$573_Y $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2671$574_Y
+1- 1
+-1 1
+.names U0.U0.U5.S_0[18] $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2672$575_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2672$576_Y
+11 1
+.names U0.U0.U5.S_1[18] U0.U0.U5.Ci $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2672$577_Y
+11 1
+.names $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2672$576_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2672$577_Y $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2672$578_Y
+1- 1
+-1 1
+.names U0.U0.U5.S_0[19] $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2673$579_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2673$580_Y
+11 1
+.names U0.U0.U5.S_1[19] U0.U0.U5.Ci $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2673$581_Y
+11 1
+.names $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2673$580_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2673$581_Y $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2673$582_Y
+1- 1
+-1 1
+.names U0.U0.U5.Co_0 $flatten\U0.\U0.\U5.$not$pre_corpus/59093.v:2674$583_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2674$584_Y
+11 1
+.names U0.U0.U5.Co_1 U0.U0.U5.Ci $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2674$585_Y
+11 1
+.names $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2674$584_Y $flatten\U0.\U0.\U5.$and$pre_corpus/59093.v:2674$585_Y $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2674$586_Y
+1- 1
+-1 1
+.names U0.U0.U5.U2.U0.X U0.U0.U5.U2.U0.Y $flatten\U0.\U0.\U5.\U2.\U0.$and$pre_corpus/59093.v:1957$350_Y
+11 1
+.names U0.U0.U5.U2.U0.Y U0.U0.U5.U2.U0.Z $flatten\U0.\U0.\U5.\U2.\U0.$and$pre_corpus/59093.v:1957$351_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U2.\U0.$and$pre_corpus/59093.v:1957$350_Y $flatten\U0.\U0.\U5.\U2.\U0.$and$pre_corpus/59093.v:1957$351_Y $flatten\U0.\U0.\U5.\U2.\U0.$or$pre_corpus/59093.v:1957$352_Y
+1- 1
+-1 1
+.names U0.U0.U5.U2.U0.Z U0.U0.U5.U2.U0.X $flatten\U0.\U0.\U5.\U2.\U0.$and$pre_corpus/59093.v:1957$353_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U2.\U0.$or$pre_corpus/59093.v:1957$352_Y $flatten\U0.\U0.\U5.\U2.\U0.$and$pre_corpus/59093.v:1957$353_Y $flatten\U0.\U0.\U5.\U2.\U0.$or$pre_corpus/59093.v:1957$354_Y
+1- 1
+-1 1
+.names U0.U0.U5.U2.U0.X U0.U0.U5.U2.U0.Y $flatten\U0.\U0.\U5.\U2.\U0.$xor$pre_corpus/59093.v:1958$355_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U5.\U2.\U0.$xor$pre_corpus/59093.v:1958$355_Y U0.U0.U5.U2.U0.Z $flatten\U0.\U0.\U5.\U2.\U0.$xor$pre_corpus/59093.v:1958$356_Y
+10 1
+01 1
+.names U0.U0.U5.U2.U1.X U0.U0.U5.U2.U1.Y $flatten\U0.\U0.\U5.\U2.\U1.$and$pre_corpus/59093.v:2093$361_Y
+11 1
+.names U0.U0.U5.U2.U1.Y U0.U0.U5.U2.U1.Z $flatten\U0.\U0.\U5.\U2.\U1.$and$pre_corpus/59093.v:2093$362_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U2.\U1.$and$pre_corpus/59093.v:2093$361_Y $flatten\U0.\U0.\U5.\U2.\U1.$and$pre_corpus/59093.v:2093$362_Y $flatten\U0.\U0.\U5.\U2.\U1.$or$pre_corpus/59093.v:2093$363_Y
+1- 1
+-1 1
+.names U0.U0.U5.U2.U1.Z U0.U0.U5.U2.U1.X $flatten\U0.\U0.\U5.\U2.\U1.$and$pre_corpus/59093.v:2093$364_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U2.\U1.$or$pre_corpus/59093.v:2093$363_Y $flatten\U0.\U0.\U5.\U2.\U1.$and$pre_corpus/59093.v:2093$364_Y $flatten\U0.\U0.\U5.\U2.\U1.$or$pre_corpus/59093.v:2093$365_Y
+1- 1
+-1 1
+.names U0.U0.U5.U2.U1.X U0.U0.U5.U2.U1.Y $flatten\U0.\U0.\U5.\U2.\U1.$xor$pre_corpus/59093.v:2094$366_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U5.\U2.\U1.$xor$pre_corpus/59093.v:2094$366_Y U0.U0.U5.U2.U1.Z $flatten\U0.\U0.\U5.\U2.\U1.$xor$pre_corpus/59093.v:2094$367_Y
+10 1
+01 1
+.names U0.U0.U5.U2.U2.X U0.U0.U5.U2.U2.Y $flatten\U0.\U0.\U5.\U2.\U2.$and$pre_corpus/59093.v:2103$368_Y
+11 1
+.names U0.U0.U5.U2.U2.Y U0.U0.U5.U2.U2.Z $flatten\U0.\U0.\U5.\U2.\U2.$and$pre_corpus/59093.v:2103$369_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U2.\U2.$and$pre_corpus/59093.v:2103$368_Y $flatten\U0.\U0.\U5.\U2.\U2.$and$pre_corpus/59093.v:2103$369_Y $flatten\U0.\U0.\U5.\U2.\U2.$or$pre_corpus/59093.v:2103$370_Y
+1- 1
+-1 1
+.names U0.U0.U5.U2.U2.Z U0.U0.U5.U2.U2.X $flatten\U0.\U0.\U5.\U2.\U2.$and$pre_corpus/59093.v:2103$371_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U2.\U2.$or$pre_corpus/59093.v:2103$370_Y $flatten\U0.\U0.\U5.\U2.\U2.$and$pre_corpus/59093.v:2103$371_Y $flatten\U0.\U0.\U5.\U2.\U2.$or$pre_corpus/59093.v:2103$372_Y
+1- 1
+-1 1
+.names U0.U0.U5.U2.U2.X U0.U0.U5.U2.U2.Y $flatten\U0.\U0.\U5.\U2.\U2.$xor$pre_corpus/59093.v:2104$373_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U5.\U2.\U2.$xor$pre_corpus/59093.v:2104$373_Y U0.U0.U5.U2.U2.Z $flatten\U0.\U0.\U5.\U2.\U2.$xor$pre_corpus/59093.v:2104$374_Y
+10 1
+01 1
+.names U0.U0.U5.U2.U3.X U0.U0.U5.U2.U3.Y $flatten\U0.\U0.\U5.\U2.\U3.$and$pre_corpus/59093.v:2113$375_Y
+11 1
+.names U0.U0.U5.U2.U3.Y U0.U0.U5.U2.U3.Z $flatten\U0.\U0.\U5.\U2.\U3.$and$pre_corpus/59093.v:2113$376_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U2.\U3.$and$pre_corpus/59093.v:2113$375_Y $flatten\U0.\U0.\U5.\U2.\U3.$and$pre_corpus/59093.v:2113$376_Y $flatten\U0.\U0.\U5.\U2.\U3.$or$pre_corpus/59093.v:2113$377_Y
+1- 1
+-1 1
+.names U0.U0.U5.U2.U3.Z U0.U0.U5.U2.U3.X $flatten\U0.\U0.\U5.\U2.\U3.$and$pre_corpus/59093.v:2113$378_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U2.\U3.$or$pre_corpus/59093.v:2113$377_Y $flatten\U0.\U0.\U5.\U2.\U3.$and$pre_corpus/59093.v:2113$378_Y $flatten\U0.\U0.\U5.\U2.\U3.$or$pre_corpus/59093.v:2113$379_Y
+1- 1
+-1 1
+.names U0.U0.U5.U2.U3.X U0.U0.U5.U2.U3.Y $flatten\U0.\U0.\U5.\U2.\U3.$xor$pre_corpus/59093.v:2114$380_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U5.\U2.\U3.$xor$pre_corpus/59093.v:2114$380_Y U0.U0.U5.U2.U3.Z $flatten\U0.\U0.\U5.\U2.\U3.$xor$pre_corpus/59093.v:2114$381_Y
+10 1
+01 1
+.names U0.U0.U5.U2.U4.X U0.U0.U5.U2.U4.Y $flatten\U0.\U0.\U5.\U2.\U4.$and$pre_corpus/59093.v:2165$390_Y
+11 1
+.names U0.U0.U5.U2.U4.Y U0.U0.U5.U2.U4.Z $flatten\U0.\U0.\U5.\U2.\U4.$and$pre_corpus/59093.v:2165$391_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U2.\U4.$and$pre_corpus/59093.v:2165$390_Y $flatten\U0.\U0.\U5.\U2.\U4.$and$pre_corpus/59093.v:2165$391_Y $flatten\U0.\U0.\U5.\U2.\U4.$or$pre_corpus/59093.v:2165$392_Y
+1- 1
+-1 1
+.names U0.U0.U5.U2.U4.Z U0.U0.U5.U2.U4.X $flatten\U0.\U0.\U5.\U2.\U4.$and$pre_corpus/59093.v:2165$393_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U2.\U4.$or$pre_corpus/59093.v:2165$392_Y $flatten\U0.\U0.\U5.\U2.\U4.$and$pre_corpus/59093.v:2165$393_Y $flatten\U0.\U0.\U5.\U2.\U4.$or$pre_corpus/59093.v:2165$394_Y
+1- 1
+-1 1
+.names U0.U0.U5.U2.U4.X U0.U0.U5.U2.U4.Y $flatten\U0.\U0.\U5.\U2.\U4.$xor$pre_corpus/59093.v:2166$395_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U5.\U2.\U4.$xor$pre_corpus/59093.v:2166$395_Y U0.U0.U5.U2.U4.Z $flatten\U0.\U0.\U5.\U2.\U4.$xor$pre_corpus/59093.v:2166$396_Y
+10 1
+01 1
+.names U0.U0.U5.U3.U0.X U0.U0.U5.U3.U0.Y $flatten\U0.\U0.\U5.\U3.\U0.$and$pre_corpus/59093.v:1957$350_Y
+11 1
+.names U0.U0.U5.U3.U0.Y U0.U0.U5.U3.U0.Z $flatten\U0.\U0.\U5.\U3.\U0.$and$pre_corpus/59093.v:1957$351_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U3.\U0.$and$pre_corpus/59093.v:1957$350_Y $flatten\U0.\U0.\U5.\U3.\U0.$and$pre_corpus/59093.v:1957$351_Y $flatten\U0.\U0.\U5.\U3.\U0.$or$pre_corpus/59093.v:1957$352_Y
+1- 1
+-1 1
+.names U0.U0.U5.U3.U0.Z U0.U0.U5.U3.U0.X $flatten\U0.\U0.\U5.\U3.\U0.$and$pre_corpus/59093.v:1957$353_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U3.\U0.$or$pre_corpus/59093.v:1957$352_Y $flatten\U0.\U0.\U5.\U3.\U0.$and$pre_corpus/59093.v:1957$353_Y $flatten\U0.\U0.\U5.\U3.\U0.$or$pre_corpus/59093.v:1957$354_Y
+1- 1
+-1 1
+.names U0.U0.U5.U3.U0.X U0.U0.U5.U3.U0.Y $flatten\U0.\U0.\U5.\U3.\U0.$xor$pre_corpus/59093.v:1958$355_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U5.\U3.\U0.$xor$pre_corpus/59093.v:1958$355_Y U0.U0.U5.U3.U0.Z $flatten\U0.\U0.\U5.\U3.\U0.$xor$pre_corpus/59093.v:1958$356_Y
+10 1
+01 1
+.names U0.U0.U5.U3.U1.X U0.U0.U5.U3.U1.Y $flatten\U0.\U0.\U5.\U3.\U1.$and$pre_corpus/59093.v:2093$361_Y
+11 1
+.names U0.U0.U5.U3.U1.Y U0.U0.U5.U3.U1.Z $flatten\U0.\U0.\U5.\U3.\U1.$and$pre_corpus/59093.v:2093$362_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U3.\U1.$and$pre_corpus/59093.v:2093$361_Y $flatten\U0.\U0.\U5.\U3.\U1.$and$pre_corpus/59093.v:2093$362_Y $flatten\U0.\U0.\U5.\U3.\U1.$or$pre_corpus/59093.v:2093$363_Y
+1- 1
+-1 1
+.names U0.U0.U5.U3.U1.Z U0.U0.U5.U3.U1.X $flatten\U0.\U0.\U5.\U3.\U1.$and$pre_corpus/59093.v:2093$364_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U3.\U1.$or$pre_corpus/59093.v:2093$363_Y $flatten\U0.\U0.\U5.\U3.\U1.$and$pre_corpus/59093.v:2093$364_Y $flatten\U0.\U0.\U5.\U3.\U1.$or$pre_corpus/59093.v:2093$365_Y
+1- 1
+-1 1
+.names U0.U0.U5.U3.U1.X U0.U0.U5.U3.U1.Y $flatten\U0.\U0.\U5.\U3.\U1.$xor$pre_corpus/59093.v:2094$366_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U5.\U3.\U1.$xor$pre_corpus/59093.v:2094$366_Y U0.U0.U5.U3.U1.Z $flatten\U0.\U0.\U5.\U3.\U1.$xor$pre_corpus/59093.v:2094$367_Y
+10 1
+01 1
+.names U0.U0.U5.U3.U2.X U0.U0.U5.U3.U2.Y $flatten\U0.\U0.\U5.\U3.\U2.$and$pre_corpus/59093.v:2103$368_Y
+11 1
+.names U0.U0.U5.U3.U2.Y U0.U0.U5.U3.U2.Z $flatten\U0.\U0.\U5.\U3.\U2.$and$pre_corpus/59093.v:2103$369_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U3.\U2.$and$pre_corpus/59093.v:2103$368_Y $flatten\U0.\U0.\U5.\U3.\U2.$and$pre_corpus/59093.v:2103$369_Y $flatten\U0.\U0.\U5.\U3.\U2.$or$pre_corpus/59093.v:2103$370_Y
+1- 1
+-1 1
+.names U0.U0.U5.U3.U2.Z U0.U0.U5.U3.U2.X $flatten\U0.\U0.\U5.\U3.\U2.$and$pre_corpus/59093.v:2103$371_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U3.\U2.$or$pre_corpus/59093.v:2103$370_Y $flatten\U0.\U0.\U5.\U3.\U2.$and$pre_corpus/59093.v:2103$371_Y $flatten\U0.\U0.\U5.\U3.\U2.$or$pre_corpus/59093.v:2103$372_Y
+1- 1
+-1 1
+.names U0.U0.U5.U3.U2.X U0.U0.U5.U3.U2.Y $flatten\U0.\U0.\U5.\U3.\U2.$xor$pre_corpus/59093.v:2104$373_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U5.\U3.\U2.$xor$pre_corpus/59093.v:2104$373_Y U0.U0.U5.U3.U2.Z $flatten\U0.\U0.\U5.\U3.\U2.$xor$pre_corpus/59093.v:2104$374_Y
+10 1
+01 1
+.names U0.U0.U5.U3.U3.X U0.U0.U5.U3.U3.Y $flatten\U0.\U0.\U5.\U3.\U3.$and$pre_corpus/59093.v:2113$375_Y
+11 1
+.names U0.U0.U5.U3.U3.Y U0.U0.U5.U3.U3.Z $flatten\U0.\U0.\U5.\U3.\U3.$and$pre_corpus/59093.v:2113$376_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U3.\U3.$and$pre_corpus/59093.v:2113$375_Y $flatten\U0.\U0.\U5.\U3.\U3.$and$pre_corpus/59093.v:2113$376_Y $flatten\U0.\U0.\U5.\U3.\U3.$or$pre_corpus/59093.v:2113$377_Y
+1- 1
+-1 1
+.names U0.U0.U5.U3.U3.Z U0.U0.U5.U3.U3.X $flatten\U0.\U0.\U5.\U3.\U3.$and$pre_corpus/59093.v:2113$378_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U3.\U3.$or$pre_corpus/59093.v:2113$377_Y $flatten\U0.\U0.\U5.\U3.\U3.$and$pre_corpus/59093.v:2113$378_Y $flatten\U0.\U0.\U5.\U3.\U3.$or$pre_corpus/59093.v:2113$379_Y
+1- 1
+-1 1
+.names U0.U0.U5.U3.U3.X U0.U0.U5.U3.U3.Y $flatten\U0.\U0.\U5.\U3.\U3.$xor$pre_corpus/59093.v:2114$380_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U5.\U3.\U3.$xor$pre_corpus/59093.v:2114$380_Y U0.U0.U5.U3.U3.Z $flatten\U0.\U0.\U5.\U3.\U3.$xor$pre_corpus/59093.v:2114$381_Y
+10 1
+01 1
+.names U0.U0.U5.U3.U4.X U0.U0.U5.U3.U4.Y $flatten\U0.\U0.\U5.\U3.\U4.$and$pre_corpus/59093.v:2165$390_Y
+11 1
+.names U0.U0.U5.U3.U4.Y U0.U0.U5.U3.U4.Z $flatten\U0.\U0.\U5.\U3.\U4.$and$pre_corpus/59093.v:2165$391_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U3.\U4.$and$pre_corpus/59093.v:2165$390_Y $flatten\U0.\U0.\U5.\U3.\U4.$and$pre_corpus/59093.v:2165$391_Y $flatten\U0.\U0.\U5.\U3.\U4.$or$pre_corpus/59093.v:2165$392_Y
+1- 1
+-1 1
+.names U0.U0.U5.U3.U4.Z U0.U0.U5.U3.U4.X $flatten\U0.\U0.\U5.\U3.\U4.$and$pre_corpus/59093.v:2165$393_Y
+11 1
+.names $flatten\U0.\U0.\U5.\U3.\U4.$or$pre_corpus/59093.v:2165$392_Y $flatten\U0.\U0.\U5.\U3.\U4.$and$pre_corpus/59093.v:2165$393_Y $flatten\U0.\U0.\U5.\U3.\U4.$or$pre_corpus/59093.v:2165$394_Y
+1- 1
+-1 1
+.names U0.U0.U5.U3.U4.X U0.U0.U5.U3.U4.Y $flatten\U0.\U0.\U5.\U3.\U4.$xor$pre_corpus/59093.v:2166$395_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U5.\U3.\U4.$xor$pre_corpus/59093.v:2166$395_Y U0.U0.U5.U3.U4.Z $flatten\U0.\U0.\U5.\U3.\U4.$xor$pre_corpus/59093.v:2166$396_Y
+10 1
+01 1
+.names U0.U0.U6.Ci $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2703$587_Y
+0 1
+.names U0.U0.U6.Ci $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2704$591_Y
+0 1
+.names U0.U0.U6.Ci $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2705$595_Y
+0 1
+.names U0.U0.U6.Ci $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2706$599_Y
+0 1
+.names U0.U0.U6.Ci $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2707$603_Y
+0 1
+.names U0.U0.U6.Ci $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2708$607_Y
+0 1
+.names U0.U0.U6.Ci $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2709$611_Y
+0 1
+.names U0.U0.U6.S_0[20] $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2703$587_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2703$588_Y
+11 1
+.names U0.U0.U6.S_1[20] U0.U0.U6.Ci $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2703$589_Y
+11 1
+.names $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2703$588_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2703$589_Y $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2703$590_Y
+1- 1
+-1 1
+.names U0.U0.U6.S_0[21] $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2704$591_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2704$592_Y
+11 1
+.names U0.U0.U6.S_1[21] U0.U0.U6.Ci $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2704$593_Y
+11 1
+.names $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2704$592_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2704$593_Y $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2704$594_Y
+1- 1
+-1 1
+.names U0.U0.U6.S_0[22] $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2705$595_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2705$596_Y
+11 1
+.names U0.U0.U6.S_1[22] U0.U0.U6.Ci $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2705$597_Y
+11 1
+.names $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2705$596_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2705$597_Y $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2705$598_Y
+1- 1
+-1 1
+.names U0.U0.U6.S_0[23] $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2706$599_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2706$600_Y
+11 1
+.names U0.U0.U6.S_1[23] U0.U0.U6.Ci $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2706$601_Y
+11 1
+.names $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2706$600_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2706$601_Y $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2706$602_Y
+1- 1
+-1 1
+.names U0.U0.U6.S_0[24] $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2707$603_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2707$604_Y
+11 1
+.names U0.U0.U6.S_1[24] U0.U0.U6.Ci $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2707$605_Y
+11 1
+.names $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2707$604_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2707$605_Y $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2707$606_Y
+1- 1
+-1 1
+.names U0.U0.U6.S_0[25] $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2708$607_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2708$608_Y
+11 1
+.names U0.U0.U6.S_1[25] U0.U0.U6.Ci $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2708$609_Y
+11 1
+.names $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2708$608_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2708$609_Y $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2708$610_Y
+1- 1
+-1 1
+.names U0.U0.U6.Co_0 $flatten\U0.\U0.\U6.$not$pre_corpus/59093.v:2709$611_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2709$612_Y
+11 1
+.names U0.U0.U6.Co_1 U0.U0.U6.Ci $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2709$613_Y
+11 1
+.names $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2709$612_Y $flatten\U0.\U0.\U6.$and$pre_corpus/59093.v:2709$613_Y $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2709$614_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U0.X U0.U0.U6.U2.U0.Y $flatten\U0.\U0.\U6.\U2.\U0.$and$pre_corpus/59093.v:2175$397_Y
+11 1
+.names U0.U0.U6.U2.U0.Y U0.U0.U6.U2.U0.Z $flatten\U0.\U0.\U6.\U2.\U0.$and$pre_corpus/59093.v:2175$398_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U0.$and$pre_corpus/59093.v:2175$397_Y $flatten\U0.\U0.\U6.\U2.\U0.$and$pre_corpus/59093.v:2175$398_Y $flatten\U0.\U0.\U6.\U2.\U0.$or$pre_corpus/59093.v:2175$399_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U0.Z U0.U0.U6.U2.U0.X $flatten\U0.\U0.\U6.\U2.\U0.$and$pre_corpus/59093.v:2175$400_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U0.$or$pre_corpus/59093.v:2175$399_Y $flatten\U0.\U0.\U6.\U2.\U0.$and$pre_corpus/59093.v:2175$400_Y $flatten\U0.\U0.\U6.\U2.\U0.$or$pre_corpus/59093.v:2175$401_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U0.X U0.U0.U6.U2.U0.Y $flatten\U0.\U0.\U6.\U2.\U0.$xor$pre_corpus/59093.v:2176$402_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U2.\U0.$xor$pre_corpus/59093.v:2176$402_Y U0.U0.U6.U2.U0.Z $flatten\U0.\U0.\U6.\U2.\U0.$xor$pre_corpus/59093.v:2176$403_Y
+10 1
+01 1
+.names U0.U0.U6.U2.U1.X U0.U0.U6.U2.U1.Y $flatten\U0.\U0.\U6.\U2.\U1.$and$pre_corpus/59093.v:2185$404_Y
+11 1
+.names U0.U0.U6.U2.U1.Y U0.U0.U6.U2.U1.Z $flatten\U0.\U0.\U6.\U2.\U1.$and$pre_corpus/59093.v:2185$405_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U1.$and$pre_corpus/59093.v:2185$404_Y $flatten\U0.\U0.\U6.\U2.\U1.$and$pre_corpus/59093.v:2185$405_Y $flatten\U0.\U0.\U6.\U2.\U1.$or$pre_corpus/59093.v:2185$406_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U1.Z U0.U0.U6.U2.U1.X $flatten\U0.\U0.\U6.\U2.\U1.$and$pre_corpus/59093.v:2185$407_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U1.$or$pre_corpus/59093.v:2185$406_Y $flatten\U0.\U0.\U6.\U2.\U1.$and$pre_corpus/59093.v:2185$407_Y $flatten\U0.\U0.\U6.\U2.\U1.$or$pre_corpus/59093.v:2185$408_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U1.X U0.U0.U6.U2.U1.Y $flatten\U0.\U0.\U6.\U2.\U1.$xor$pre_corpus/59093.v:2186$409_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U2.\U1.$xor$pre_corpus/59093.v:2186$409_Y U0.U0.U6.U2.U1.Z $flatten\U0.\U0.\U6.\U2.\U1.$xor$pre_corpus/59093.v:2186$410_Y
+10 1
+01 1
+.names U0.U0.U6.U2.U2.X U0.U0.U6.U2.U2.Y $flatten\U0.\U0.\U6.\U2.\U2.$and$pre_corpus/59093.v:2288$425_Y
+11 1
+.names U0.U0.U6.U2.U2.Y U0.U0.U6.U2.U2.Z $flatten\U0.\U0.\U6.\U2.\U2.$and$pre_corpus/59093.v:2288$426_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U2.$and$pre_corpus/59093.v:2288$425_Y $flatten\U0.\U0.\U6.\U2.\U2.$and$pre_corpus/59093.v:2288$426_Y $flatten\U0.\U0.\U6.\U2.\U2.$or$pre_corpus/59093.v:2288$427_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U2.Z U0.U0.U6.U2.U2.X $flatten\U0.\U0.\U6.\U2.\U2.$and$pre_corpus/59093.v:2288$428_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U2.$or$pre_corpus/59093.v:2288$427_Y $flatten\U0.\U0.\U6.\U2.\U2.$and$pre_corpus/59093.v:2288$428_Y $flatten\U0.\U0.\U6.\U2.\U2.$or$pre_corpus/59093.v:2288$429_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U2.X U0.U0.U6.U2.U2.Y $flatten\U0.\U0.\U6.\U2.\U2.$xor$pre_corpus/59093.v:2289$430_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U2.\U2.$xor$pre_corpus/59093.v:2289$430_Y U0.U0.U6.U2.U2.Z $flatten\U0.\U0.\U6.\U2.\U2.$xor$pre_corpus/59093.v:2289$431_Y
+10 1
+01 1
+.names U0.U0.U6.U2.U3.X U0.U0.U6.U2.U3.Y $flatten\U0.\U0.\U6.\U2.\U3.$and$pre_corpus/59093.v:2298$432_Y
+11 1
+.names U0.U0.U6.U2.U3.Y U0.U0.U6.U2.U3.Z $flatten\U0.\U0.\U6.\U2.\U3.$and$pre_corpus/59093.v:2298$433_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U3.$and$pre_corpus/59093.v:2298$432_Y $flatten\U0.\U0.\U6.\U2.\U3.$and$pre_corpus/59093.v:2298$433_Y $flatten\U0.\U0.\U6.\U2.\U3.$or$pre_corpus/59093.v:2298$434_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U3.Z U0.U0.U6.U2.U3.X $flatten\U0.\U0.\U6.\U2.\U3.$and$pre_corpus/59093.v:2298$435_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U3.$or$pre_corpus/59093.v:2298$434_Y $flatten\U0.\U0.\U6.\U2.\U3.$and$pre_corpus/59093.v:2298$435_Y $flatten\U0.\U0.\U6.\U2.\U3.$or$pre_corpus/59093.v:2298$436_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U3.X U0.U0.U6.U2.U3.Y $flatten\U0.\U0.\U6.\U2.\U3.$xor$pre_corpus/59093.v:2299$437_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U2.\U3.$xor$pre_corpus/59093.v:2299$437_Y U0.U0.U6.U2.U3.Z $flatten\U0.\U0.\U6.\U2.\U3.$xor$pre_corpus/59093.v:2299$438_Y
+10 1
+01 1
+.names U0.U0.U6.U2.U4.X U0.U0.U6.U2.U4.Y $flatten\U0.\U0.\U6.\U2.\U4.$and$pre_corpus/59093.v:2308$439_Y
+11 1
+.names U0.U0.U6.U2.U4.Y U0.U0.U6.U2.U4.Z $flatten\U0.\U0.\U6.\U2.\U4.$and$pre_corpus/59093.v:2308$440_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U4.$and$pre_corpus/59093.v:2308$439_Y $flatten\U0.\U0.\U6.\U2.\U4.$and$pre_corpus/59093.v:2308$440_Y $flatten\U0.\U0.\U6.\U2.\U4.$or$pre_corpus/59093.v:2308$441_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U4.Z U0.U0.U6.U2.U4.X $flatten\U0.\U0.\U6.\U2.\U4.$and$pre_corpus/59093.v:2308$442_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U4.$or$pre_corpus/59093.v:2308$441_Y $flatten\U0.\U0.\U6.\U2.\U4.$and$pre_corpus/59093.v:2308$442_Y $flatten\U0.\U0.\U6.\U2.\U4.$or$pre_corpus/59093.v:2308$443_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U4.X U0.U0.U6.U2.U4.Y $flatten\U0.\U0.\U6.\U2.\U4.$xor$pre_corpus/59093.v:2309$444_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U2.\U4.$xor$pre_corpus/59093.v:2309$444_Y U0.U0.U6.U2.U4.Z $flatten\U0.\U0.\U6.\U2.\U4.$xor$pre_corpus/59093.v:2309$445_Y
+10 1
+01 1
+.names U0.U0.U6.U2.U5.X U0.U0.U6.U2.U5.Y $flatten\U0.\U0.\U6.\U2.\U5.$and$pre_corpus/59093.v:2342$450_Y
+11 1
+.names U0.U0.U6.U2.U5.Y U0.U0.U6.U2.U5.Z $flatten\U0.\U0.\U6.\U2.\U5.$and$pre_corpus/59093.v:2342$451_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U5.$and$pre_corpus/59093.v:2342$450_Y $flatten\U0.\U0.\U6.\U2.\U5.$and$pre_corpus/59093.v:2342$451_Y $flatten\U0.\U0.\U6.\U2.\U5.$or$pre_corpus/59093.v:2342$452_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U5.Z U0.U0.U6.U2.U5.X $flatten\U0.\U0.\U6.\U2.\U5.$and$pre_corpus/59093.v:2342$453_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U2.\U5.$or$pre_corpus/59093.v:2342$452_Y $flatten\U0.\U0.\U6.\U2.\U5.$and$pre_corpus/59093.v:2342$453_Y $flatten\U0.\U0.\U6.\U2.\U5.$or$pre_corpus/59093.v:2342$454_Y
+1- 1
+-1 1
+.names U0.U0.U6.U2.U5.X U0.U0.U6.U2.U5.Y $flatten\U0.\U0.\U6.\U2.\U5.$xor$pre_corpus/59093.v:2343$455_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U2.\U5.$xor$pre_corpus/59093.v:2343$455_Y U0.U0.U6.U2.U5.Z $flatten\U0.\U0.\U6.\U2.\U5.$xor$pre_corpus/59093.v:2343$456_Y
+10 1
+01 1
+.names U0.U0.U6.U3.U0.X U0.U0.U6.U3.U0.Y $flatten\U0.\U0.\U6.\U3.\U0.$and$pre_corpus/59093.v:2175$397_Y
+11 1
+.names U0.U0.U6.U3.U0.Y U0.U0.U6.U3.U0.Z $flatten\U0.\U0.\U6.\U3.\U0.$and$pre_corpus/59093.v:2175$398_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U0.$and$pre_corpus/59093.v:2175$397_Y $flatten\U0.\U0.\U6.\U3.\U0.$and$pre_corpus/59093.v:2175$398_Y $flatten\U0.\U0.\U6.\U3.\U0.$or$pre_corpus/59093.v:2175$399_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U0.Z U0.U0.U6.U3.U0.X $flatten\U0.\U0.\U6.\U3.\U0.$and$pre_corpus/59093.v:2175$400_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U0.$or$pre_corpus/59093.v:2175$399_Y $flatten\U0.\U0.\U6.\U3.\U0.$and$pre_corpus/59093.v:2175$400_Y $flatten\U0.\U0.\U6.\U3.\U0.$or$pre_corpus/59093.v:2175$401_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U0.X U0.U0.U6.U3.U0.Y $flatten\U0.\U0.\U6.\U3.\U0.$xor$pre_corpus/59093.v:2176$402_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U3.\U0.$xor$pre_corpus/59093.v:2176$402_Y U0.U0.U6.U3.U0.Z $flatten\U0.\U0.\U6.\U3.\U0.$xor$pre_corpus/59093.v:2176$403_Y
+10 1
+01 1
+.names U0.U0.U6.U3.U1.X U0.U0.U6.U3.U1.Y $flatten\U0.\U0.\U6.\U3.\U1.$and$pre_corpus/59093.v:2185$404_Y
+11 1
+.names U0.U0.U6.U3.U1.Y U0.U0.U6.U3.U1.Z $flatten\U0.\U0.\U6.\U3.\U1.$and$pre_corpus/59093.v:2185$405_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U1.$and$pre_corpus/59093.v:2185$404_Y $flatten\U0.\U0.\U6.\U3.\U1.$and$pre_corpus/59093.v:2185$405_Y $flatten\U0.\U0.\U6.\U3.\U1.$or$pre_corpus/59093.v:2185$406_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U1.Z U0.U0.U6.U3.U1.X $flatten\U0.\U0.\U6.\U3.\U1.$and$pre_corpus/59093.v:2185$407_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U1.$or$pre_corpus/59093.v:2185$406_Y $flatten\U0.\U0.\U6.\U3.\U1.$and$pre_corpus/59093.v:2185$407_Y $flatten\U0.\U0.\U6.\U3.\U1.$or$pre_corpus/59093.v:2185$408_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U1.X U0.U0.U6.U3.U1.Y $flatten\U0.\U0.\U6.\U3.\U1.$xor$pre_corpus/59093.v:2186$409_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U3.\U1.$xor$pre_corpus/59093.v:2186$409_Y U0.U0.U6.U3.U1.Z $flatten\U0.\U0.\U6.\U3.\U1.$xor$pre_corpus/59093.v:2186$410_Y
+10 1
+01 1
+.names U0.U0.U6.U3.U2.X U0.U0.U6.U3.U2.Y $flatten\U0.\U0.\U6.\U3.\U2.$and$pre_corpus/59093.v:2288$425_Y
+11 1
+.names U0.U0.U6.U3.U2.Y U0.U0.U6.U3.U2.Z $flatten\U0.\U0.\U6.\U3.\U2.$and$pre_corpus/59093.v:2288$426_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U2.$and$pre_corpus/59093.v:2288$425_Y $flatten\U0.\U0.\U6.\U3.\U2.$and$pre_corpus/59093.v:2288$426_Y $flatten\U0.\U0.\U6.\U3.\U2.$or$pre_corpus/59093.v:2288$427_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U2.Z U0.U0.U6.U3.U2.X $flatten\U0.\U0.\U6.\U3.\U2.$and$pre_corpus/59093.v:2288$428_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U2.$or$pre_corpus/59093.v:2288$427_Y $flatten\U0.\U0.\U6.\U3.\U2.$and$pre_corpus/59093.v:2288$428_Y $flatten\U0.\U0.\U6.\U3.\U2.$or$pre_corpus/59093.v:2288$429_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U2.X U0.U0.U6.U3.U2.Y $flatten\U0.\U0.\U6.\U3.\U2.$xor$pre_corpus/59093.v:2289$430_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U3.\U2.$xor$pre_corpus/59093.v:2289$430_Y U0.U0.U6.U3.U2.Z $flatten\U0.\U0.\U6.\U3.\U2.$xor$pre_corpus/59093.v:2289$431_Y
+10 1
+01 1
+.names U0.U0.U6.U3.U3.X U0.U0.U6.U3.U3.Y $flatten\U0.\U0.\U6.\U3.\U3.$and$pre_corpus/59093.v:2298$432_Y
+11 1
+.names U0.U0.U6.U3.U3.Y U0.U0.U6.U3.U3.Z $flatten\U0.\U0.\U6.\U3.\U3.$and$pre_corpus/59093.v:2298$433_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U3.$and$pre_corpus/59093.v:2298$432_Y $flatten\U0.\U0.\U6.\U3.\U3.$and$pre_corpus/59093.v:2298$433_Y $flatten\U0.\U0.\U6.\U3.\U3.$or$pre_corpus/59093.v:2298$434_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U3.Z U0.U0.U6.U3.U3.X $flatten\U0.\U0.\U6.\U3.\U3.$and$pre_corpus/59093.v:2298$435_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U3.$or$pre_corpus/59093.v:2298$434_Y $flatten\U0.\U0.\U6.\U3.\U3.$and$pre_corpus/59093.v:2298$435_Y $flatten\U0.\U0.\U6.\U3.\U3.$or$pre_corpus/59093.v:2298$436_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U3.X U0.U0.U6.U3.U3.Y $flatten\U0.\U0.\U6.\U3.\U3.$xor$pre_corpus/59093.v:2299$437_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U3.\U3.$xor$pre_corpus/59093.v:2299$437_Y U0.U0.U6.U3.U3.Z $flatten\U0.\U0.\U6.\U3.\U3.$xor$pre_corpus/59093.v:2299$438_Y
+10 1
+01 1
+.names U0.U0.U6.U3.U4.X U0.U0.U6.U3.U4.Y $flatten\U0.\U0.\U6.\U3.\U4.$and$pre_corpus/59093.v:2308$439_Y
+11 1
+.names U0.U0.U6.U3.U4.Y U0.U0.U6.U3.U4.Z $flatten\U0.\U0.\U6.\U3.\U4.$and$pre_corpus/59093.v:2308$440_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U4.$and$pre_corpus/59093.v:2308$439_Y $flatten\U0.\U0.\U6.\U3.\U4.$and$pre_corpus/59093.v:2308$440_Y $flatten\U0.\U0.\U6.\U3.\U4.$or$pre_corpus/59093.v:2308$441_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U4.Z U0.U0.U6.U3.U4.X $flatten\U0.\U0.\U6.\U3.\U4.$and$pre_corpus/59093.v:2308$442_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U4.$or$pre_corpus/59093.v:2308$441_Y $flatten\U0.\U0.\U6.\U3.\U4.$and$pre_corpus/59093.v:2308$442_Y $flatten\U0.\U0.\U6.\U3.\U4.$or$pre_corpus/59093.v:2308$443_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U4.X U0.U0.U6.U3.U4.Y $flatten\U0.\U0.\U6.\U3.\U4.$xor$pre_corpus/59093.v:2309$444_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U3.\U4.$xor$pre_corpus/59093.v:2309$444_Y U0.U0.U6.U3.U4.Z $flatten\U0.\U0.\U6.\U3.\U4.$xor$pre_corpus/59093.v:2309$445_Y
+10 1
+01 1
+.names U0.U0.U6.U3.U5.X U0.U0.U6.U3.U5.Y $flatten\U0.\U0.\U6.\U3.\U5.$and$pre_corpus/59093.v:2342$450_Y
+11 1
+.names U0.U0.U6.U3.U5.Y U0.U0.U6.U3.U5.Z $flatten\U0.\U0.\U6.\U3.\U5.$and$pre_corpus/59093.v:2342$451_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U5.$and$pre_corpus/59093.v:2342$450_Y $flatten\U0.\U0.\U6.\U3.\U5.$and$pre_corpus/59093.v:2342$451_Y $flatten\U0.\U0.\U6.\U3.\U5.$or$pre_corpus/59093.v:2342$452_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U5.Z U0.U0.U6.U3.U5.X $flatten\U0.\U0.\U6.\U3.\U5.$and$pre_corpus/59093.v:2342$453_Y
+11 1
+.names $flatten\U0.\U0.\U6.\U3.\U5.$or$pre_corpus/59093.v:2342$452_Y $flatten\U0.\U0.\U6.\U3.\U5.$and$pre_corpus/59093.v:2342$453_Y $flatten\U0.\U0.\U6.\U3.\U5.$or$pre_corpus/59093.v:2342$454_Y
+1- 1
+-1 1
+.names U0.U0.U6.U3.U5.X U0.U0.U6.U3.U5.Y $flatten\U0.\U0.\U6.\U3.\U5.$xor$pre_corpus/59093.v:2343$455_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U6.\U3.\U5.$xor$pre_corpus/59093.v:2343$455_Y U0.U0.U6.U3.U5.Z $flatten\U0.\U0.\U6.\U3.\U5.$xor$pre_corpus/59093.v:2343$456_Y
+10 1
+01 1
+.names U0.U0.U7.Ci $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2758$629_Y
+0 1
+.names U0.U0.U7.Ci $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2759$633_Y
+0 1
+.names U0.U0.U7.Ci $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2760$637_Y
+0 1
+.names U0.U0.U7.Ci $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2761$641_Y
+0 1
+.names U0.U0.U7.Ci $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2762$645_Y
+0 1
+.names U0.U0.U7.Ci $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2763$649_Y
+0 1
+.names U0.U0.U7.Ci $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2764$653_Y
+0 1
+.names U0.U0.U7.S_0[26] $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2758$629_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2758$630_Y
+11 1
+.names U0.U0.U7.S_1[26] U0.U0.U7.Ci $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2758$631_Y
+11 1
+.names $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2758$630_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2758$631_Y $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2758$632_Y
+1- 1
+-1 1
+.names U0.U0.U7.S_0[27] $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2759$633_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2759$634_Y
+11 1
+.names U0.U0.U7.S_1[27] U0.U0.U7.Ci $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2759$635_Y
+11 1
+.names $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2759$634_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2759$635_Y $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2759$636_Y
+1- 1
+-1 1
+.names U0.U0.U7.S_0[28] $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2760$637_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2760$638_Y
+11 1
+.names U0.U0.U7.S_1[28] U0.U0.U7.Ci $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2760$639_Y
+11 1
+.names $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2760$638_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2760$639_Y $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2760$640_Y
+1- 1
+-1 1
+.names U0.U0.U7.S_0[29] $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2761$641_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2761$642_Y
+11 1
+.names U0.U0.U7.S_1[29] U0.U0.U7.Ci $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2761$643_Y
+11 1
+.names $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2761$642_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2761$643_Y $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2761$644_Y
+1- 1
+-1 1
+.names U0.U0.U7.S_0[30] $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2762$645_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2762$646_Y
+11 1
+.names U0.U0.U7.S_1[30] U0.U0.U7.Ci $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2762$647_Y
+11 1
+.names $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2762$646_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2762$647_Y $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2762$648_Y
+1- 1
+-1 1
+.names U0.U0.U7.S_0[31] $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2763$649_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2763$650_Y
+11 1
+.names U0.U0.U7.S_1[31] U0.U0.U7.Ci $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2763$651_Y
+11 1
+.names $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2763$650_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2763$651_Y $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2763$652_Y
+1- 1
+-1 1
+.names U0.U0.U7.Co_0 $flatten\U0.\U0.\U7.$not$pre_corpus/59093.v:2764$653_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2764$654_Y
+11 1
+.names U0.U0.U7.Co_1 U0.U0.U7.Ci $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2764$655_Y
+11 1
+.names $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2764$654_Y $flatten\U0.\U0.\U7.$and$pre_corpus/59093.v:2764$655_Y $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2764$656_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U0.X U0.U0.U7.U2.U0.Y $flatten\U0.\U0.\U7.\U2.\U0.$and$pre_corpus/59093.v:2352$457_Y
+11 1
+.names U0.U0.U7.U2.U0.Y U0.U0.U7.U2.U0.Z $flatten\U0.\U0.\U7.\U2.\U0.$and$pre_corpus/59093.v:2352$458_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U0.$and$pre_corpus/59093.v:2352$457_Y $flatten\U0.\U0.\U7.\U2.\U0.$and$pre_corpus/59093.v:2352$458_Y $flatten\U0.\U0.\U7.\U2.\U0.$or$pre_corpus/59093.v:2352$459_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U0.Z U0.U0.U7.U2.U0.X $flatten\U0.\U0.\U7.\U2.\U0.$and$pre_corpus/59093.v:2352$460_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U0.$or$pre_corpus/59093.v:2352$459_Y $flatten\U0.\U0.\U7.\U2.\U0.$and$pre_corpus/59093.v:2352$460_Y $flatten\U0.\U0.\U7.\U2.\U0.$or$pre_corpus/59093.v:2352$461_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U0.X U0.U0.U7.U2.U0.Y $flatten\U0.\U0.\U7.\U2.\U0.$xor$pre_corpus/59093.v:2353$462_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U2.\U0.$xor$pre_corpus/59093.v:2353$462_Y U0.U0.U7.U2.U0.Z $flatten\U0.\U0.\U7.\U2.\U0.$xor$pre_corpus/59093.v:2353$463_Y
+10 1
+01 1
+.names U0.U0.U7.U2.U1.X U0.U0.U7.U2.U1.Y $flatten\U0.\U0.\U7.\U2.\U1.$and$pre_corpus/59093.v:2434$476_Y
+11 1
+.names U0.U0.U7.U2.U1.Y U0.U0.U7.U2.U1.Z $flatten\U0.\U0.\U7.\U2.\U1.$and$pre_corpus/59093.v:2434$477_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U1.$and$pre_corpus/59093.v:2434$476_Y $flatten\U0.\U0.\U7.\U2.\U1.$and$pre_corpus/59093.v:2434$477_Y $flatten\U0.\U0.\U7.\U2.\U1.$or$pre_corpus/59093.v:2434$478_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U1.Z U0.U0.U7.U2.U1.X $flatten\U0.\U0.\U7.\U2.\U1.$and$pre_corpus/59093.v:2434$479_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U1.$or$pre_corpus/59093.v:2434$478_Y $flatten\U0.\U0.\U7.\U2.\U1.$and$pre_corpus/59093.v:2434$479_Y $flatten\U0.\U0.\U7.\U2.\U1.$or$pre_corpus/59093.v:2434$480_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U1.X U0.U0.U7.U2.U1.Y $flatten\U0.\U0.\U7.\U2.\U1.$xor$pre_corpus/59093.v:2435$481_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U2.\U1.$xor$pre_corpus/59093.v:2435$481_Y U0.U0.U7.U2.U1.Z $flatten\U0.\U0.\U7.\U2.\U1.$xor$pre_corpus/59093.v:2435$482_Y
+10 1
+01 1
+.names U0.U0.U7.U2.U2.X U0.U0.U7.U2.U2.Y $flatten\U0.\U0.\U7.\U2.\U2.$and$pre_corpus/59093.v:2444$483_Y
+11 1
+.names U0.U0.U7.U2.U2.Y U0.U0.U7.U2.U2.Z $flatten\U0.\U0.\U7.\U2.\U2.$and$pre_corpus/59093.v:2444$484_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U2.$and$pre_corpus/59093.v:2444$483_Y $flatten\U0.\U0.\U7.\U2.\U2.$and$pre_corpus/59093.v:2444$484_Y $flatten\U0.\U0.\U7.\U2.\U2.$or$pre_corpus/59093.v:2444$485_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U2.Z U0.U0.U7.U2.U2.X $flatten\U0.\U0.\U7.\U2.\U2.$and$pre_corpus/59093.v:2444$486_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U2.$or$pre_corpus/59093.v:2444$485_Y $flatten\U0.\U0.\U7.\U2.\U2.$and$pre_corpus/59093.v:2444$486_Y $flatten\U0.\U0.\U7.\U2.\U2.$or$pre_corpus/59093.v:2444$487_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U2.X U0.U0.U7.U2.U2.Y $flatten\U0.\U0.\U7.\U2.\U2.$xor$pre_corpus/59093.v:2445$488_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U2.\U2.$xor$pre_corpus/59093.v:2445$488_Y U0.U0.U7.U2.U2.Z $flatten\U0.\U0.\U7.\U2.\U2.$xor$pre_corpus/59093.v:2445$489_Y
+10 1
+01 1
+.names U0.U0.U7.U2.U3.X U0.U0.U7.U2.U3.Y $flatten\U0.\U0.\U7.\U2.\U3.$and$pre_corpus/59093.v:2517$500_Y
+11 1
+.names U0.U0.U7.U2.U3.Y U0.U0.U7.U2.U3.Z $flatten\U0.\U0.\U7.\U2.\U3.$and$pre_corpus/59093.v:2517$501_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U3.$and$pre_corpus/59093.v:2517$500_Y $flatten\U0.\U0.\U7.\U2.\U3.$and$pre_corpus/59093.v:2517$501_Y $flatten\U0.\U0.\U7.\U2.\U3.$or$pre_corpus/59093.v:2517$502_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U3.Z U0.U0.U7.U2.U3.X $flatten\U0.\U0.\U7.\U2.\U3.$and$pre_corpus/59093.v:2517$503_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U3.$or$pre_corpus/59093.v:2517$502_Y $flatten\U0.\U0.\U7.\U2.\U3.$and$pre_corpus/59093.v:2517$503_Y $flatten\U0.\U0.\U7.\U2.\U3.$or$pre_corpus/59093.v:2517$504_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U3.X U0.U0.U7.U2.U3.Y $flatten\U0.\U0.\U7.\U2.\U3.$xor$pre_corpus/59093.v:2518$505_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U2.\U3.$xor$pre_corpus/59093.v:2518$505_Y U0.U0.U7.U2.U3.Z $flatten\U0.\U0.\U7.\U2.\U3.$xor$pre_corpus/59093.v:2518$506_Y
+10 1
+01 1
+.names U0.U0.U7.U2.U4.X U0.U0.U7.U2.U4.Y $flatten\U0.\U0.\U7.\U2.\U4.$and$pre_corpus/59093.v:2732$615_Y
+11 1
+.names U0.U0.U7.U2.U4.Y U0.U0.U7.U2.U4.Z $flatten\U0.\U0.\U7.\U2.\U4.$and$pre_corpus/59093.v:2732$616_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U4.$and$pre_corpus/59093.v:2732$615_Y $flatten\U0.\U0.\U7.\U2.\U4.$and$pre_corpus/59093.v:2732$616_Y $flatten\U0.\U0.\U7.\U2.\U4.$or$pre_corpus/59093.v:2732$617_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U4.Z U0.U0.U7.U2.U4.X $flatten\U0.\U0.\U7.\U2.\U4.$and$pre_corpus/59093.v:2732$618_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U4.$or$pre_corpus/59093.v:2732$617_Y $flatten\U0.\U0.\U7.\U2.\U4.$and$pre_corpus/59093.v:2732$618_Y $flatten\U0.\U0.\U7.\U2.\U4.$or$pre_corpus/59093.v:2732$619_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U4.X U0.U0.U7.U2.U4.Y $flatten\U0.\U0.\U7.\U2.\U4.$xor$pre_corpus/59093.v:2733$620_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U2.\U4.$xor$pre_corpus/59093.v:2733$620_Y U0.U0.U7.U2.U4.Z $flatten\U0.\U0.\U7.\U2.\U4.$xor$pre_corpus/59093.v:2733$621_Y
+10 1
+01 1
+.names U0.U0.U7.U2.U5.X U0.U0.U7.U2.U5.Y $flatten\U0.\U0.\U7.\U2.\U5.$and$pre_corpus/59093.v:2742$622_Y
+11 1
+.names U0.U0.U7.U2.U5.Y U0.U0.U7.U2.U5.Z $flatten\U0.\U0.\U7.\U2.\U5.$and$pre_corpus/59093.v:2742$623_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U5.$and$pre_corpus/59093.v:2742$622_Y $flatten\U0.\U0.\U7.\U2.\U5.$and$pre_corpus/59093.v:2742$623_Y $flatten\U0.\U0.\U7.\U2.\U5.$or$pre_corpus/59093.v:2742$624_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U5.Z U0.U0.U7.U2.U5.X $flatten\U0.\U0.\U7.\U2.\U5.$and$pre_corpus/59093.v:2742$625_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U2.\U5.$or$pre_corpus/59093.v:2742$624_Y $flatten\U0.\U0.\U7.\U2.\U5.$and$pre_corpus/59093.v:2742$625_Y $flatten\U0.\U0.\U7.\U2.\U5.$or$pre_corpus/59093.v:2742$626_Y
+1- 1
+-1 1
+.names U0.U0.U7.U2.U5.X U0.U0.U7.U2.U5.Y $flatten\U0.\U0.\U7.\U2.\U5.$xor$pre_corpus/59093.v:2743$627_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U2.\U5.$xor$pre_corpus/59093.v:2743$627_Y U0.U0.U7.U2.U5.Z $flatten\U0.\U0.\U7.\U2.\U5.$xor$pre_corpus/59093.v:2743$628_Y
+10 1
+01 1
+.names U0.U0.U7.U3.U0.X U0.U0.U7.U3.U0.Y $flatten\U0.\U0.\U7.\U3.\U0.$and$pre_corpus/59093.v:2352$457_Y
+11 1
+.names U0.U0.U7.U3.U0.Y U0.U0.U7.U3.U0.Z $flatten\U0.\U0.\U7.\U3.\U0.$and$pre_corpus/59093.v:2352$458_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U0.$and$pre_corpus/59093.v:2352$457_Y $flatten\U0.\U0.\U7.\U3.\U0.$and$pre_corpus/59093.v:2352$458_Y $flatten\U0.\U0.\U7.\U3.\U0.$or$pre_corpus/59093.v:2352$459_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U0.Z U0.U0.U7.U3.U0.X $flatten\U0.\U0.\U7.\U3.\U0.$and$pre_corpus/59093.v:2352$460_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U0.$or$pre_corpus/59093.v:2352$459_Y $flatten\U0.\U0.\U7.\U3.\U0.$and$pre_corpus/59093.v:2352$460_Y $flatten\U0.\U0.\U7.\U3.\U0.$or$pre_corpus/59093.v:2352$461_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U0.X U0.U0.U7.U3.U0.Y $flatten\U0.\U0.\U7.\U3.\U0.$xor$pre_corpus/59093.v:2353$462_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U3.\U0.$xor$pre_corpus/59093.v:2353$462_Y U0.U0.U7.U3.U0.Z $flatten\U0.\U0.\U7.\U3.\U0.$xor$pre_corpus/59093.v:2353$463_Y
+10 1
+01 1
+.names U0.U0.U7.U3.U1.X U0.U0.U7.U3.U1.Y $flatten\U0.\U0.\U7.\U3.\U1.$and$pre_corpus/59093.v:2434$476_Y
+11 1
+.names U0.U0.U7.U3.U1.Y U0.U0.U7.U3.U1.Z $flatten\U0.\U0.\U7.\U3.\U1.$and$pre_corpus/59093.v:2434$477_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U1.$and$pre_corpus/59093.v:2434$476_Y $flatten\U0.\U0.\U7.\U3.\U1.$and$pre_corpus/59093.v:2434$477_Y $flatten\U0.\U0.\U7.\U3.\U1.$or$pre_corpus/59093.v:2434$478_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U1.Z U0.U0.U7.U3.U1.X $flatten\U0.\U0.\U7.\U3.\U1.$and$pre_corpus/59093.v:2434$479_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U1.$or$pre_corpus/59093.v:2434$478_Y $flatten\U0.\U0.\U7.\U3.\U1.$and$pre_corpus/59093.v:2434$479_Y $flatten\U0.\U0.\U7.\U3.\U1.$or$pre_corpus/59093.v:2434$480_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U1.X U0.U0.U7.U3.U1.Y $flatten\U0.\U0.\U7.\U3.\U1.$xor$pre_corpus/59093.v:2435$481_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U3.\U1.$xor$pre_corpus/59093.v:2435$481_Y U0.U0.U7.U3.U1.Z $flatten\U0.\U0.\U7.\U3.\U1.$xor$pre_corpus/59093.v:2435$482_Y
+10 1
+01 1
+.names U0.U0.U7.U3.U2.X U0.U0.U7.U3.U2.Y $flatten\U0.\U0.\U7.\U3.\U2.$and$pre_corpus/59093.v:2444$483_Y
+11 1
+.names U0.U0.U7.U3.U2.Y U0.U0.U7.U3.U2.Z $flatten\U0.\U0.\U7.\U3.\U2.$and$pre_corpus/59093.v:2444$484_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U2.$and$pre_corpus/59093.v:2444$483_Y $flatten\U0.\U0.\U7.\U3.\U2.$and$pre_corpus/59093.v:2444$484_Y $flatten\U0.\U0.\U7.\U3.\U2.$or$pre_corpus/59093.v:2444$485_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U2.Z U0.U0.U7.U3.U2.X $flatten\U0.\U0.\U7.\U3.\U2.$and$pre_corpus/59093.v:2444$486_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U2.$or$pre_corpus/59093.v:2444$485_Y $flatten\U0.\U0.\U7.\U3.\U2.$and$pre_corpus/59093.v:2444$486_Y $flatten\U0.\U0.\U7.\U3.\U2.$or$pre_corpus/59093.v:2444$487_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U2.X U0.U0.U7.U3.U2.Y $flatten\U0.\U0.\U7.\U3.\U2.$xor$pre_corpus/59093.v:2445$488_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U3.\U2.$xor$pre_corpus/59093.v:2445$488_Y U0.U0.U7.U3.U2.Z $flatten\U0.\U0.\U7.\U3.\U2.$xor$pre_corpus/59093.v:2445$489_Y
+10 1
+01 1
+.names U0.U0.U7.U3.U3.X U0.U0.U7.U3.U3.Y $flatten\U0.\U0.\U7.\U3.\U3.$and$pre_corpus/59093.v:2517$500_Y
+11 1
+.names U0.U0.U7.U3.U3.Y U0.U0.U7.U3.U3.Z $flatten\U0.\U0.\U7.\U3.\U3.$and$pre_corpus/59093.v:2517$501_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U3.$and$pre_corpus/59093.v:2517$500_Y $flatten\U0.\U0.\U7.\U3.\U3.$and$pre_corpus/59093.v:2517$501_Y $flatten\U0.\U0.\U7.\U3.\U3.$or$pre_corpus/59093.v:2517$502_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U3.Z U0.U0.U7.U3.U3.X $flatten\U0.\U0.\U7.\U3.\U3.$and$pre_corpus/59093.v:2517$503_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U3.$or$pre_corpus/59093.v:2517$502_Y $flatten\U0.\U0.\U7.\U3.\U3.$and$pre_corpus/59093.v:2517$503_Y $flatten\U0.\U0.\U7.\U3.\U3.$or$pre_corpus/59093.v:2517$504_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U3.X U0.U0.U7.U3.U3.Y $flatten\U0.\U0.\U7.\U3.\U3.$xor$pre_corpus/59093.v:2518$505_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U3.\U3.$xor$pre_corpus/59093.v:2518$505_Y U0.U0.U7.U3.U3.Z $flatten\U0.\U0.\U7.\U3.\U3.$xor$pre_corpus/59093.v:2518$506_Y
+10 1
+01 1
+.names U0.U0.U7.U3.U4.X U0.U0.U7.U3.U4.Y $flatten\U0.\U0.\U7.\U3.\U4.$and$pre_corpus/59093.v:2732$615_Y
+11 1
+.names U0.U0.U7.U3.U4.Y U0.U0.U7.U3.U4.Z $flatten\U0.\U0.\U7.\U3.\U4.$and$pre_corpus/59093.v:2732$616_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U4.$and$pre_corpus/59093.v:2732$615_Y $flatten\U0.\U0.\U7.\U3.\U4.$and$pre_corpus/59093.v:2732$616_Y $flatten\U0.\U0.\U7.\U3.\U4.$or$pre_corpus/59093.v:2732$617_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U4.Z U0.U0.U7.U3.U4.X $flatten\U0.\U0.\U7.\U3.\U4.$and$pre_corpus/59093.v:2732$618_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U4.$or$pre_corpus/59093.v:2732$617_Y $flatten\U0.\U0.\U7.\U3.\U4.$and$pre_corpus/59093.v:2732$618_Y $flatten\U0.\U0.\U7.\U3.\U4.$or$pre_corpus/59093.v:2732$619_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U4.X U0.U0.U7.U3.U4.Y $flatten\U0.\U0.\U7.\U3.\U4.$xor$pre_corpus/59093.v:2733$620_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U3.\U4.$xor$pre_corpus/59093.v:2733$620_Y U0.U0.U7.U3.U4.Z $flatten\U0.\U0.\U7.\U3.\U4.$xor$pre_corpus/59093.v:2733$621_Y
+10 1
+01 1
+.names U0.U0.U7.U3.U5.X U0.U0.U7.U3.U5.Y $flatten\U0.\U0.\U7.\U3.\U5.$and$pre_corpus/59093.v:2742$622_Y
+11 1
+.names U0.U0.U7.U3.U5.Y U0.U0.U7.U3.U5.Z $flatten\U0.\U0.\U7.\U3.\U5.$and$pre_corpus/59093.v:2742$623_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U5.$and$pre_corpus/59093.v:2742$622_Y $flatten\U0.\U0.\U7.\U3.\U5.$and$pre_corpus/59093.v:2742$623_Y $flatten\U0.\U0.\U7.\U3.\U5.$or$pre_corpus/59093.v:2742$624_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U5.Z U0.U0.U7.U3.U5.X $flatten\U0.\U0.\U7.\U3.\U5.$and$pre_corpus/59093.v:2742$625_Y
+11 1
+.names $flatten\U0.\U0.\U7.\U3.\U5.$or$pre_corpus/59093.v:2742$624_Y $flatten\U0.\U0.\U7.\U3.\U5.$and$pre_corpus/59093.v:2742$625_Y $flatten\U0.\U0.\U7.\U3.\U5.$or$pre_corpus/59093.v:2742$626_Y
+1- 1
+-1 1
+.names U0.U0.U7.U3.U5.X U0.U0.U7.U3.U5.Y $flatten\U0.\U0.\U7.\U3.\U5.$xor$pre_corpus/59093.v:2743$627_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U7.\U3.\U5.$xor$pre_corpus/59093.v:2743$627_Y U0.U0.U7.U3.U5.Z $flatten\U0.\U0.\U7.\U3.\U5.$xor$pre_corpus/59093.v:2743$628_Y
+10 1
+01 1
+.names $flatten\U0.\U0.\U0.\U0.$or$pre_corpus/59093.v:1847$277_Y U0.U0.U0.U0.C
+1 1
+.names $flatten\U0.\U0.\U0.\U0.$xor$pre_corpus/59093.v:1848$279_Y U0.U0.U0.U0.S
+1 1
+.names U0.U0.U0.U0.C U0.U0.U0.Co
+1 1
+.names U0.U0.U0.U0.S U0.U0.U0.S
+1 1
+.names U0.U0.U0.X U0.U0.U0.U0.X
+1 1
+.names U0.U0.U0.Y U0.U0.U0.U0.Y
+1 1
+.names U0.U0.U0.Ci U0.U0.U0.U0.Z
+1 1
+.names U0.U0.U0.Co U0.U0.C0
+1 1
+.names U0.U0.U0.S U0.U0.S[4]
+1 1
+.names U0.U0.X[4] U0.U0.U0.X
+1 1
+.names U0.U0.Y[4] U0.U0.U0.Y
+1 1
+.names U0.U0.Cin U0.U0.U0.Ci
+1 1
+.names $flatten\U0.\U0.\U1.$or$pre_corpus/59093.v:2543$510_Y U0.U0.U1.S
+1 1
+.names $flatten\U0.\U0.\U1.$or$pre_corpus/59093.v:2544$514_Y U0.U0.U1.Co
+1 1
+.names $true U0.U0.U1.U0.O
+1 1
+.names U0.U0.U1.U0.O U0.U0.U1.Ci_1
+1 1
+.names $false U0.U0.U1.U1.O
+1 1
+.names U0.U0.U1.U1.O U0.U0.U1.Ci_0
+1 1
+.names $flatten\U0.\U0.\U1.\U2.\U0.$or$pre_corpus/59093.v:1857$284_Y U0.U0.U1.U2.U0.C
+1 1
+.names $flatten\U0.\U0.\U1.\U2.\U0.$xor$pre_corpus/59093.v:1858$286_Y U0.U0.U1.U2.U0.S
+1 1
+.names U0.U0.U1.U2.U0.C U0.U0.U1.U2.Co
+1 1
+.names U0.U0.U1.U2.U0.S U0.U0.U1.U2.S
+1 1
+.names U0.U0.U1.U2.X U0.U0.U1.U2.U0.X
+1 1
+.names U0.U0.U1.U2.Y U0.U0.U1.U2.U0.Y
+1 1
+.names U0.U0.U1.U2.Ci U0.U0.U1.U2.U0.Z
+1 1
+.names U0.U0.U1.U2.Co U0.U0.U1.Co_0
+1 1
+.names U0.U0.U1.U2.S U0.U0.U1.S_0
+1 1
+.names U0.U0.U1.X U0.U0.U1.U2.X
+1 1
+.names U0.U0.U1.Y U0.U0.U1.U2.Y
+1 1
+.names U0.U0.U1.Ci_0 U0.U0.U1.U2.Ci
+1 1
+.names $flatten\U0.\U0.\U1.\U3.\U0.$or$pre_corpus/59093.v:1857$284_Y U0.U0.U1.U3.U0.C
+1 1
+.names $flatten\U0.\U0.\U1.\U3.\U0.$xor$pre_corpus/59093.v:1858$286_Y U0.U0.U1.U3.U0.S
+1 1
+.names U0.U0.U1.U3.U0.C U0.U0.U1.U3.Co
+1 1
+.names U0.U0.U1.U3.U0.S U0.U0.U1.U3.S
+1 1
+.names U0.U0.U1.U3.X U0.U0.U1.U3.U0.X
+1 1
+.names U0.U0.U1.U3.Y U0.U0.U1.U3.U0.Y
+1 1
+.names U0.U0.U1.U3.Ci U0.U0.U1.U3.U0.Z
+1 1
+.names U0.U0.U1.U3.Co U0.U0.U1.Co_1
+1 1
+.names U0.U0.U1.U3.S U0.U0.U1.S_1
+1 1
+.names U0.U0.U1.X U0.U0.U1.U3.X
+1 1
+.names U0.U0.U1.Y U0.U0.U1.U3.Y
+1 1
+.names U0.U0.U1.Ci_1 U0.U0.U1.U3.Ci
+1 1
+.names U0.U0.U1.Co U0.U0.C1
+1 1
+.names U0.U0.U1.S U0.U0.S[5]
+1 1
+.names U0.U0.X[5] U0.U0.U1.X
+1 1
+.names U0.U0.Y[5] U0.U0.U1.Y
+1 1
+.names U0.U0.C0 U0.U0.U1.Ci
+1 1
+.names $flatten\U0.\U0.\U2.$or$pre_corpus/59093.v:2573$518_Y U0.U0.U2.S[6]
+1 1
+.names $flatten\U0.\U0.\U2.$or$pre_corpus/59093.v:2574$522_Y U0.U0.U2.S[7]
+1 1
+.names $flatten\U0.\U0.\U2.$or$pre_corpus/59093.v:2575$526_Y U0.U0.U2.Co
+1 1
+.names $true U0.U0.U2.U0.O
+1 1
+.names U0.U0.U2.U0.O U0.U0.U2.Ci_1
+1 1
+.names $false U0.U0.U2.U1.O
+1 1
+.names U0.U0.U2.U1.O U0.U0.U2.Ci_0
+1 1
+.names $flatten\U0.\U0.\U2.\U2.\U0.$or$pre_corpus/59093.v:1867$291_Y U0.U0.U2.U2.U0.C
+1 1
+.names $flatten\U0.\U0.\U2.\U2.\U0.$xor$pre_corpus/59093.v:1868$293_Y U0.U0.U2.U2.U0.S
+1 1
+.names U0.U0.U2.U2.U0.C U0.U0.U2.U2.C7
+1 1
+.names U0.U0.U2.U2.U0.S U0.U0.U2.U2.S[6]
+1 1
+.names U0.U0.U2.U2.X[6] U0.U0.U2.U2.U0.X
+1 1
+.names U0.U0.U2.U2.Y[6] U0.U0.U2.U2.U0.Y
+1 1
+.names U0.U0.U2.U2.Ci U0.U0.U2.U2.U0.Z
+1 1
+.names $flatten\U0.\U0.\U2.\U2.\U1.$or$pre_corpus/59093.v:1877$298_Y U0.U0.U2.U2.U1.C
+1 1
+.names $flatten\U0.\U0.\U2.\U2.\U1.$xor$pre_corpus/59093.v:1878$300_Y U0.U0.U2.U2.U1.S
+1 1
+.names U0.U0.U2.U2.U1.C U0.U0.U2.U2.Co
+1 1
+.names U0.U0.U2.U2.U1.S U0.U0.U2.U2.S[7]
+1 1
+.names U0.U0.U2.U2.X[7] U0.U0.U2.U2.U1.X
+1 1
+.names U0.U0.U2.U2.Y[7] U0.U0.U2.U2.U1.Y
+1 1
+.names U0.U0.U2.U2.C7 U0.U0.U2.U2.U1.Z
+1 1
+.names U0.U0.U2.U2.Co U0.U0.U2.Co_0
+1 1
+.names U0.U0.U2.U2.S[6] U0.U0.U2.S_0[6]
+1 1
+.names U0.U0.U2.U2.S[7] U0.U0.U2.S_0[7]
+1 1
+.names U0.U0.U2.X[6] U0.U0.U2.U2.X[6]
+1 1
+.names U0.U0.U2.X[7] U0.U0.U2.U2.X[7]
+1 1
+.names U0.U0.U2.Y[6] U0.U0.U2.U2.Y[6]
+1 1
+.names U0.U0.U2.Y[7] U0.U0.U2.U2.Y[7]
+1 1
+.names U0.U0.U2.Ci_0 U0.U0.U2.U2.Ci
+1 1
+.names $flatten\U0.\U0.\U2.\U3.\U0.$or$pre_corpus/59093.v:1867$291_Y U0.U0.U2.U3.U0.C
+1 1
+.names $flatten\U0.\U0.\U2.\U3.\U0.$xor$pre_corpus/59093.v:1868$293_Y U0.U0.U2.U3.U0.S
+1 1
+.names U0.U0.U2.U3.U0.C U0.U0.U2.U3.C7
+1 1
+.names U0.U0.U2.U3.U0.S U0.U0.U2.U3.S[6]
+1 1
+.names U0.U0.U2.U3.X[6] U0.U0.U2.U3.U0.X
+1 1
+.names U0.U0.U2.U3.Y[6] U0.U0.U2.U3.U0.Y
+1 1
+.names U0.U0.U2.U3.Ci U0.U0.U2.U3.U0.Z
+1 1
+.names $flatten\U0.\U0.\U2.\U3.\U1.$or$pre_corpus/59093.v:1877$298_Y U0.U0.U2.U3.U1.C
+1 1
+.names $flatten\U0.\U0.\U2.\U3.\U1.$xor$pre_corpus/59093.v:1878$300_Y U0.U0.U2.U3.U1.S
+1 1
+.names U0.U0.U2.U3.U1.C U0.U0.U2.U3.Co
+1 1
+.names U0.U0.U2.U3.U1.S U0.U0.U2.U3.S[7]
+1 1
+.names U0.U0.U2.U3.X[7] U0.U0.U2.U3.U1.X
+1 1
+.names U0.U0.U2.U3.Y[7] U0.U0.U2.U3.U1.Y
+1 1
+.names U0.U0.U2.U3.C7 U0.U0.U2.U3.U1.Z
+1 1
+.names U0.U0.U2.U3.Co U0.U0.U2.Co_1
+1 1
+.names U0.U0.U2.U3.S[6] U0.U0.U2.S_1[6]
+1 1
+.names U0.U0.U2.U3.S[7] U0.U0.U2.S_1[7]
+1 1
+.names U0.U0.U2.X[6] U0.U0.U2.U3.X[6]
+1 1
+.names U0.U0.U2.X[7] U0.U0.U2.U3.X[7]
+1 1
+.names U0.U0.U2.Y[6] U0.U0.U2.U3.Y[6]
+1 1
+.names U0.U0.U2.Y[7] U0.U0.U2.U3.Y[7]
+1 1
+.names U0.U0.U2.Ci_1 U0.U0.U2.U3.Ci
+1 1
+.names U0.U0.U2.Co U0.U0.C2
+1 1
+.names U0.U0.U2.S[6] U0.U0.S[6]
+1 1
+.names U0.U0.U2.S[7] U0.U0.S[7]
+1 1
+.names U0.U0.X[6] U0.U0.U2.X[6]
+1 1
+.names U0.U0.X[7] U0.U0.U2.X[7]
+1 1
+.names U0.U0.Y[6] U0.U0.U2.Y[6]
+1 1
+.names U0.U0.Y[7] U0.U0.U2.Y[7]
+1 1
+.names U0.U0.C1 U0.U0.U2.Ci
+1 1
+.names $flatten\U0.\U0.\U3.$or$pre_corpus/59093.v:2604$530_Y U0.U0.U3.S[8]
+1 1
+.names $flatten\U0.\U0.\U3.$or$pre_corpus/59093.v:2605$534_Y U0.U0.U3.S[9]
+1 1
+.names $flatten\U0.\U0.\U3.$or$pre_corpus/59093.v:2606$538_Y U0.U0.U3.S[10]
+1 1
+.names $flatten\U0.\U0.\U3.$or$pre_corpus/59093.v:2607$542_Y U0.U0.U3.Co
+1 1
+.names $true U0.U0.U3.U0.O
+1 1
+.names U0.U0.U3.U0.O U0.U0.U3.Ci_1
+1 1
+.names $false U0.U0.U3.U1.O
+1 1
+.names U0.U0.U3.U1.O U0.U0.U3.Ci_0
+1 1
+.names $flatten\U0.\U0.\U3.\U2.\U0.$or$pre_corpus/59093.v:1887$305_Y U0.U0.U3.U2.U0.C
+1 1
+.names $flatten\U0.\U0.\U3.\U2.\U0.$xor$pre_corpus/59093.v:1888$307_Y U0.U0.U3.U2.U0.S
+1 1
+.names U0.U0.U3.U2.U0.C U0.U0.U3.U2.C9
+1 1
+.names U0.U0.U3.U2.U0.S U0.U0.U3.U2.S[8]
+1 1
+.names U0.U0.U3.U2.X[8] U0.U0.U3.U2.U0.X
+1 1
+.names U0.U0.U3.U2.Y[8] U0.U0.U3.U2.U0.Y
+1 1
+.names U0.U0.U3.U2.Ci U0.U0.U3.U2.U0.Z
+1 1
+.names $flatten\U0.\U0.\U3.\U2.\U1.$or$pre_corpus/59093.v:1897$312_Y U0.U0.U3.U2.U1.C
+1 1
+.names $flatten\U0.\U0.\U3.\U2.\U1.$xor$pre_corpus/59093.v:1898$314_Y U0.U0.U3.U2.U1.S
+1 1
+.names U0.U0.U3.U2.U1.C U0.U0.U3.U2.C10
+1 1
+.names U0.U0.U3.U2.U1.S U0.U0.U3.U2.S[9]
+1 1
+.names U0.U0.U3.U2.X[9] U0.U0.U3.U2.U1.X
+1 1
+.names U0.U0.U3.U2.Y[9] U0.U0.U3.U2.U1.Y
+1 1
+.names U0.U0.U3.U2.C9 U0.U0.U3.U2.U1.Z
+1 1
+.names $flatten\U0.\U0.\U3.\U2.\U2.$or$pre_corpus/59093.v:1907$319_Y U0.U0.U3.U2.U2.C
+1 1
+.names $flatten\U0.\U0.\U3.\U2.\U2.$xor$pre_corpus/59093.v:1908$321_Y U0.U0.U3.U2.U2.S
+1 1
+.names U0.U0.U3.U2.U2.C U0.U0.U3.U2.Co
+1 1
+.names U0.U0.U3.U2.U2.S U0.U0.U3.U2.S[10]
+1 1
+.names U0.U0.U3.U2.X[10] U0.U0.U3.U2.U2.X
+1 1
+.names U0.U0.U3.U2.Y[10] U0.U0.U3.U2.U2.Y
+1 1
+.names U0.U0.U3.U2.C10 U0.U0.U3.U2.U2.Z
+1 1
+.names U0.U0.U3.U2.Co U0.U0.U3.Co_0
+1 1
+.names U0.U0.U3.U2.S[8] U0.U0.U3.S_0[8]
+1 1
+.names U0.U0.U3.U2.S[9] U0.U0.U3.S_0[9]
+1 1
+.names U0.U0.U3.U2.S[10] U0.U0.U3.S_0[10]
+1 1
+.names U0.U0.U3.X[8] U0.U0.U3.U2.X[8]
+1 1
+.names U0.U0.U3.X[9] U0.U0.U3.U2.X[9]
+1 1
+.names U0.U0.U3.X[10] U0.U0.U3.U2.X[10]
+1 1
+.names U0.U0.U3.Y[8] U0.U0.U3.U2.Y[8]
+1 1
+.names U0.U0.U3.Y[9] U0.U0.U3.U2.Y[9]
+1 1
+.names U0.U0.U3.Y[10] U0.U0.U3.U2.Y[10]
+1 1
+.names U0.U0.U3.Ci_0 U0.U0.U3.U2.Ci
+1 1
+.names $flatten\U0.\U0.\U3.\U3.\U0.$or$pre_corpus/59093.v:1887$305_Y U0.U0.U3.U3.U0.C
+1 1
+.names $flatten\U0.\U0.\U3.\U3.\U0.$xor$pre_corpus/59093.v:1888$307_Y U0.U0.U3.U3.U0.S
+1 1
+.names U0.U0.U3.U3.U0.C U0.U0.U3.U3.C9
+1 1
+.names U0.U0.U3.U3.U0.S U0.U0.U3.U3.S[8]
+1 1
+.names U0.U0.U3.U3.X[8] U0.U0.U3.U3.U0.X
+1 1
+.names U0.U0.U3.U3.Y[8] U0.U0.U3.U3.U0.Y
+1 1
+.names U0.U0.U3.U3.Ci U0.U0.U3.U3.U0.Z
+1 1
+.names $flatten\U0.\U0.\U3.\U3.\U1.$or$pre_corpus/59093.v:1897$312_Y U0.U0.U3.U3.U1.C
+1 1
+.names $flatten\U0.\U0.\U3.\U3.\U1.$xor$pre_corpus/59093.v:1898$314_Y U0.U0.U3.U3.U1.S
+1 1
+.names U0.U0.U3.U3.U1.C U0.U0.U3.U3.C10
+1 1
+.names U0.U0.U3.U3.U1.S U0.U0.U3.U3.S[9]
+1 1
+.names U0.U0.U3.U3.X[9] U0.U0.U3.U3.U1.X
+1 1
+.names U0.U0.U3.U3.Y[9] U0.U0.U3.U3.U1.Y
+1 1
+.names U0.U0.U3.U3.C9 U0.U0.U3.U3.U1.Z
+1 1
+.names $flatten\U0.\U0.\U3.\U3.\U2.$or$pre_corpus/59093.v:1907$319_Y U0.U0.U3.U3.U2.C
+1 1
+.names $flatten\U0.\U0.\U3.\U3.\U2.$xor$pre_corpus/59093.v:1908$321_Y U0.U0.U3.U3.U2.S
+1 1
+.names U0.U0.U3.U3.U2.C U0.U0.U3.U3.Co
+1 1
+.names U0.U0.U3.U3.U2.S U0.U0.U3.U3.S[10]
+1 1
+.names U0.U0.U3.U3.X[10] U0.U0.U3.U3.U2.X
+1 1
+.names U0.U0.U3.U3.Y[10] U0.U0.U3.U3.U2.Y
+1 1
+.names U0.U0.U3.U3.C10 U0.U0.U3.U3.U2.Z
+1 1
+.names U0.U0.U3.U3.Co U0.U0.U3.Co_1
+1 1
+.names U0.U0.U3.U3.S[8] U0.U0.U3.S_1[8]
+1 1
+.names U0.U0.U3.U3.S[9] U0.U0.U3.S_1[9]
+1 1
+.names U0.U0.U3.U3.S[10] U0.U0.U3.S_1[10]
+1 1
+.names U0.U0.U3.X[8] U0.U0.U3.U3.X[8]
+1 1
+.names U0.U0.U3.X[9] U0.U0.U3.U3.X[9]
+1 1
+.names U0.U0.U3.X[10] U0.U0.U3.U3.X[10]
+1 1
+.names U0.U0.U3.Y[8] U0.U0.U3.U3.Y[8]
+1 1
+.names U0.U0.U3.Y[9] U0.U0.U3.U3.Y[9]
+1 1
+.names U0.U0.U3.Y[10] U0.U0.U3.U3.Y[10]
+1 1
+.names U0.U0.U3.Ci_1 U0.U0.U3.U3.Ci
+1 1
+.names U0.U0.U3.Co U0.U0.C3
+1 1
+.names U0.U0.U3.S[8] U0.U0.S[8]
+1 1
+.names U0.U0.U3.S[9] U0.U0.S[9]
+1 1
+.names U0.U0.U3.S[10] U0.U0.S[10]
+1 1
+.names U0.U0.X[8] U0.U0.U3.X[8]
+1 1
+.names U0.U0.X[9] U0.U0.U3.X[9]
+1 1
+.names U0.U0.X[10] U0.U0.U3.X[10]
+1 1
+.names U0.U0.Y[8] U0.U0.U3.Y[8]
+1 1
+.names U0.U0.Y[9] U0.U0.U3.Y[9]
+1 1
+.names U0.U0.Y[10] U0.U0.U3.Y[10]
+1 1
+.names U0.U0.C2 U0.U0.U3.Ci
+1 1
+.names $flatten\U0.\U0.\U4.$or$pre_corpus/59093.v:2636$546_Y U0.U0.U4.S[11]
+1 1
+.names $flatten\U0.\U0.\U4.$or$pre_corpus/59093.v:2637$550_Y U0.U0.U4.S[12]
+1 1
+.names $flatten\U0.\U0.\U4.$or$pre_corpus/59093.v:2638$554_Y U0.U0.U4.S[13]
+1 1
+.names $flatten\U0.\U0.\U4.$or$pre_corpus/59093.v:2639$558_Y U0.U0.U4.S[14]
+1 1
+.names $flatten\U0.\U0.\U4.$or$pre_corpus/59093.v:2640$562_Y U0.U0.U4.Co
+1 1
+.names $true U0.U0.U4.U0.O
+1 1
+.names U0.U0.U4.U0.O U0.U0.U4.Ci_1
+1 1
+.names $false U0.U0.U4.U1.O
+1 1
+.names U0.U0.U4.U1.O U0.U0.U4.Ci_0
+1 1
+.names $flatten\U0.\U0.\U4.\U2.\U0.$or$pre_corpus/59093.v:1917$326_Y U0.U0.U4.U2.U0.C
+1 1
+.names $flatten\U0.\U0.\U4.\U2.\U0.$xor$pre_corpus/59093.v:1918$328_Y U0.U0.U4.U2.U0.S
+1 1
+.names U0.U0.U4.U2.U0.C U0.U0.U4.U2.C12
+1 1
+.names U0.U0.U4.U2.U0.S U0.U0.U4.U2.S[11]
+1 1
+.names U0.U0.U4.U2.X[11] U0.U0.U4.U2.U0.X
+1 1
+.names U0.U0.U4.U2.Y[11] U0.U0.U4.U2.U0.Y
+1 1
+.names U0.U0.U4.U2.Ci U0.U0.U4.U2.U0.Z
+1 1
+.names $flatten\U0.\U0.\U4.\U2.\U1.$or$pre_corpus/59093.v:1927$333_Y U0.U0.U4.U2.U1.C
+1 1
+.names $flatten\U0.\U0.\U4.\U2.\U1.$xor$pre_corpus/59093.v:1928$335_Y U0.U0.U4.U2.U1.S
+1 1
+.names U0.U0.U4.U2.U1.C U0.U0.U4.U2.C13
+1 1
+.names U0.U0.U4.U2.U1.S U0.U0.U4.U2.S[12]
+1 1
+.names U0.U0.U4.U2.X[12] U0.U0.U4.U2.U1.X
+1 1
+.names U0.U0.U4.U2.Y[12] U0.U0.U4.U2.U1.Y
+1 1
+.names U0.U0.U4.U2.C12 U0.U0.U4.U2.U1.Z
+1 1
+.names $flatten\U0.\U0.\U4.\U2.\U2.$or$pre_corpus/59093.v:1937$340_Y U0.U0.U4.U2.U2.C
+1 1
+.names $flatten\U0.\U0.\U4.\U2.\U2.$xor$pre_corpus/59093.v:1938$342_Y U0.U0.U4.U2.U2.S
+1 1
+.names U0.U0.U4.U2.U2.C U0.U0.U4.U2.C14
+1 1
+.names U0.U0.U4.U2.U2.S U0.U0.U4.U2.S[13]
+1 1
+.names U0.U0.U4.U2.X[13] U0.U0.U4.U2.U2.X
+1 1
+.names U0.U0.U4.U2.Y[13] U0.U0.U4.U2.U2.Y
+1 1
+.names U0.U0.U4.U2.C13 U0.U0.U4.U2.U2.Z
+1 1
+.names $flatten\U0.\U0.\U4.\U2.\U3.$or$pre_corpus/59093.v:1947$347_Y U0.U0.U4.U2.U3.C
+1 1
+.names $flatten\U0.\U0.\U4.\U2.\U3.$xor$pre_corpus/59093.v:1948$349_Y U0.U0.U4.U2.U3.S
+1 1
+.names U0.U0.U4.U2.U3.C U0.U0.U4.U2.Co
+1 1
+.names U0.U0.U4.U2.U3.S U0.U0.U4.U2.S[14]
+1 1
+.names U0.U0.U4.U2.X[14] U0.U0.U4.U2.U3.X
+1 1
+.names U0.U0.U4.U2.Y[14] U0.U0.U4.U2.U3.Y
+1 1
+.names U0.U0.U4.U2.C14 U0.U0.U4.U2.U3.Z
+1 1
+.names U0.U0.U4.U2.Co U0.U0.U4.Co_0
+1 1
+.names U0.U0.U4.U2.S[11] U0.U0.U4.S_0[11]
+1 1
+.names U0.U0.U4.U2.S[12] U0.U0.U4.S_0[12]
+1 1
+.names U0.U0.U4.U2.S[13] U0.U0.U4.S_0[13]
+1 1
+.names U0.U0.U4.U2.S[14] U0.U0.U4.S_0[14]
+1 1
+.names U0.U0.U4.X[11] U0.U0.U4.U2.X[11]
+1 1
+.names U0.U0.U4.X[12] U0.U0.U4.U2.X[12]
+1 1
+.names U0.U0.U4.X[13] U0.U0.U4.U2.X[13]
+1 1
+.names U0.U0.U4.X[14] U0.U0.U4.U2.X[14]
+1 1
+.names U0.U0.U4.Y[11] U0.U0.U4.U2.Y[11]
+1 1
+.names U0.U0.U4.Y[12] U0.U0.U4.U2.Y[12]
+1 1
+.names U0.U0.U4.Y[13] U0.U0.U4.U2.Y[13]
+1 1
+.names U0.U0.U4.Y[14] U0.U0.U4.U2.Y[14]
+1 1
+.names U0.U0.U4.Ci_0 U0.U0.U4.U2.Ci
+1 1
+.names $flatten\U0.\U0.\U4.\U3.\U0.$or$pre_corpus/59093.v:1917$326_Y U0.U0.U4.U3.U0.C
+1 1
+.names $flatten\U0.\U0.\U4.\U3.\U0.$xor$pre_corpus/59093.v:1918$328_Y U0.U0.U4.U3.U0.S
+1 1
+.names U0.U0.U4.U3.U0.C U0.U0.U4.U3.C12
+1 1
+.names U0.U0.U4.U3.U0.S U0.U0.U4.U3.S[11]
+1 1
+.names U0.U0.U4.U3.X[11] U0.U0.U4.U3.U0.X
+1 1
+.names U0.U0.U4.U3.Y[11] U0.U0.U4.U3.U0.Y
+1 1
+.names U0.U0.U4.U3.Ci U0.U0.U4.U3.U0.Z
+1 1
+.names $flatten\U0.\U0.\U4.\U3.\U1.$or$pre_corpus/59093.v:1927$333_Y U0.U0.U4.U3.U1.C
+1 1
+.names $flatten\U0.\U0.\U4.\U3.\U1.$xor$pre_corpus/59093.v:1928$335_Y U0.U0.U4.U3.U1.S
+1 1
+.names U0.U0.U4.U3.U1.C U0.U0.U4.U3.C13
+1 1
+.names U0.U0.U4.U3.U1.S U0.U0.U4.U3.S[12]
+1 1
+.names U0.U0.U4.U3.X[12] U0.U0.U4.U3.U1.X
+1 1
+.names U0.U0.U4.U3.Y[12] U0.U0.U4.U3.U1.Y
+1 1
+.names U0.U0.U4.U3.C12 U0.U0.U4.U3.U1.Z
+1 1
+.names $flatten\U0.\U0.\U4.\U3.\U2.$or$pre_corpus/59093.v:1937$340_Y U0.U0.U4.U3.U2.C
+1 1
+.names $flatten\U0.\U0.\U4.\U3.\U2.$xor$pre_corpus/59093.v:1938$342_Y U0.U0.U4.U3.U2.S
+1 1
+.names U0.U0.U4.U3.U2.C U0.U0.U4.U3.C14
+1 1
+.names U0.U0.U4.U3.U2.S U0.U0.U4.U3.S[13]
+1 1
+.names U0.U0.U4.U3.X[13] U0.U0.U4.U3.U2.X
+1 1
+.names U0.U0.U4.U3.Y[13] U0.U0.U4.U3.U2.Y
+1 1
+.names U0.U0.U4.U3.C13 U0.U0.U4.U3.U2.Z
+1 1
+.names $flatten\U0.\U0.\U4.\U3.\U3.$or$pre_corpus/59093.v:1947$347_Y U0.U0.U4.U3.U3.C
+1 1
+.names $flatten\U0.\U0.\U4.\U3.\U3.$xor$pre_corpus/59093.v:1948$349_Y U0.U0.U4.U3.U3.S
+1 1
+.names U0.U0.U4.U3.U3.C U0.U0.U4.U3.Co
+1 1
+.names U0.U0.U4.U3.U3.S U0.U0.U4.U3.S[14]
+1 1
+.names U0.U0.U4.U3.X[14] U0.U0.U4.U3.U3.X
+1 1
+.names U0.U0.U4.U3.Y[14] U0.U0.U4.U3.U3.Y
+1 1
+.names U0.U0.U4.U3.C14 U0.U0.U4.U3.U3.Z
+1 1
+.names U0.U0.U4.U3.Co U0.U0.U4.Co_1
+1 1
+.names U0.U0.U4.U3.S[11] U0.U0.U4.S_1[11]
+1 1
+.names U0.U0.U4.U3.S[12] U0.U0.U4.S_1[12]
+1 1
+.names U0.U0.U4.U3.S[13] U0.U0.U4.S_1[13]
+1 1
+.names U0.U0.U4.U3.S[14] U0.U0.U4.S_1[14]
+1 1
+.names U0.U0.U4.X[11] U0.U0.U4.U3.X[11]
+1 1
+.names U0.U0.U4.X[12] U0.U0.U4.U3.X[12]
+1 1
+.names U0.U0.U4.X[13] U0.U0.U4.U3.X[13]
+1 1
+.names U0.U0.U4.X[14] U0.U0.U4.U3.X[14]
+1 1
+.names U0.U0.U4.Y[11] U0.U0.U4.U3.Y[11]
+1 1
+.names U0.U0.U4.Y[12] U0.U0.U4.U3.Y[12]
+1 1
+.names U0.U0.U4.Y[13] U0.U0.U4.U3.Y[13]
+1 1
+.names U0.U0.U4.Y[14] U0.U0.U4.U3.Y[14]
+1 1
+.names U0.U0.U4.Ci_1 U0.U0.U4.U3.Ci
+1 1
+.names U0.U0.U4.Co U0.U0.C4
+1 1
+.names U0.U0.U4.S[11] U0.U0.S[11]
+1 1
+.names U0.U0.U4.S[12] U0.U0.S[12]
+1 1
+.names U0.U0.U4.S[13] U0.U0.S[13]
+1 1
+.names U0.U0.U4.S[14] U0.U0.S[14]
+1 1
+.names U0.U0.X[11] U0.U0.U4.X[11]
+1 1
+.names U0.U0.X[12] U0.U0.U4.X[12]
+1 1
+.names U0.U0.X[13] U0.U0.U4.X[13]
+1 1
+.names U0.U0.X[14] U0.U0.U4.X[14]
+1 1
+.names U0.U0.Y[11] U0.U0.U4.Y[11]
+1 1
+.names U0.U0.Y[12] U0.U0.U4.Y[12]
+1 1
+.names U0.U0.Y[13] U0.U0.U4.Y[13]
+1 1
+.names U0.U0.Y[14] U0.U0.U4.Y[14]
+1 1
+.names U0.U0.C3 U0.U0.U4.Ci
+1 1
+.names $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2669$566_Y U0.U0.U5.S[15]
+1 1
+.names $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2670$570_Y U0.U0.U5.S[16]
+1 1
+.names $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2671$574_Y U0.U0.U5.S[17]
+1 1
+.names $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2672$578_Y U0.U0.U5.S[18]
+1 1
+.names $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2673$582_Y U0.U0.U5.S[19]
+1 1
+.names $flatten\U0.\U0.\U5.$or$pre_corpus/59093.v:2674$586_Y U0.U0.U5.Co
+1 1
+.names $true U0.U0.U5.U0.O
+1 1
+.names U0.U0.U5.U0.O U0.U0.U5.Ci_1
+1 1
+.names $false U0.U0.U5.U1.O
+1 1
+.names U0.U0.U5.U1.O U0.U0.U5.Ci_0
+1 1
+.names $flatten\U0.\U0.\U5.\U2.\U0.$or$pre_corpus/59093.v:1957$354_Y U0.U0.U5.U2.U0.C
+1 1
+.names $flatten\U0.\U0.\U5.\U2.\U0.$xor$pre_corpus/59093.v:1958$356_Y U0.U0.U5.U2.U0.S
+1 1
+.names U0.U0.U5.U2.U0.C U0.U0.U5.U2.C16
+1 1
+.names U0.U0.U5.U2.U0.S U0.U0.U5.U2.S[15]
+1 1
+.names U0.U0.U5.U2.X[15] U0.U0.U5.U2.U0.X
+1 1
+.names U0.U0.U5.U2.Y[15] U0.U0.U5.U2.U0.Y
+1 1
+.names U0.U0.U5.U2.Ci U0.U0.U5.U2.U0.Z
+1 1
+.names $flatten\U0.\U0.\U5.\U2.\U1.$or$pre_corpus/59093.v:2093$365_Y U0.U0.U5.U2.U1.C
+1 1
+.names $flatten\U0.\U0.\U5.\U2.\U1.$xor$pre_corpus/59093.v:2094$367_Y U0.U0.U5.U2.U1.S
+1 1
+.names U0.U0.U5.U2.U1.C U0.U0.U5.U2.C17
+1 1
+.names U0.U0.U5.U2.U1.S U0.U0.U5.U2.S[16]
+1 1
+.names U0.U0.U5.U2.X[16] U0.U0.U5.U2.U1.X
+1 1
+.names U0.U0.U5.U2.Y[16] U0.U0.U5.U2.U1.Y
+1 1
+.names U0.U0.U5.U2.C16 U0.U0.U5.U2.U1.Z
+1 1
+.names $flatten\U0.\U0.\U5.\U2.\U2.$or$pre_corpus/59093.v:2103$372_Y U0.U0.U5.U2.U2.C
+1 1
+.names $flatten\U0.\U0.\U5.\U2.\U2.$xor$pre_corpus/59093.v:2104$374_Y U0.U0.U5.U2.U2.S
+1 1
+.names U0.U0.U5.U2.U2.C U0.U0.U5.U2.C18
+1 1
+.names U0.U0.U5.U2.U2.S U0.U0.U5.U2.S[17]
+1 1
+.names U0.U0.U5.U2.X[17] U0.U0.U5.U2.U2.X
+1 1
+.names U0.U0.U5.U2.Y[17] U0.U0.U5.U2.U2.Y
+1 1
+.names U0.U0.U5.U2.C17 U0.U0.U5.U2.U2.Z
+1 1
+.names $flatten\U0.\U0.\U5.\U2.\U3.$or$pre_corpus/59093.v:2113$379_Y U0.U0.U5.U2.U3.C
+1 1
+.names $flatten\U0.\U0.\U5.\U2.\U3.$xor$pre_corpus/59093.v:2114$381_Y U0.U0.U5.U2.U3.S
+1 1
+.names U0.U0.U5.U2.U3.C U0.U0.U5.U2.C19
+1 1
+.names U0.U0.U5.U2.U3.S U0.U0.U5.U2.S[18]
+1 1
+.names U0.U0.U5.U2.X[18] U0.U0.U5.U2.U3.X
+1 1
+.names U0.U0.U5.U2.Y[18] U0.U0.U5.U2.U3.Y
+1 1
+.names U0.U0.U5.U2.C18 U0.U0.U5.U2.U3.Z
+1 1
+.names $flatten\U0.\U0.\U5.\U2.\U4.$or$pre_corpus/59093.v:2165$394_Y U0.U0.U5.U2.U4.C
+1 1
+.names $flatten\U0.\U0.\U5.\U2.\U4.$xor$pre_corpus/59093.v:2166$396_Y U0.U0.U5.U2.U4.S
+1 1
+.names U0.U0.U5.U2.U4.C U0.U0.U5.U2.Co
+1 1
+.names U0.U0.U5.U2.U4.S U0.U0.U5.U2.S[19]
+1 1
+.names U0.U0.U5.U2.X[19] U0.U0.U5.U2.U4.X
+1 1
+.names U0.U0.U5.U2.Y[19] U0.U0.U5.U2.U4.Y
+1 1
+.names U0.U0.U5.U2.C19 U0.U0.U5.U2.U4.Z
+1 1
+.names U0.U0.U5.U2.Co U0.U0.U5.Co_0
+1 1
+.names U0.U0.U5.U2.S[15] U0.U0.U5.S_0[15]
+1 1
+.names U0.U0.U5.U2.S[16] U0.U0.U5.S_0[16]
+1 1
+.names U0.U0.U5.U2.S[17] U0.U0.U5.S_0[17]
+1 1
+.names U0.U0.U5.U2.S[18] U0.U0.U5.S_0[18]
+1 1
+.names U0.U0.U5.U2.S[19] U0.U0.U5.S_0[19]
+1 1
+.names U0.U0.U5.X[15] U0.U0.U5.U2.X[15]
+1 1
+.names U0.U0.U5.X[16] U0.U0.U5.U2.X[16]
+1 1
+.names U0.U0.U5.X[17] U0.U0.U5.U2.X[17]
+1 1
+.names U0.U0.U5.X[18] U0.U0.U5.U2.X[18]
+1 1
+.names U0.U0.U5.X[19] U0.U0.U5.U2.X[19]
+1 1
+.names U0.U0.U5.Y[15] U0.U0.U5.U2.Y[15]
+1 1
+.names U0.U0.U5.Y[16] U0.U0.U5.U2.Y[16]
+1 1
+.names U0.U0.U5.Y[17] U0.U0.U5.U2.Y[17]
+1 1
+.names U0.U0.U5.Y[18] U0.U0.U5.U2.Y[18]
+1 1
+.names U0.U0.U5.Y[19] U0.U0.U5.U2.Y[19]
+1 1
+.names U0.U0.U5.Ci_0 U0.U0.U5.U2.Ci
+1 1
+.names $flatten\U0.\U0.\U5.\U3.\U0.$or$pre_corpus/59093.v:1957$354_Y U0.U0.U5.U3.U0.C
+1 1
+.names $flatten\U0.\U0.\U5.\U3.\U0.$xor$pre_corpus/59093.v:1958$356_Y U0.U0.U5.U3.U0.S
+1 1
+.names U0.U0.U5.U3.U0.C U0.U0.U5.U3.C16
+1 1
+.names U0.U0.U5.U3.U0.S U0.U0.U5.U3.S[15]
+1 1
+.names U0.U0.U5.U3.X[15] U0.U0.U5.U3.U0.X
+1 1
+.names U0.U0.U5.U3.Y[15] U0.U0.U5.U3.U0.Y
+1 1
+.names U0.U0.U5.U3.Ci U0.U0.U5.U3.U0.Z
+1 1
+.names $flatten\U0.\U0.\U5.\U3.\U1.$or$pre_corpus/59093.v:2093$365_Y U0.U0.U5.U3.U1.C
+1 1
+.names $flatten\U0.\U0.\U5.\U3.\U1.$xor$pre_corpus/59093.v:2094$367_Y U0.U0.U5.U3.U1.S
+1 1
+.names U0.U0.U5.U3.U1.C U0.U0.U5.U3.C17
+1 1
+.names U0.U0.U5.U3.U1.S U0.U0.U5.U3.S[16]
+1 1
+.names U0.U0.U5.U3.X[16] U0.U0.U5.U3.U1.X
+1 1
+.names U0.U0.U5.U3.Y[16] U0.U0.U5.U3.U1.Y
+1 1
+.names U0.U0.U5.U3.C16 U0.U0.U5.U3.U1.Z
+1 1
+.names $flatten\U0.\U0.\U5.\U3.\U2.$or$pre_corpus/59093.v:2103$372_Y U0.U0.U5.U3.U2.C
+1 1
+.names $flatten\U0.\U0.\U5.\U3.\U2.$xor$pre_corpus/59093.v:2104$374_Y U0.U0.U5.U3.U2.S
+1 1
+.names U0.U0.U5.U3.U2.C U0.U0.U5.U3.C18
+1 1
+.names U0.U0.U5.U3.U2.S U0.U0.U5.U3.S[17]
+1 1
+.names U0.U0.U5.U3.X[17] U0.U0.U5.U3.U2.X
+1 1
+.names U0.U0.U5.U3.Y[17] U0.U0.U5.U3.U2.Y
+1 1
+.names U0.U0.U5.U3.C17 U0.U0.U5.U3.U2.Z
+1 1
+.names $flatten\U0.\U0.\U5.\U3.\U3.$or$pre_corpus/59093.v:2113$379_Y U0.U0.U5.U3.U3.C
+1 1
+.names $flatten\U0.\U0.\U5.\U3.\U3.$xor$pre_corpus/59093.v:2114$381_Y U0.U0.U5.U3.U3.S
+1 1
+.names U0.U0.U5.U3.U3.C U0.U0.U5.U3.C19
+1 1
+.names U0.U0.U5.U3.U3.S U0.U0.U5.U3.S[18]
+1 1
+.names U0.U0.U5.U3.X[18] U0.U0.U5.U3.U3.X
+1 1
+.names U0.U0.U5.U3.Y[18] U0.U0.U5.U3.U3.Y
+1 1
+.names U0.U0.U5.U3.C18 U0.U0.U5.U3.U3.Z
+1 1
+.names $flatten\U0.\U0.\U5.\U3.\U4.$or$pre_corpus/59093.v:2165$394_Y U0.U0.U5.U3.U4.C
+1 1
+.names $flatten\U0.\U0.\U5.\U3.\U4.$xor$pre_corpus/59093.v:2166$396_Y U0.U0.U5.U3.U4.S
+1 1
+.names U0.U0.U5.U3.U4.C U0.U0.U5.U3.Co
+1 1
+.names U0.U0.U5.U3.U4.S U0.U0.U5.U3.S[19]
+1 1
+.names U0.U0.U5.U3.X[19] U0.U0.U5.U3.U4.X
+1 1
+.names U0.U0.U5.U3.Y[19] U0.U0.U5.U3.U4.Y
+1 1
+.names U0.U0.U5.U3.C19 U0.U0.U5.U3.U4.Z
+1 1
+.names U0.U0.U5.U3.Co U0.U0.U5.Co_1
+1 1
+.names U0.U0.U5.U3.S[15] U0.U0.U5.S_1[15]
+1 1
+.names U0.U0.U5.U3.S[16] U0.U0.U5.S_1[16]
+1 1
+.names U0.U0.U5.U3.S[17] U0.U0.U5.S_1[17]
+1 1
+.names U0.U0.U5.U3.S[18] U0.U0.U5.S_1[18]
+1 1
+.names U0.U0.U5.U3.S[19] U0.U0.U5.S_1[19]
+1 1
+.names U0.U0.U5.X[15] U0.U0.U5.U3.X[15]
+1 1
+.names U0.U0.U5.X[16] U0.U0.U5.U3.X[16]
+1 1
+.names U0.U0.U5.X[17] U0.U0.U5.U3.X[17]
+1 1
+.names U0.U0.U5.X[18] U0.U0.U5.U3.X[18]
+1 1
+.names U0.U0.U5.X[19] U0.U0.U5.U3.X[19]
+1 1
+.names U0.U0.U5.Y[15] U0.U0.U5.U3.Y[15]
+1 1
+.names U0.U0.U5.Y[16] U0.U0.U5.U3.Y[16]
+1 1
+.names U0.U0.U5.Y[17] U0.U0.U5.U3.Y[17]
+1 1
+.names U0.U0.U5.Y[18] U0.U0.U5.U3.Y[18]
+1 1
+.names U0.U0.U5.Y[19] U0.U0.U5.U3.Y[19]
+1 1
+.names U0.U0.U5.Ci_1 U0.U0.U5.U3.Ci
+1 1
+.names U0.U0.U5.Co U0.U0.C5
+1 1
+.names U0.U0.U5.S[15] U0.U0.S[15]
+1 1
+.names U0.U0.U5.S[16] U0.U0.S[16]
+1 1
+.names U0.U0.U5.S[17] U0.U0.S[17]
+1 1
+.names U0.U0.U5.S[18] U0.U0.S[18]
+1 1
+.names U0.U0.U5.S[19] U0.U0.S[19]
+1 1
+.names U0.U0.X[15] U0.U0.U5.X[15]
+1 1
+.names U0.U0.X[16] U0.U0.U5.X[16]
+1 1
+.names U0.U0.X[17] U0.U0.U5.X[17]
+1 1
+.names U0.U0.X[18] U0.U0.U5.X[18]
+1 1
+.names U0.U0.X[19] U0.U0.U5.X[19]
+1 1
+.names U0.U0.Y[15] U0.U0.U5.Y[15]
+1 1
+.names U0.U0.Y[16] U0.U0.U5.Y[16]
+1 1
+.names U0.U0.Y[17] U0.U0.U5.Y[17]
+1 1
+.names U0.U0.Y[18] U0.U0.U5.Y[18]
+1 1
+.names U0.U0.Y[19] U0.U0.U5.Y[19]
+1 1
+.names U0.U0.C4 U0.U0.U5.Ci
+1 1
+.names $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2703$590_Y U0.U0.U6.S[20]
+1 1
+.names $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2704$594_Y U0.U0.U6.S[21]
+1 1
+.names $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2705$598_Y U0.U0.U6.S[22]
+1 1
+.names $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2706$602_Y U0.U0.U6.S[23]
+1 1
+.names $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2707$606_Y U0.U0.U6.S[24]
+1 1
+.names $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2708$610_Y U0.U0.U6.S[25]
+1 1
+.names $flatten\U0.\U0.\U6.$or$pre_corpus/59093.v:2709$614_Y U0.U0.U6.Co
+1 1
+.names $true U0.U0.U6.U0.O
+1 1
+.names U0.U0.U6.U0.O U0.U0.U6.Ci_1
+1 1
+.names $false U0.U0.U6.U1.O
+1 1
+.names U0.U0.U6.U1.O U0.U0.U6.Ci_0
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U0.$or$pre_corpus/59093.v:2175$401_Y U0.U0.U6.U2.U0.C
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U0.$xor$pre_corpus/59093.v:2176$403_Y U0.U0.U6.U2.U0.S
+1 1
+.names U0.U0.U6.U2.U0.C U0.U0.U6.U2.C21
+1 1
+.names U0.U0.U6.U2.U0.S U0.U0.U6.U2.S[20]
+1 1
+.names U0.U0.U6.U2.X[20] U0.U0.U6.U2.U0.X
+1 1
+.names U0.U0.U6.U2.Y[20] U0.U0.U6.U2.U0.Y
+1 1
+.names U0.U0.U6.U2.Ci U0.U0.U6.U2.U0.Z
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U1.$or$pre_corpus/59093.v:2185$408_Y U0.U0.U6.U2.U1.C
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U1.$xor$pre_corpus/59093.v:2186$410_Y U0.U0.U6.U2.U1.S
+1 1
+.names U0.U0.U6.U2.U1.C U0.U0.U6.U2.C22
+1 1
+.names U0.U0.U6.U2.U1.S U0.U0.U6.U2.S[21]
+1 1
+.names U0.U0.U6.U2.X[21] U0.U0.U6.U2.U1.X
+1 1
+.names U0.U0.U6.U2.Y[21] U0.U0.U6.U2.U1.Y
+1 1
+.names U0.U0.U6.U2.C21 U0.U0.U6.U2.U1.Z
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U2.$or$pre_corpus/59093.v:2288$429_Y U0.U0.U6.U2.U2.C
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U2.$xor$pre_corpus/59093.v:2289$431_Y U0.U0.U6.U2.U2.S
+1 1
+.names U0.U0.U6.U2.U2.C U0.U0.U6.U2.C23
+1 1
+.names U0.U0.U6.U2.U2.S U0.U0.U6.U2.S[22]
+1 1
+.names U0.U0.U6.U2.X[22] U0.U0.U6.U2.U2.X
+1 1
+.names U0.U0.U6.U2.Y[22] U0.U0.U6.U2.U2.Y
+1 1
+.names U0.U0.U6.U2.C22 U0.U0.U6.U2.U2.Z
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U3.$or$pre_corpus/59093.v:2298$436_Y U0.U0.U6.U2.U3.C
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U3.$xor$pre_corpus/59093.v:2299$438_Y U0.U0.U6.U2.U3.S
+1 1
+.names U0.U0.U6.U2.U3.C U0.U0.U6.U2.C24
+1 1
+.names U0.U0.U6.U2.U3.S U0.U0.U6.U2.S[23]
+1 1
+.names U0.U0.U6.U2.X[23] U0.U0.U6.U2.U3.X
+1 1
+.names U0.U0.U6.U2.Y[23] U0.U0.U6.U2.U3.Y
+1 1
+.names U0.U0.U6.U2.C23 U0.U0.U6.U2.U3.Z
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U4.$or$pre_corpus/59093.v:2308$443_Y U0.U0.U6.U2.U4.C
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U4.$xor$pre_corpus/59093.v:2309$445_Y U0.U0.U6.U2.U4.S
+1 1
+.names U0.U0.U6.U2.U4.C U0.U0.U6.U2.C25
+1 1
+.names U0.U0.U6.U2.U4.S U0.U0.U6.U2.S[24]
+1 1
+.names U0.U0.U6.U2.X[24] U0.U0.U6.U2.U4.X
+1 1
+.names U0.U0.U6.U2.Y[24] U0.U0.U6.U2.U4.Y
+1 1
+.names U0.U0.U6.U2.C24 U0.U0.U6.U2.U4.Z
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U5.$or$pre_corpus/59093.v:2342$454_Y U0.U0.U6.U2.U5.C
+1 1
+.names $flatten\U0.\U0.\U6.\U2.\U5.$xor$pre_corpus/59093.v:2343$456_Y U0.U0.U6.U2.U5.S
+1 1
+.names U0.U0.U6.U2.U5.C U0.U0.U6.U2.Co
+1 1
+.names U0.U0.U6.U2.U5.S U0.U0.U6.U2.S[25]
+1 1
+.names U0.U0.U6.U2.X[25] U0.U0.U6.U2.U5.X
+1 1
+.names U0.U0.U6.U2.Y[25] U0.U0.U6.U2.U5.Y
+1 1
+.names U0.U0.U6.U2.C25 U0.U0.U6.U2.U5.Z
+1 1
+.names U0.U0.U6.U2.Co U0.U0.U6.Co_0
+1 1
+.names U0.U0.U6.U2.S[20] U0.U0.U6.S_0[20]
+1 1
+.names U0.U0.U6.U2.S[21] U0.U0.U6.S_0[21]
+1 1
+.names U0.U0.U6.U2.S[22] U0.U0.U6.S_0[22]
+1 1
+.names U0.U0.U6.U2.S[23] U0.U0.U6.S_0[23]
+1 1
+.names U0.U0.U6.U2.S[24] U0.U0.U6.S_0[24]
+1 1
+.names U0.U0.U6.U2.S[25] U0.U0.U6.S_0[25]
+1 1
+.names U0.U0.U6.X[20] U0.U0.U6.U2.X[20]
+1 1
+.names U0.U0.U6.X[21] U0.U0.U6.U2.X[21]
+1 1
+.names U0.U0.U6.X[22] U0.U0.U6.U2.X[22]
+1 1
+.names U0.U0.U6.X[23] U0.U0.U6.U2.X[23]
+1 1
+.names U0.U0.U6.X[24] U0.U0.U6.U2.X[24]
+1 1
+.names U0.U0.U6.X[25] U0.U0.U6.U2.X[25]
+1 1
+.names U0.U0.U6.Y[20] U0.U0.U6.U2.Y[20]
+1 1
+.names U0.U0.U6.Y[21] U0.U0.U6.U2.Y[21]
+1 1
+.names U0.U0.U6.Y[22] U0.U0.U6.U2.Y[22]
+1 1
+.names U0.U0.U6.Y[23] U0.U0.U6.U2.Y[23]
+1 1
+.names U0.U0.U6.Y[24] U0.U0.U6.U2.Y[24]
+1 1
+.names U0.U0.U6.Y[25] U0.U0.U6.U2.Y[25]
+1 1
+.names U0.U0.U6.Ci_0 U0.U0.U6.U2.Ci
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U0.$or$pre_corpus/59093.v:2175$401_Y U0.U0.U6.U3.U0.C
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U0.$xor$pre_corpus/59093.v:2176$403_Y U0.U0.U6.U3.U0.S
+1 1
+.names U0.U0.U6.U3.U0.C U0.U0.U6.U3.C21
+1 1
+.names U0.U0.U6.U3.U0.S U0.U0.U6.U3.S[20]
+1 1
+.names U0.U0.U6.U3.X[20] U0.U0.U6.U3.U0.X
+1 1
+.names U0.U0.U6.U3.Y[20] U0.U0.U6.U3.U0.Y
+1 1
+.names U0.U0.U6.U3.Ci U0.U0.U6.U3.U0.Z
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U1.$or$pre_corpus/59093.v:2185$408_Y U0.U0.U6.U3.U1.C
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U1.$xor$pre_corpus/59093.v:2186$410_Y U0.U0.U6.U3.U1.S
+1 1
+.names U0.U0.U6.U3.U1.C U0.U0.U6.U3.C22
+1 1
+.names U0.U0.U6.U3.U1.S U0.U0.U6.U3.S[21]
+1 1
+.names U0.U0.U6.U3.X[21] U0.U0.U6.U3.U1.X
+1 1
+.names U0.U0.U6.U3.Y[21] U0.U0.U6.U3.U1.Y
+1 1
+.names U0.U0.U6.U3.C21 U0.U0.U6.U3.U1.Z
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U2.$or$pre_corpus/59093.v:2288$429_Y U0.U0.U6.U3.U2.C
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U2.$xor$pre_corpus/59093.v:2289$431_Y U0.U0.U6.U3.U2.S
+1 1
+.names U0.U0.U6.U3.U2.C U0.U0.U6.U3.C23
+1 1
+.names U0.U0.U6.U3.U2.S U0.U0.U6.U3.S[22]
+1 1
+.names U0.U0.U6.U3.X[22] U0.U0.U6.U3.U2.X
+1 1
+.names U0.U0.U6.U3.Y[22] U0.U0.U6.U3.U2.Y
+1 1
+.names U0.U0.U6.U3.C22 U0.U0.U6.U3.U2.Z
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U3.$or$pre_corpus/59093.v:2298$436_Y U0.U0.U6.U3.U3.C
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U3.$xor$pre_corpus/59093.v:2299$438_Y U0.U0.U6.U3.U3.S
+1 1
+.names U0.U0.U6.U3.U3.C U0.U0.U6.U3.C24
+1 1
+.names U0.U0.U6.U3.U3.S U0.U0.U6.U3.S[23]
+1 1
+.names U0.U0.U6.U3.X[23] U0.U0.U6.U3.U3.X
+1 1
+.names U0.U0.U6.U3.Y[23] U0.U0.U6.U3.U3.Y
+1 1
+.names U0.U0.U6.U3.C23 U0.U0.U6.U3.U3.Z
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U4.$or$pre_corpus/59093.v:2308$443_Y U0.U0.U6.U3.U4.C
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U4.$xor$pre_corpus/59093.v:2309$445_Y U0.U0.U6.U3.U4.S
+1 1
+.names U0.U0.U6.U3.U4.C U0.U0.U6.U3.C25
+1 1
+.names U0.U0.U6.U3.U4.S U0.U0.U6.U3.S[24]
+1 1
+.names U0.U0.U6.U3.X[24] U0.U0.U6.U3.U4.X
+1 1
+.names U0.U0.U6.U3.Y[24] U0.U0.U6.U3.U4.Y
+1 1
+.names U0.U0.U6.U3.C24 U0.U0.U6.U3.U4.Z
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U5.$or$pre_corpus/59093.v:2342$454_Y U0.U0.U6.U3.U5.C
+1 1
+.names $flatten\U0.\U0.\U6.\U3.\U5.$xor$pre_corpus/59093.v:2343$456_Y U0.U0.U6.U3.U5.S
+1 1
+.names U0.U0.U6.U3.U5.C U0.U0.U6.U3.Co
+1 1
+.names U0.U0.U6.U3.U5.S U0.U0.U6.U3.S[25]
+1 1
+.names U0.U0.U6.U3.X[25] U0.U0.U6.U3.U5.X
+1 1
+.names U0.U0.U6.U3.Y[25] U0.U0.U6.U3.U5.Y
+1 1
+.names U0.U0.U6.U3.C25 U0.U0.U6.U3.U5.Z
+1 1
+.names U0.U0.U6.U3.Co U0.U0.U6.Co_1
+1 1
+.names U0.U0.U6.U3.S[20] U0.U0.U6.S_1[20]
+1 1
+.names U0.U0.U6.U3.S[21] U0.U0.U6.S_1[21]
+1 1
+.names U0.U0.U6.U3.S[22] U0.U0.U6.S_1[22]
+1 1
+.names U0.U0.U6.U3.S[23] U0.U0.U6.S_1[23]
+1 1
+.names U0.U0.U6.U3.S[24] U0.U0.U6.S_1[24]
+1 1
+.names U0.U0.U6.U3.S[25] U0.U0.U6.S_1[25]
+1 1
+.names U0.U0.U6.X[20] U0.U0.U6.U3.X[20]
+1 1
+.names U0.U0.U6.X[21] U0.U0.U6.U3.X[21]
+1 1
+.names U0.U0.U6.X[22] U0.U0.U6.U3.X[22]
+1 1
+.names U0.U0.U6.X[23] U0.U0.U6.U3.X[23]
+1 1
+.names U0.U0.U6.X[24] U0.U0.U6.U3.X[24]
+1 1
+.names U0.U0.U6.X[25] U0.U0.U6.U3.X[25]
+1 1
+.names U0.U0.U6.Y[20] U0.U0.U6.U3.Y[20]
+1 1
+.names U0.U0.U6.Y[21] U0.U0.U6.U3.Y[21]
+1 1
+.names U0.U0.U6.Y[22] U0.U0.U6.U3.Y[22]
+1 1
+.names U0.U0.U6.Y[23] U0.U0.U6.U3.Y[23]
+1 1
+.names U0.U0.U6.Y[24] U0.U0.U6.U3.Y[24]
+1 1
+.names U0.U0.U6.Y[25] U0.U0.U6.U3.Y[25]
+1 1
+.names U0.U0.U6.Ci_1 U0.U0.U6.U3.Ci
+1 1
+.names U0.U0.U6.Co U0.U0.C6
+1 1
+.names U0.U0.U6.S[20] U0.U0.S[20]
+1 1
+.names U0.U0.U6.S[21] U0.U0.S[21]
+1 1
+.names U0.U0.U6.S[22] U0.U0.S[22]
+1 1
+.names U0.U0.U6.S[23] U0.U0.S[23]
+1 1
+.names U0.U0.U6.S[24] U0.U0.S[24]
+1 1
+.names U0.U0.U6.S[25] U0.U0.S[25]
+1 1
+.names U0.U0.X[20] U0.U0.U6.X[20]
+1 1
+.names U0.U0.X[21] U0.U0.U6.X[21]
+1 1
+.names U0.U0.X[22] U0.U0.U6.X[22]
+1 1
+.names U0.U0.X[23] U0.U0.U6.X[23]
+1 1
+.names U0.U0.X[24] U0.U0.U6.X[24]
+1 1
+.names U0.U0.X[25] U0.U0.U6.X[25]
+1 1
+.names U0.U0.Y[20] U0.U0.U6.Y[20]
+1 1
+.names U0.U0.Y[21] U0.U0.U6.Y[21]
+1 1
+.names U0.U0.Y[22] U0.U0.U6.Y[22]
+1 1
+.names U0.U0.Y[23] U0.U0.U6.Y[23]
+1 1
+.names U0.U0.Y[24] U0.U0.U6.Y[24]
+1 1
+.names U0.U0.Y[25] U0.U0.U6.Y[25]
+1 1
+.names U0.U0.C5 U0.U0.U6.Ci
+1 1
+.names $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2758$632_Y U0.U0.U7.S[26]
+1 1
+.names $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2759$636_Y U0.U0.U7.S[27]
+1 1
+.names $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2760$640_Y U0.U0.U7.S[28]
+1 1
+.names $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2761$644_Y U0.U0.U7.S[29]
+1 1
+.names $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2762$648_Y U0.U0.U7.S[30]
+1 1
+.names $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2763$652_Y U0.U0.U7.S[31]
+1 1
+.names $flatten\U0.\U0.\U7.$or$pre_corpus/59093.v:2764$656_Y U0.U0.U7.Co
+1 1
+.names $true U0.U0.U7.U0.O
+1 1
+.names U0.U0.U7.U0.O U0.U0.U7.Ci_1
+1 1
+.names $false U0.U0.U7.U1.O
+1 1
+.names U0.U0.U7.U1.O U0.U0.U7.Ci_0
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U0.$or$pre_corpus/59093.v:2352$461_Y U0.U0.U7.U2.U0.C
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U0.$xor$pre_corpus/59093.v:2353$463_Y U0.U0.U7.U2.U0.S
+1 1
+.names U0.U0.U7.U2.U0.C U0.U0.U7.U2.C27
+1 1
+.names U0.U0.U7.U2.U0.S U0.U0.U7.U2.S[26]
+1 1
+.names U0.U0.U7.U2.X[26] U0.U0.U7.U2.U0.X
+1 1
+.names U0.U0.U7.U2.Y[26] U0.U0.U7.U2.U0.Y
+1 1
+.names U0.U0.U7.U2.Ci U0.U0.U7.U2.U0.Z
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U1.$or$pre_corpus/59093.v:2434$480_Y U0.U0.U7.U2.U1.C
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U1.$xor$pre_corpus/59093.v:2435$482_Y U0.U0.U7.U2.U1.S
+1 1
+.names U0.U0.U7.U2.U1.C U0.U0.U7.U2.C28
+1 1
+.names U0.U0.U7.U2.U1.S U0.U0.U7.U2.S[27]
+1 1
+.names U0.U0.U7.U2.X[27] U0.U0.U7.U2.U1.X
+1 1
+.names U0.U0.U7.U2.Y[27] U0.U0.U7.U2.U1.Y
+1 1
+.names U0.U0.U7.U2.C27 U0.U0.U7.U2.U1.Z
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U2.$or$pre_corpus/59093.v:2444$487_Y U0.U0.U7.U2.U2.C
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U2.$xor$pre_corpus/59093.v:2445$489_Y U0.U0.U7.U2.U2.S
+1 1
+.names U0.U0.U7.U2.U2.C U0.U0.U7.U2.C29
+1 1
+.names U0.U0.U7.U2.U2.S U0.U0.U7.U2.S[28]
+1 1
+.names U0.U0.U7.U2.X[28] U0.U0.U7.U2.U2.X
+1 1
+.names U0.U0.U7.U2.Y[28] U0.U0.U7.U2.U2.Y
+1 1
+.names U0.U0.U7.U2.C28 U0.U0.U7.U2.U2.Z
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U3.$or$pre_corpus/59093.v:2517$504_Y U0.U0.U7.U2.U3.C
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U3.$xor$pre_corpus/59093.v:2518$506_Y U0.U0.U7.U2.U3.S
+1 1
+.names U0.U0.U7.U2.U3.C U0.U0.U7.U2.C30
+1 1
+.names U0.U0.U7.U2.U3.S U0.U0.U7.U2.S[29]
+1 1
+.names U0.U0.U7.U2.X[29] U0.U0.U7.U2.U3.X
+1 1
+.names U0.U0.U7.U2.Y[29] U0.U0.U7.U2.U3.Y
+1 1
+.names U0.U0.U7.U2.C29 U0.U0.U7.U2.U3.Z
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U4.$or$pre_corpus/59093.v:2732$619_Y U0.U0.U7.U2.U4.C
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U4.$xor$pre_corpus/59093.v:2733$621_Y U0.U0.U7.U2.U4.S
+1 1
+.names U0.U0.U7.U2.U4.C U0.U0.U7.U2.C31
+1 1
+.names U0.U0.U7.U2.U4.S U0.U0.U7.U2.S[30]
+1 1
+.names U0.U0.U7.U2.X[30] U0.U0.U7.U2.U4.X
+1 1
+.names U0.U0.U7.U2.Y[30] U0.U0.U7.U2.U4.Y
+1 1
+.names U0.U0.U7.U2.C30 U0.U0.U7.U2.U4.Z
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U5.$or$pre_corpus/59093.v:2742$626_Y U0.U0.U7.U2.U5.C
+1 1
+.names $flatten\U0.\U0.\U7.\U2.\U5.$xor$pre_corpus/59093.v:2743$628_Y U0.U0.U7.U2.U5.S
+1 1
+.names U0.U0.U7.U2.U5.C U0.U0.U7.U2.Co
+1 1
+.names U0.U0.U7.U2.U5.S U0.U0.U7.U2.S[31]
+1 1
+.names U0.U0.U7.U2.X[31] U0.U0.U7.U2.U5.X
+1 1
+.names U0.U0.U7.U2.Y[31] U0.U0.U7.U2.U5.Y
+1 1
+.names U0.U0.U7.U2.C31 U0.U0.U7.U2.U5.Z
+1 1
+.names U0.U0.U7.U2.Co U0.U0.U7.Co_0
+1 1
+.names U0.U0.U7.U2.S[26] U0.U0.U7.S_0[26]
+1 1
+.names U0.U0.U7.U2.S[27] U0.U0.U7.S_0[27]
+1 1
+.names U0.U0.U7.U2.S[28] U0.U0.U7.S_0[28]
+1 1
+.names U0.U0.U7.U2.S[29] U0.U0.U7.S_0[29]
+1 1
+.names U0.U0.U7.U2.S[30] U0.U0.U7.S_0[30]
+1 1
+.names U0.U0.U7.U2.S[31] U0.U0.U7.S_0[31]
+1 1
+.names U0.U0.U7.X[26] U0.U0.U7.U2.X[26]
+1 1
+.names U0.U0.U7.X[27] U0.U0.U7.U2.X[27]
+1 1
+.names U0.U0.U7.X[28] U0.U0.U7.U2.X[28]
+1 1
+.names U0.U0.U7.X[29] U0.U0.U7.U2.X[29]
+1 1
+.names U0.U0.U7.X[30] U0.U0.U7.U2.X[30]
+1 1
+.names U0.U0.U7.X[31] U0.U0.U7.U2.X[31]
+1 1
+.names U0.U0.U7.Y[26] U0.U0.U7.U2.Y[26]
+1 1
+.names U0.U0.U7.Y[27] U0.U0.U7.U2.Y[27]
+1 1
+.names U0.U0.U7.Y[28] U0.U0.U7.U2.Y[28]
+1 1
+.names U0.U0.U7.Y[29] U0.U0.U7.U2.Y[29]
+1 1
+.names U0.U0.U7.Y[30] U0.U0.U7.U2.Y[30]
+1 1
+.names U0.U0.U7.Y[31] U0.U0.U7.U2.Y[31]
+1 1
+.names U0.U0.U7.Ci_0 U0.U0.U7.U2.Ci
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U0.$or$pre_corpus/59093.v:2352$461_Y U0.U0.U7.U3.U0.C
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U0.$xor$pre_corpus/59093.v:2353$463_Y U0.U0.U7.U3.U0.S
+1 1
+.names U0.U0.U7.U3.U0.C U0.U0.U7.U3.C27
+1 1
+.names U0.U0.U7.U3.U0.S U0.U0.U7.U3.S[26]
+1 1
+.names U0.U0.U7.U3.X[26] U0.U0.U7.U3.U0.X
+1 1
+.names U0.U0.U7.U3.Y[26] U0.U0.U7.U3.U0.Y
+1 1
+.names U0.U0.U7.U3.Ci U0.U0.U7.U3.U0.Z
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U1.$or$pre_corpus/59093.v:2434$480_Y U0.U0.U7.U3.U1.C
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U1.$xor$pre_corpus/59093.v:2435$482_Y U0.U0.U7.U3.U1.S
+1 1
+.names U0.U0.U7.U3.U1.C U0.U0.U7.U3.C28
+1 1
+.names U0.U0.U7.U3.U1.S U0.U0.U7.U3.S[27]
+1 1
+.names U0.U0.U7.U3.X[27] U0.U0.U7.U3.U1.X
+1 1
+.names U0.U0.U7.U3.Y[27] U0.U0.U7.U3.U1.Y
+1 1
+.names U0.U0.U7.U3.C27 U0.U0.U7.U3.U1.Z
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U2.$or$pre_corpus/59093.v:2444$487_Y U0.U0.U7.U3.U2.C
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U2.$xor$pre_corpus/59093.v:2445$489_Y U0.U0.U7.U3.U2.S
+1 1
+.names U0.U0.U7.U3.U2.C U0.U0.U7.U3.C29
+1 1
+.names U0.U0.U7.U3.U2.S U0.U0.U7.U3.S[28]
+1 1
+.names U0.U0.U7.U3.X[28] U0.U0.U7.U3.U2.X
+1 1
+.names U0.U0.U7.U3.Y[28] U0.U0.U7.U3.U2.Y
+1 1
+.names U0.U0.U7.U3.C28 U0.U0.U7.U3.U2.Z
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U3.$or$pre_corpus/59093.v:2517$504_Y U0.U0.U7.U3.U3.C
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U3.$xor$pre_corpus/59093.v:2518$506_Y U0.U0.U7.U3.U3.S
+1 1
+.names U0.U0.U7.U3.U3.C U0.U0.U7.U3.C30
+1 1
+.names U0.U0.U7.U3.U3.S U0.U0.U7.U3.S[29]
+1 1
+.names U0.U0.U7.U3.X[29] U0.U0.U7.U3.U3.X
+1 1
+.names U0.U0.U7.U3.Y[29] U0.U0.U7.U3.U3.Y
+1 1
+.names U0.U0.U7.U3.C29 U0.U0.U7.U3.U3.Z
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U4.$or$pre_corpus/59093.v:2732$619_Y U0.U0.U7.U3.U4.C
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U4.$xor$pre_corpus/59093.v:2733$621_Y U0.U0.U7.U3.U4.S
+1 1
+.names U0.U0.U7.U3.U4.C U0.U0.U7.U3.C31
+1 1
+.names U0.U0.U7.U3.U4.S U0.U0.U7.U3.S[30]
+1 1
+.names U0.U0.U7.U3.X[30] U0.U0.U7.U3.U4.X
+1 1
+.names U0.U0.U7.U3.Y[30] U0.U0.U7.U3.U4.Y
+1 1
+.names U0.U0.U7.U3.C30 U0.U0.U7.U3.U4.Z
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U5.$or$pre_corpus/59093.v:2742$626_Y U0.U0.U7.U3.U5.C
+1 1
+.names $flatten\U0.\U0.\U7.\U3.\U5.$xor$pre_corpus/59093.v:2743$628_Y U0.U0.U7.U3.U5.S
+1 1
+.names U0.U0.U7.U3.U5.C U0.U0.U7.U3.Co
+1 1
+.names U0.U0.U7.U3.U5.S U0.U0.U7.U3.S[31]
+1 1
+.names U0.U0.U7.U3.X[31] U0.U0.U7.U3.U5.X
+1 1
+.names U0.U0.U7.U3.Y[31] U0.U0.U7.U3.U5.Y
+1 1
+.names U0.U0.U7.U3.C31 U0.U0.U7.U3.U5.Z
+1 1
+.names U0.U0.U7.U3.Co U0.U0.U7.Co_1
+1 1
+.names U0.U0.U7.U3.S[26] U0.U0.U7.S_1[26]
+1 1
+.names U0.U0.U7.U3.S[27] U0.U0.U7.S_1[27]
+1 1
+.names U0.U0.U7.U3.S[28] U0.U0.U7.S_1[28]
+1 1
+.names U0.U0.U7.U3.S[29] U0.U0.U7.S_1[29]
+1 1
+.names U0.U0.U7.U3.S[30] U0.U0.U7.S_1[30]
+1 1
+.names U0.U0.U7.U3.S[31] U0.U0.U7.S_1[31]
+1 1
+.names U0.U0.U7.X[26] U0.U0.U7.U3.X[26]
+1 1
+.names U0.U0.U7.X[27] U0.U0.U7.U3.X[27]
+1 1
+.names U0.U0.U7.X[28] U0.U0.U7.U3.X[28]
+1 1
+.names U0.U0.U7.X[29] U0.U0.U7.U3.X[29]
+1 1
+.names U0.U0.U7.X[30] U0.U0.U7.U3.X[30]
+1 1
+.names U0.U0.U7.X[31] U0.U0.U7.U3.X[31]
+1 1
+.names U0.U0.U7.Y[26] U0.U0.U7.U3.Y[26]
+1 1
+.names U0.U0.U7.Y[27] U0.U0.U7.U3.Y[27]
+1 1
+.names U0.U0.U7.Y[28] U0.U0.U7.U3.Y[28]
+1 1
+.names U0.U0.U7.Y[29] U0.U0.U7.U3.Y[29]
+1 1
+.names U0.U0.U7.Y[30] U0.U0.U7.U3.Y[30]
+1 1
+.names U0.U0.U7.Y[31] U0.U0.U7.U3.Y[31]
+1 1
+.names U0.U0.U7.Ci_1 U0.U0.U7.U3.Ci
+1 1
+.names U0.U0.U7.Co U0.U0.S[32]
+1 1
+.names U0.U0.U7.S[26] U0.U0.S[26]
+1 1
+.names U0.U0.U7.S[27] U0.U0.S[27]
+1 1
+.names U0.U0.U7.S[28] U0.U0.S[28]
+1 1
+.names U0.U0.U7.S[29] U0.U0.S[29]
+1 1
+.names U0.U0.U7.S[30] U0.U0.S[30]
+1 1
+.names U0.U0.U7.S[31] U0.U0.S[31]
+1 1
+.names U0.U0.X[26] U0.U0.U7.X[26]
+1 1
+.names U0.U0.X[27] U0.U0.U7.X[27]
+1 1
+.names U0.U0.X[28] U0.U0.U7.X[28]
+1 1
+.names U0.U0.X[29] U0.U0.U7.X[29]
+1 1
+.names U0.U0.X[30] U0.U0.U7.X[30]
+1 1
+.names U0.U0.X[31] U0.U0.U7.X[31]
+1 1
+.names U0.U0.Y[26] U0.U0.U7.Y[26]
+1 1
+.names U0.U0.Y[27] U0.U0.U7.Y[27]
+1 1
+.names U0.U0.Y[28] U0.U0.U7.Y[28]
+1 1
+.names U0.U0.Y[29] U0.U0.U7.Y[29]
+1 1
+.names U0.U0.Y[30] U0.U0.U7.Y[30]
+1 1
+.names U0.U0.Y[31] U0.U0.U7.Y[31]
+1 1
+.names U0.U0.C6 U0.U0.U7.Ci
+1 1
+.names U0.U0.S[4] U0.S[4]
+1 1
+.names U0.U0.S[5] U0.S[5]
+1 1
+.names U0.U0.S[6] U0.S[6]
+1 1
+.names U0.U0.S[7] U0.S[7]
+1 1
+.names U0.U0.S[8] U0.S[8]
+1 1
+.names U0.U0.S[9] U0.S[9]
+1 1
+.names U0.U0.S[10] U0.S[10]
+1 1
+.names U0.U0.S[11] U0.S[11]
+1 1
+.names U0.U0.S[12] U0.S[12]
+1 1
+.names U0.U0.S[13] U0.S[13]
+1 1
+.names U0.U0.S[14] U0.S[14]
+1 1
+.names U0.U0.S[15] U0.S[15]
+1 1
+.names U0.U0.S[16] U0.S[16]
+1 1
+.names U0.U0.S[17] U0.S[17]
+1 1
+.names U0.U0.S[18] U0.S[18]
+1 1
+.names U0.U0.S[19] U0.S[19]
+1 1
+.names U0.U0.S[20] U0.S[20]
+1 1
+.names U0.U0.S[21] U0.S[21]
+1 1
+.names U0.U0.S[22] U0.S[22]
+1 1
+.names U0.U0.S[23] U0.S[23]
+1 1
+.names U0.U0.S[24] U0.S[24]
+1 1
+.names U0.U0.S[25] U0.S[25]
+1 1
+.names U0.U0.S[26] U0.S[26]
+1 1
+.names U0.U0.S[27] U0.S[27]
+1 1
+.names U0.U0.S[28] U0.S[28]
+1 1
+.names U0.U0.S[29] U0.S[29]
+1 1
+.names U0.U0.S[30] U0.S[30]
+1 1
+.names U0.U0.S[31] U0.S[31]
+1 1
+.names U0.U0.S[32] U0.S[32]
+1 1
+.names U0.X[4] U0.U0.X[4]
+1 1
+.names U0.X[5] U0.U0.X[5]
+1 1
+.names U0.X[6] U0.U0.X[6]
+1 1
+.names U0.X[7] U0.U0.X[7]
+1 1
+.names U0.X[8] U0.U0.X[8]
+1 1
+.names U0.X[9] U0.U0.X[9]
+1 1
+.names U0.X[10] U0.U0.X[10]
+1 1
+.names U0.X[11] U0.U0.X[11]
+1 1
+.names U0.X[12] U0.U0.X[12]
+1 1
+.names U0.X[13] U0.U0.X[13]
+1 1
+.names U0.X[14] U0.U0.X[14]
+1 1
+.names U0.X[15] U0.U0.X[15]
+1 1
+.names U0.X[16] U0.U0.X[16]
+1 1
+.names U0.X[17] U0.U0.X[17]
+1 1
+.names U0.X[18] U0.U0.X[18]
+1 1
+.names U0.X[19] U0.U0.X[19]
+1 1
+.names U0.X[20] U0.U0.X[20]
+1 1
+.names U0.X[21] U0.U0.X[21]
+1 1
+.names U0.X[22] U0.U0.X[22]
+1 1
+.names U0.X[23] U0.U0.X[23]
+1 1
+.names U0.X[24] U0.U0.X[24]
+1 1
+.names U0.X[25] U0.U0.X[25]
+1 1
+.names U0.X[26] U0.U0.X[26]
+1 1
+.names U0.X[27] U0.U0.X[27]
+1 1
+.names U0.X[28] U0.U0.X[28]
+1 1
+.names U0.X[29] U0.U0.X[29]
+1 1
+.names U0.X[30] U0.U0.X[30]
+1 1
+.names U0.X[31] U0.U0.X[31]
+1 1
+.names U0.Y[4] U0.U0.Y[4]
+1 1
+.names U0.Y[5] U0.U0.Y[5]
+1 1
+.names U0.Y[6] U0.U0.Y[6]
+1 1
+.names U0.Y[7] U0.U0.Y[7]
+1 1
+.names U0.Y[8] U0.U0.Y[8]
+1 1
+.names U0.Y[9] U0.U0.Y[9]
+1 1
+.names U0.Y[10] U0.U0.Y[10]
+1 1
+.names U0.Y[11] U0.U0.Y[11]
+1 1
+.names U0.Y[12] U0.U0.Y[12]
+1 1
+.names U0.Y[13] U0.U0.Y[13]
+1 1
+.names U0.Y[14] U0.U0.Y[14]
+1 1
+.names U0.Y[15] U0.U0.Y[15]
+1 1
+.names U0.Y[16] U0.U0.Y[16]
+1 1
+.names U0.Y[17] U0.U0.Y[17]
+1 1
+.names U0.Y[18] U0.U0.Y[18]
+1 1
+.names U0.Y[19] U0.U0.Y[19]
+1 1
+.names U0.Y[20] U0.U0.Y[20]
+1 1
+.names U0.Y[21] U0.U0.Y[21]
+1 1
+.names U0.Y[22] U0.U0.Y[22]
+1 1
+.names U0.Y[23] U0.U0.Y[23]
+1 1
+.names U0.Y[24] U0.U0.Y[24]
+1 1
+.names U0.Y[25] U0.U0.Y[25]
+1 1
+.names U0.Y[26] U0.U0.Y[26]
+1 1
+.names U0.Y[27] U0.U0.Y[27]
+1 1
+.names U0.Y[28] U0.U0.Y[28]
+1 1
+.names U0.Y[29] U0.U0.Y[29]
+1 1
+.names U0.Y[30] U0.U0.Y[30]
+1 1
+.names U0.Y[31] U0.U0.Y[31]
+1 1
+.names U0.C U0.U0.Cin
+1 1
+.names $false U0.U1.O
+1 1
+.names U0.U1.O U0.C
+1 1
+.names U0.S[4] S[4]
+1 1
+.names U0.S[5] S[5]
+1 1
+.names U0.S[6] S[6]
+1 1
+.names U0.S[7] S[7]
+1 1
+.names U0.S[8] S[8]
+1 1
+.names U0.S[9] S[9]
+1 1
+.names U0.S[10] S[10]
+1 1
+.names U0.S[11] S[11]
+1 1
+.names U0.S[12] S[12]
+1 1
+.names U0.S[13] S[13]
+1 1
+.names U0.S[14] S[14]
+1 1
+.names U0.S[15] S[15]
+1 1
+.names U0.S[16] S[16]
+1 1
+.names U0.S[17] S[17]
+1 1
+.names U0.S[18] S[18]
+1 1
+.names U0.S[19] S[19]
+1 1
+.names U0.S[20] S[20]
+1 1
+.names U0.S[21] S[21]
+1 1
+.names U0.S[22] S[22]
+1 1
+.names U0.S[23] S[23]
+1 1
+.names U0.S[24] S[24]
+1 1
+.names U0.S[25] S[25]
+1 1
+.names U0.S[26] S[26]
+1 1
+.names U0.S[27] S[27]
+1 1
+.names U0.S[28] S[28]
+1 1
+.names U0.S[29] S[29]
+1 1
+.names U0.S[30] S[30]
+1 1
+.names U0.S[31] S[31]
+1 1
+.names U0.S[32] S[32]
+1 1
+.names X[4] U0.X[4]
+1 1
+.names X[5] U0.X[5]
+1 1
+.names X[6] U0.X[6]
+1 1
+.names X[7] U0.X[7]
+1 1
+.names X[8] U0.X[8]
+1 1
+.names X[9] U0.X[9]
+1 1
+.names X[10] U0.X[10]
+1 1
+.names X[11] U0.X[11]
+1 1
+.names X[12] U0.X[12]
+1 1
+.names X[13] U0.X[13]
+1 1
+.names X[14] U0.X[14]
+1 1
+.names X[15] U0.X[15]
+1 1
+.names X[16] U0.X[16]
+1 1
+.names X[17] U0.X[17]
+1 1
+.names X[18] U0.X[18]
+1 1
+.names X[19] U0.X[19]
+1 1
+.names X[20] U0.X[20]
+1 1
+.names X[21] U0.X[21]
+1 1
+.names X[22] U0.X[22]
+1 1
+.names X[23] U0.X[23]
+1 1
+.names X[24] U0.X[24]
+1 1
+.names X[25] U0.X[25]
+1 1
+.names X[26] U0.X[26]
+1 1
+.names X[27] U0.X[27]
+1 1
+.names X[28] U0.X[28]
+1 1
+.names X[29] U0.X[29]
+1 1
+.names X[30] U0.X[30]
+1 1
+.names X[31] U0.X[31]
+1 1
+.names Y[4] U0.Y[4]
+1 1
+.names Y[5] U0.Y[5]
+1 1
+.names Y[6] U0.Y[6]
+1 1
+.names Y[7] U0.Y[7]
+1 1
+.names Y[8] U0.Y[8]
+1 1
+.names Y[9] U0.Y[9]
+1 1
+.names Y[10] U0.Y[10]
+1 1
+.names Y[11] U0.Y[11]
+1 1
+.names Y[12] U0.Y[12]
+1 1
+.names Y[13] U0.Y[13]
+1 1
+.names Y[14] U0.Y[14]
+1 1
+.names Y[15] U0.Y[15]
+1 1
+.names Y[16] U0.Y[16]
+1 1
+.names Y[17] U0.Y[17]
+1 1
+.names Y[18] U0.Y[18]
+1 1
+.names Y[19] U0.Y[19]
+1 1
+.names Y[20] U0.Y[20]
+1 1
+.names Y[21] U0.Y[21]
+1 1
+.names Y[22] U0.Y[22]
+1 1
+.names Y[23] U0.Y[23]
+1 1
+.names Y[24] U0.Y[24]
+1 1
+.names Y[25] U0.Y[25]
+1 1
+.names Y[26] U0.Y[26]
+1 1
+.names Y[27] U0.Y[27]
+1 1
+.names Y[28] U0.Y[28]
+1 1
+.names Y[29] U0.Y[29]
+1 1
+.names Y[30] U0.Y[30]
+1 1
+.names Y[31] U0.Y[31]
+1 1
+.names U1.U0.I U1.U0.O
+1 1
+.names U1.U0.O U1.O[0]
+1 1
+.names U1.I[0] U1.U0.I
+1 1
+.names U1.U1.I U1.U1.O
+1 1
+.names U1.U1.O U1.O[1]
+1 1
+.names U1.I[1] U1.U1.I
+1 1
+.names U1.U2.I U1.U2.O
+1 1
+.names U1.U2.O U1.O[2]
+1 1
+.names U1.I[2] U1.U2.I
+1 1
+.names U1.U3.I U1.U3.O
+1 1
+.names U1.U3.O U1.O[3]
+1 1
+.names U1.I[3] U1.U3.I
+1 1
+.names U1.O[0] S[0]
+1 1
+.names U1.O[1] S[1]
+1 1
+.names U1.O[2] S[2]
+1 1
+.names U1.O[3] S[3]
+1 1
+.names Y[0] U1.I[0]
+1 1
+.names Y[1] U1.I[1]
+1 1
+.names Y[2] U1.I[2]
+1 1
+.names Y[3] U1.I[3]
+1 1
+.end
+

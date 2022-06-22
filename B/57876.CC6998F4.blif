@@ -1,0 +1,23 @@
+.model U4DPPGH_8_3
+.inputs I U_d1 U_d0 Pi
+.outputs Po O
+.names $false
+.names $true
+1
+.names $undef
+.names I U_d0 $and$pre_corpus/57876.v:585$142_Y
+11 1
+.names $and$pre_corpus/57876.v:585$142_Y Pi $or$pre_corpus/57876.v:585$143_Y
+1- 1
+-1 1
+.names U_d1 U_d0 $or$pre_corpus/57876.v:586$144_Y
+1- 1
+-1 1
+.names I $or$pre_corpus/57876.v:586$144_Y $and$pre_corpus/57876.v:586$145_Y
+11 1
+.names $or$pre_corpus/57876.v:585$143_Y O
+1 1
+.names $and$pre_corpus/57876.v:586$145_Y Po
+1 1
+.end
+

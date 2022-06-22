@@ -1,0 +1,112 @@
+.model sync_signal
+.inputs clk in
+.outputs out
+.names $false
+.names $true
+1
+.names $undef
+.latch $false k[21] re clk 2
+.latch $false k[22] re clk 2
+.latch $false k[23] re clk 2
+.latch $false k[24] re clk 2
+.latch $false k[25] re clk 2
+.latch $false k[26] re clk 2
+.latch $false k[27] re clk 2
+.latch $false k[28] re clk 2
+.latch $false k[29] re clk 2
+.latch $false k[30] re clk 2
+.latch $false k[31] re clk 2
+.latch in sync_reg[0] re clk 2
+.latch sync_reg[0] sync_reg[1] re clk 2
+.latch $false k[0] re clk 2
+.latch $true k[1] re clk 2
+.latch $false k[2] re clk 2
+.latch $false k[3] re clk 2
+.latch $false k[4] re clk 2
+.latch $false k[5] re clk 2
+.latch $false k[6] re clk 2
+.latch $false k[7] re clk 2
+.latch $false k[8] re clk 2
+.latch $false k[9] re clk 2
+.latch $false k[10] re clk 2
+.latch $false k[11] re clk 2
+.latch $false k[12] re clk 2
+.latch $false k[13] re clk 2
+.latch $false k[14] re clk 2
+.latch $false k[15] re clk 2
+.latch $false k[16] re clk 2
+.latch $false k[17] re clk 2
+.latch $false k[18] re clk 2
+.latch $false k[19] re clk 2
+.latch $false k[20] re clk 2
+.names sync_reg[1] out
+1 1
+.names $false $0\k[31:0][0]
+1 1
+.names $true $0\k[31:0][1]
+1 1
+.names $false $0\k[31:0][2]
+1 1
+.names $false $0\k[31:0][3]
+1 1
+.names $false $0\k[31:0][4]
+1 1
+.names $false $0\k[31:0][5]
+1 1
+.names $false $0\k[31:0][6]
+1 1
+.names $false $0\k[31:0][7]
+1 1
+.names $false $0\k[31:0][8]
+1 1
+.names $false $0\k[31:0][9]
+1 1
+.names $false $0\k[31:0][10]
+1 1
+.names $false $0\k[31:0][11]
+1 1
+.names $false $0\k[31:0][12]
+1 1
+.names $false $0\k[31:0][13]
+1 1
+.names $false $0\k[31:0][14]
+1 1
+.names $false $0\k[31:0][15]
+1 1
+.names $false $0\k[31:0][16]
+1 1
+.names $false $0\k[31:0][17]
+1 1
+.names $false $0\k[31:0][18]
+1 1
+.names $false $0\k[31:0][19]
+1 1
+.names $false $0\k[31:0][20]
+1 1
+.names $false $0\k[31:0][21]
+1 1
+.names $false $0\k[31:0][22]
+1 1
+.names $false $0\k[31:0][23]
+1 1
+.names $false $0\k[31:0][24]
+1 1
+.names $false $0\k[31:0][25]
+1 1
+.names $false $0\k[31:0][26]
+1 1
+.names $false $0\k[31:0][27]
+1 1
+.names $false $0\k[31:0][28]
+1 1
+.names $false $0\k[31:0][29]
+1 1
+.names $false $0\k[31:0][30]
+1 1
+.names $false $0\k[31:0][31]
+1 1
+.names sync_reg[0] $0\sync_reg[1][0:0]
+1 1
+.names in $0\sync_reg[0][0:0]
+1 1
+.end

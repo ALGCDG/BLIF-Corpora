@@ -1,0 +1,11 @@
+.model UBOne_18
+.inputs
+.outputs O
+.names $false
+.names $true
+1
+.names $undef
+.names $true O
+1 1
+.end
+
